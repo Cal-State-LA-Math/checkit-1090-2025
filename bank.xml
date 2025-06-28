@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank xmlns="https://checkit.clontz.org" version="0.2">
-    <title>New CheckIt Bank</title>
-    <slug>new-checkit-bank</slug>
+    <title>MATH 1090</title>
+    <slug>MATH 1090</slug>
     <url>https://checkit.clontz.org</url>
     <outcomes>
         <outcome>
-            <title>Sample Outcome</title>
-            <slug>EX1</slug>
-            <path>outcomes/EX1</path>
+            <title>Statistical Studies</title>
+            <slug>S1-211P</slug>
+            <path>outcomes/S/S1/211P</path>
             <description>
 Simplify the sum of two monomials.
             </description>
