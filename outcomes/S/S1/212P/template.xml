@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <intro>
-    <p>Scenario:</p>
+    <p><em>Scenario:</em></p>
     <p>
         A recent poll was looking to find out what American adults think about electric vehicles. The pollsters attempted to contact {{population}} American adults from June 3rd to the 4th, 2024, of which {{sample}} responded. Of the poll participants, {{result}}% say they think electric vehicles are the future of the auto industry.</p>
     </intro>
@@ -26,6 +26,5 @@
     </knowl>
     <knowl>
         <content><p>What is the parameter of interest for this study? (the population parameter that the pollsters are trying to gather information about)</p></content>
-        <outtro><p>The parameter of interest is what percentage of American adults think electric vehicles are the future of the auto industry. A population parameter is a numerical value or summary number that the researchers are trying to estimate using a sample statistic.</p></outtro>
-    </knowl>
+        <outtro><p>The parameter of interest is what percentage of American adults think electric vehicles are the future of the auto industry. A population parameter is a numerical value or summary number that the researchers are trying to estimate using a sample statistic.</p></outtro></knowl>
 </knowl>

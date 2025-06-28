@@ -1,6 +1,6 @@
 class Generator(BaseGenerator):
     def data(self):
-       population=randint (1500, 2100)
+        population=randint (1500, 2100)
         sample=randint(900, 1100)
         result=randint(58, 69)
 
