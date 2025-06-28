@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank xmlns="https://checkit.clontz.org" version="0.2">
-    <title>MATH 1090</title>
-    <slug>MATH 1090</slug>
+    <title>New CheckIt Bank</title>
+    <slug>new_checkit-bank</slug>
     <url>https://checkit.clontz.org</url>
     <outcomes>
         <outcome>
@@ -9,7 +9,15 @@
             <slug>S1-211P</slug>
             <path>outcomes/S/S1/211P</path>
             <description>
-Simplify the sum of two monomials.
+I can analyze information about statistical studies.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Statistical Studies</title>
+            <slug>S1-212P</slug>
+            <path>outcomes/S/S1/212P</path>
+            <description>
+I can analyze information about statistical studies.
             </description>
         </outcome>
     </outcomes>
