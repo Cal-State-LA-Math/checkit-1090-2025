@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <p>Below is a histogram showing the distribution of the weights of 495 superheroes. Use this histogram to answer the following questions. Make sure to show all of your work and put all answers into context of the data. </p>
+        <p><image source="assets/S4-B/211P.png" description="Histogram showing the distribution of superheroes weight"/></p>
+        <p>Superheroes weights</p>
+    </intro>
+    <knowl>
+        <content><p>Describe the shape of the distribution of the weight of the superheroes.</p></content>
+        <outtro><p>The distribution is skewed right.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What does the bar with the {{number_2}} above it represent?</p></content>
+        <outtro><p>Out of the 495 superheroes in the data set, {{number_2}} of them weigh between {{answer_2}}.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What percentage of superheroes weigh between <m>{{weigh_3a}}</m> and <m>{{weigh_3b}}</m>kg? Show all your work.</p></content>
+        <outtro><p>(<m>{{answer_3a}}</m> + <m>{{answer_3b}}</m> + <m>{{answer_3c}}</m>) / 495 = <m>{{answer_3}}</m>%</p></outtro>
+    </knowl>
+</knowl>

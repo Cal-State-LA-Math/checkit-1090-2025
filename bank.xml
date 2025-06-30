@@ -38,8 +38,16 @@ I can identify and analyze key elements of experiments.
         </outcome>
         <outcome>
             <title>Statistical Graphs</title>
-            <slug>S4-A-211</slug>
+            <slug>S4-A-213P</slug>
             <path>outcomes/S/S4-A/213P</path>
+            <description>
+I can interpret statistical graphs.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Statistical Graphs</title>
+            <slug>S4-B-211P</slug>
+            <path>outcomes/S/S4-A/211P</path>
             <description>
 I can interpret statistical graphs.
             </description>
