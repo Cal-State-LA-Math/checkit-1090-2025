@@ -47,9 +47,25 @@ I can interpret statistical graphs.
         <outcome>
             <title>Statistical Graphs</title>
             <slug>S4-B-211P</slug>
-            <path>outcomes/S/S4-A/211P</path>
+            <path>outcomes/S/S4-B/211P</path>
             <description>
 I can interpret statistical graphs.
+            </description>
+        </outcome>
+       <!--> <outcome>
+            <title>Summaries of Quantitative</title>
+            <slug>S5-211P</slug>
+            <path>outcomes/S/S5/211P</path>
+            <description>
+I can interpret summaries of quantitative data.
+            </description>
+        </outcome> -->
+        <outcome>
+            <title>Correlation and Regression</title>
+            <slug>S6-211P</slug>
+            <path>outcomes/S/S6/211P</path>
+            <description>
+I can use correlation and regression to describe relationships between two variables in a set of data.
             </description>
         </outcome>
     </outcomes>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <em>The Scenario:</em>
+        <p>In 2019, a group of researchers collected the data from a sample of 222 car models and looked at the impact of different characteristics of the cars on the MSRP (manufacturers’ suggested retail price). They ran a regression analysis. The scatterplots and regression lines are shown below for MSRP vs HP (horsepower) and MSRP vs Engine size (in liters).
+</p>
+       <!-- <p>
+        <image source="assets/S6/211P_A.png" description="Scatter plot and regression line showing MSRP vs HP"/></p> -->
+        <p>Below is the information about the regression model for the scatter plot above.</p>
+        <list>
+            <item><p>Equation and R^2 value for the manufacturers' suggested retail price (MSRP) vs horsepower (HP).</p></item>
+            <item><p>MSRP = -3162.10 + 168.64 * HP</p></item>
+            <item><p>The R^2 value for this regression model is 0.582</p></item>
+        </list>
+       <!-- <p>
+        <image source="assets/S6/211P_B.png" description="Scatter plot and regression line showing MSRP vs Engine size"/></p> -->
+        <p>Below is the information about the regression model for the scatter plot above.</p>
+        <list>
+            <item><p>Equation and R^2 value for the manufacturers' suggested retail price (MSRP) vs engine size (in liters)</p></item>
+            <item><p>MSRP = 18017.87 + 7976.67 * Engine size</p></item>
+            <item><p>The R^2 value for this regression model is 0.193</p></item>
+        </list>
+        <p>Use the two scatter plots and the given information about the regression models to answer the questions below.</p>
+    </intro>
+    <knowl>
+        <content><p>Which model, if any, would you use to predict the price of a car? Explain why your choice would be the best model to get an accurate prediction.</p></content>
+        <outtro><p>MSRP vs HP is the better model to make predictions with. To explain which regression model is better, there are several options. One is to look at which has a stronger correlation, R. Note that "stronger" refers to being closer to 1 or -1. The closer a correlation is to 1 or -1, the stronger it is. Conversely, the closer to 0 a correlation is, the weaker it is. Another option is to look at R-squared. Because R is the square root of R-squared, a stronger R is the same as having the higher R-squared. Finally, if for some reason you don't actually know what R or R-squared are, you can look at the graph to see which model has the dots on the scatterplot more packed together into a line. In this case, the R-squared (R^2) value is higher for MSRP vs HP when compared to the one for MSRP vs Engine size. This means that the correlation coefficient, R, for MSRP vs HP is closer to either 1 or -1 when compared to the correlation coefficient for MSRP vs Engine size. In order to explain your answers for this standard, it is important to put all your answers into the real world context of the problem. </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What do you predict the MSRP of a vehicle with <m>{{HP}}</m> HP to be? Explain why you used the model you did and show all work. Put your final answer into a complete sentence to answer the question.</p></content>
+        <outtro><p>$<m>{{answer_2}}</m>. One of the most common mistakes made when computing this prediction is to use your calculator incorrectly. Remember that your calculator needs you to give it the correct order of operations. So either use extra parentheses in your calculator, or do the multiplication first. Additionally, don't forget to put your final answer into a sentence - The predicted MSRP of a vehicle whose horsepower is <m>{{HP}}</m> is $<m>{{answer_2}}</m>.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Would you use one of the regression models to predict the MSRP of a vehicle with an engine size of 3.2 liters? Why or why not?</p></content>
+        <outtro><p>No, the model has a weak correlation. Remember that there are two reasons NOT to use a regression model. Either the correlation is too weak (usually something under <m>0.4</m>) or the value for which you are trying to make a prediction is outside the range of the data. Note - this does NOT mean that it is outside the range of the GRAPH. It is possible to have a value that is in the range of the graph (if you have a long axis) but that is still outside the range of the DATA. In this case, the correlation is well below <m>0.4</m> so that is the main reason. </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>There is a dot at ({{point_4x}}, {{point_4y}}) on the MSRP vs horsepower graph. Explain what this dot represents in context of the study.</p></content>
+        <outtro><p>A specific car in the dataset with {{point_4x}} horsepower and a MSRP of $<m>{{point_4y}}</m>. Dots on a scatterplot represent individuals in the dataset. In this case, the dataset is made up of cars. The values on the scatterplot are two quantitative values about ONE car. So on the MSRP vs horsepower graph it is the MSRP and horsepower of a specific car. For the MSRP vs Engine Size graph it is the MSRP and Engine Size of a specific car. Make sure when you describe the point that you include any units and correctly associate the x-coordinate with the meaning of the data on the x-axis and the y-coordinate with the meaning of the data on the y-axis.  </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Compute the correlation coefficient, R, for the MSRP vs horsepower model. Explain the meaning of R in the context of the scenario.</p></content>
+        <outtro><p><m>0.7629</m>, there is a strong positive relationship between horsepower and MSRP so as the horsepower goes up, on average so does the MSRP. Every correlation has THREE pieces of information, the numeric value, the sign of the correlation, and the strength of the correlation. So to compute the correlation you need to get the number AND the sign. To explain the meaning you need to talk about the strength and direction of the correlation, and what it means in terms of the variables in the dataset.</p></outtro></knowl>
+</knowl>
