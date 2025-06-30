@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+      <p>
+          A critical component to our understanding of statistics is being able to read and understand graphs. It is also critical that we be able to look at graphs and identify any flaws they might have. Be sure to answer ALL the questions.
+      </p>
+       <!-- <p>
+            <image source="assets/S4-A/213P.png" description="Line graph showing percentage of people wearing face covering in public, broken down by countries."/>
+        </p> -->
+        <p>
+            Who is wearing face covering in public?
+        </p>
+      <p>
+          Use the graph above to answer the questions.
+      </p>
+    </intro>
+    <knowl>
+          <content><p>What type of graph is this?</p></content>
+          <outtro><p>The is a line graph or a time series graph. A line graph is where the data is displayed as points connected by lines. Many (if not most) line graphs are actually time series graphs. Time series graphs display data over a period of time and can be identified by a horizontal access marked as time (often dates).</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What data is being represented on the x- and y- axes of the graph?</p></content>
+        <outtro><p>The x-axis is time and the y-axis is percent of people wearing mask in public. The x-axis is shown in months and the y-axis is percentages with the tick marks at intervals of 25%.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What data does the {{color_3}} line represent? Be sure to give the real world context for your answer.</p></content>
+        <outtro><p>The percentage of people wearing face coverings in public in {{answer_3}} from February to July. Be sure to connect your answer to the real world and not just to a mathematical or statistical description. In this case, "the percent is going up" would not be considered sufficient. The percent of what (people wearing face coverings in public) where (in the specified county) is doing what (increasing, decreasing, etc.)</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Compare {{country_4a}} and {{country_4b}} in {{month_4}}. What is happening?</p></content>
+        <outtro><p>{{answer_4}}. Also with this question, the real world context is critical. Describing "lines" and other mathematical and statistical objects is not the point. The actual real world context is what we need to see.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Explain why the Japan line is so short compared to the other lines.</p></content>
+        <outtro><p>The data wasn't available; wasn't collected; or wasn't shared. Be careful not to include assumptions about WHY the data isn't there, or assumptions that missing data is the same as 0%. If there is something missing from a graph, the only thing you can conclude is that the data is not available or was not collected or shared.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the overall trend in the UK from May to July? Be sure to include real world context.</p></content>
+        <outtro><p>The overall percentage of people wearing masks is going up. (other details can be given) It is important to include the real world meaning of the data, not just a statistical description. I.e., saying that "it" is going up is not sufficient, you need to explain WHAT is going up.</p></outtro>
+    </knowl>
+</knowl>

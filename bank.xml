@@ -36,5 +36,13 @@ I can identify and analyze key elements of samples including bias and variabilit
 I can identify and analyze key elements of experiments.
             </description>
         </outcome>
+        <outcome>
+            <title>Statistical Graphs</title>
+            <slug>S4-A-211</slug>
+            <path>outcomes/S/S4-A/213P</path>
+            <description>
+I can interpret statistical graphs.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
