@@ -20,5 +20,13 @@ I can analyze information about statistical studies.
 I can analyze information about statistical studies.
             </description>
         </outcome>
+        <outcome>
+            <title>Sample, Bias, and Variability</title>
+            <slug>S2-212P</slug>
+            <path>outcomes/S/S2/211P</path>
+            <description>
+I can identify and analyze key elements of samples including bias and variability.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
