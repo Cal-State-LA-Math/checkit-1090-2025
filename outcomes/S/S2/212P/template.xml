@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+    <p><em>Scenario:</em></p>
+    <p>In 2021, the Centers for Disease Control (CDC) wanted to get an idea of how Americans feel about the distribution of COVID-19 vaccines. In order to get the information, the CDC partnered with the state governments of each state to send a survey to 950 randomly selected state employees from each state.</p>
+    <p>
+        Survey respondents were asked to decide to what degree they agreed with the following statements. The possible answer were "Strongly Agree", "Agree", "Neither Agree or Disagree", "Disagree", "Strongly Disagree".</p>
+        <list>
+            <item><p>The incredibly important process of distributing the life-saving COVID-19 vaccine has been fairly implemented by the various state governments</p></item>
+            <item><p>The decision making process for who gets access to the vaccines has been equitable, with all demographic groups getting equal access</p></item>
+        </list>
+        <p>{{sample}} state employees responded to the survey. <m>{{result_1}}</m><m>\%</m> of the respondents said that they {{agree_1}} that the process has been fairly implemented and <m>{{result_2}}</m><m>\%</m> said that they {{agree_2}} all demographic groups are getting equal access.</p>
+    </intro>
+    <knowl>
+        <content><p>Does the above use a sampling frame? If so, what is the sampling frame?</p></content>
+        <outtro><p>Yes there is a sampling frame being used. The sampling frame was state employees</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sampling method used in the above scenario?</p></content>
+        <outtro><p>The sampling method was Stratified sampling since the CDC selected employees from each state.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Looking at the sampling frame and the sampling method, would the sample be a valid sample or is it likely to be a biased sample? Explain why.</p></content>
+        <outtro><p>The sample method is valid but the size of each strata could produce bias. The sampling frame is also likely to produce a bias. More detail would be needed for mastery, particularly WHY these factors would lead to a biased sample. The size of each strata might be a problem as stratified sampling is valid only when the sample from each strata matches the size of that strata. In this case the researchers are taking an equal number from each state, but the states have different populations so a sample of a certain size in a small size might not be the appropriate size for a larger state. </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Identify potential sources of bias other then the sampling method and sampling frame from the information given and explain why they lead to bias (Only use the information given, do not speculate about information not provided).</p></content>
+        <outtro><p>The wording of the statements. Remember that the answers to these practice problems are mostly incomplete, your answers need to include more detail than is provided here. Notice here that the question is asking about bias OTHER than the sampling method and sampling frame, so you should not use those issues to answer this question.</p></outtro></knowl>
+    <knowl>
+        <content><p>If the CDC did the survey again, would you expect that exactly <m>{{result_1}}</m><m>\%</m> of respondents would {{agree_1}} that the incredibly important process of distributing the life-saving COVID-19 vaccine has been fairly implemented by the various state governments? Why or why not?</p></content>
+        <outtro><p>No, the exact same result would not be expected due to sampling variability. Note this answer is insufficient for mastery, more detail would be needed on a checkpoint.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Based on the results of this survey, can the CDC be sure that they understand how Americans feel about the vaccine distribution? Why or why not?</p></content>
+        <outtro><p>No, too much potential bias. Note this answer is insufficient for mastery, more detail would be needed on a checkpoint.</p></outtro></knowl>
+</knowl>
