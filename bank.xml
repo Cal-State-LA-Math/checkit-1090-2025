@@ -68,5 +68,21 @@ I can interpret summaries of quantitative data.
 I can use correlation and regression to describe relationships between two variables in a set of data.
             </description>
         </outcome>
+       <!--> <outcome>
+            <title>Probability</title>
+            <slug>S7-211P</slug>
+            <path>outcomes/S/S7/211P</path>
+            <description>
+I can use basic probability rules to analyze a given situation, set of data, or provided probabilities.
+            </description>
+        </outcome> -->
+        <outcome>
+            <title>The Normal Distribution</title>
+            <slug>S8-211P</slug>
+            <path>outcomes/S/S8/211P</path>
+            <description>
+I can describe and analyze normal distributions of data.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

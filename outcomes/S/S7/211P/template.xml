@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+        A study was conducted to investigate a relationship between the colors of helmets worn by motorcycle drivers and whether they are injured or killed in a crash. Results are given in the table below. Use this table to answer the questions, assuming that one of the motorcycle drivers has been randomly selected.</p>
+    <p>
+        Make sure to show your computations and to give reasons ( in words) about how you came up with your answers. Round your answer to four decimal places. Failure to show all computations or incorrect rounding may result in a score of "not mastered".</p>
+    <p>
+        <me>
+        \begin{array}{|c|c|c|c|c|c|}
+          \hline
+          \text{ {{var}} } &amp;\text{ {{choice1}} } &amp;\text{ {{choice2}} } &amp;\text{ {{choice3}} } &amp;\text{ {{choice4}} } &amp; \text{ {{choice5}} }\\
+          \hline
+          \text{ {{dep_var1}} } &amp; {{dep_var1_1}} &amp; {{dep_var1_2}} &amp; {{dep_var1_3}} &amp; {{dep_var1_4}} &amp; {{dep_var1_5}}\\
+          \hline
+          \text{ {{dep_var2}} } &amp; {{dep_var2_1}} &amp; {{dep_var2_2}} &amp; {{dep_var2_3}} &amp; {{dep_var2_4}} &amp;  {{dep_var2_5}} \\
+          \hline
+          \text{ {{dep_var3}} } &amp; {{dep_var3_1}} &amp; {{dep_var3_2}} &amp; {{dep_var3_3}} &amp; {{dep_var3_4}} &amp; {{dep_var3_5}}\\
+          \hline
+          \text{ {{total_title}} } &amp; {{total_1}} &amp; {{total_2}} &amp; {{total_3}} &amp; {{total_4}} &amp;\text { C } \\
+            \hline
+            \end{array}
+        </me>
+        </p>
+    </intro>
+    <knowl>
+        <content><p>Calculate the totals for the cells labeled A, B, and C in the table.</p></content>
+        <outtro><p>A = {{answer_a}} | B = {{answer_b}} | C = {{answer_c}}. Be careful when calculating C that you do not double count. C is the total of all the columns OR the total of all the rows. Both of those totals should be equal, but you don't add those two totals together. Additionally, you need to show all your work, which means writing out the equations of what you are adding to get these various totals.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the probability that a randomly selected motorcycle driver was {{outcome_2}}</p></content>
+        <outtro><p>{{answer2_n}} / {{answer_c}} = {{answer2}}. Answers for all of these problems need to be in complete sentences, not just the numbers. For example, the probability that a randomly selected motorcycle driver was {{outcome_2}} is {{answer2}}.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the probability that a randomly selected motorcycle driver was wearing a {{color1}} or a {{color2}} helmet at the time of the crash?</p></content>
+        <outtro><p>( {{answer3_1n}} + {{answer3_2n}} )/ {{answer_c}} = {{answer3}}. Don't forget to answer in a full sentence. These answer key answers are more like "back of the book" answers, just enough information to show you what the calculations should be. In this particular problem, we are asking for an "OR" probability where the two types of successes do not overlap. Therefore, you add the two numerators together and divide by the total.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Of the drivers who were {{hurt}} during the crash, what is the probability that a randomly selected motorcycle driver was wearing a {{color3}} helmet?</p></content>
+        <outtro><p>{{answer4_n}} / {{answer4_d}} = {{answer4}}. In this problem, we began with a condition - "Of the drivers who were {{hurt}} during the crash". This means that we are no longer looking at all the experimental data but rather only a portion of it. This changes the denominator to just be the portion of the group that meets the condition. Sometimes the condition is given at the beginning of the problem, like "Of the drivers who..." Other times the condition could come at the end "...given that the driver was {{hurt}} during the crash". You need to carefully read the question to see IF there is a conditional, and if so, what it is. Conditionals for a two way table are EITHER a "row conditional" meaning that the data that meets the condition is contained in a row, OR a "column conditional" meaning that the data that meets the condition is contained in a column. This particular question is asking about whether they were {{hurt}} which is sorted into rows. The numerator used to calculate the probability will be the single cell within the table that meets BOTH the conditions of "{{hurt}}" and "{{color3}}"</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Of the drivers who were wearing a {{color4}} helmet, what is the probability that a randomly selected motorcycle driver was {{hurt2}} in the crash?</p></content>
+        <outtro><p>{{answer5_n}} / {{answer5_d}} = {{answer5}}. Similarly to the previous question, this question is asking about a specific subset of the data since it says "Of the drivers who were wearing a {{color4}} helmet" The colors are sorted into columns, therefore, this is a column conditional and the denominator will come from the total of the column with the numerator coming from the cell (or cells) inside the table that meet BOTH of the conditions in the problem.</p></outtro>
+    </knowl>
+</knowl>

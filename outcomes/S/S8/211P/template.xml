@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+    <p>Directions:</p>
+    <p>Show all your calculations, including anything you plug into a calculator. If you use an app, please include a screenshot and explain how the screenshot answers the question. Answers should be given in complete sentences and in the context of the situation.</p>
+    <p><em>Scenario:</em></p>
+    <p>
+       Entry level jobs at Starbucks in California are normally distributed and have a mean salary of $<m>{{mean_1}}</m> an hour with a standard deviation of $<m>{{SD_1}}</m>. Entry level jobs at Target in California are normally distributed and have a mean salary $<m>{{mean_2}}</m> an hour with a standard deviation of $<m>{{SD_2}}</m>. Please use this information to answer the questions below.</p>
+     </intro>
+    <knowl>
+        <content><p>What is the z-score for a salary of $<m>{{salary_1}}</m> at {{store_1}}</p></content>
+        <outtro><p><m>{{answer_1}}</m> . Z-scores are calculated as the distance from the data point you are given to the mean, divided by the standard deviation. <me>z=\frac{datapoint - mean}{st.dev.}</me> A Z-score is the distance from the data point to the mean as counted by standard deviations. A data point below the mean will have a negative z-score, indicating that it is less than the mean. A data point above the mean will have a positive z-score, indicating that it is more than the mean.</p></outtro></knowl>
+    <knowl>
+        <content><p>If you randomly choose a California resident who has an entry level job at {{store_2}}, what is the probability that they have a salary of $<m>{{salary_2}}</m> an hour or less?</p></content>
+        <outtro><p><m>{{answer_2}}.</m> Using the normal distribution allows us to get probabilities for ranges of data points, not individual data points. Therefore, normal distribution calculators give the probabilities that given a randomly chosen individual you can get a certain range of data, usually a specific data point or less, a specific data point or more, or the probability of getting a data point within a certain range.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>If you randomly choose a California resident who has an entry level job at {{store_3}}, what is the minimum salary they can have and still earn more than <m>{{percent_1}}</m>% of the other entry level employees?</p></content>
+        <outtro><p>$<m>{{answer_3}}</m> per hour. In S5, when we were working with quantitative summaries we were working specifically with quartiles, numbers that broke the datasets into twenty-five percent chunks. The normal distribution lets us get to a more specific level of data summary. So similarly to quartiles where we were able to say a specific data point is less than a quarter of the data, or three-quarters of the data, the normal distribution lets us determine what data point is needed to be more than or less than different percentages of data. In all of these questions, you either need to use a normal distribution calculator (or app) or use a z-score table to compute this information.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What proportion of {{store_4}} employees earn between $<m>{{salary_3}}</m> and $<m>{{salary_4}}</m> per hour?</p></content>
+        <outtro><p><m>{{answer_4}}</m> This is an interval computation, since we are asking for the proportion between two numbers. A full answer would say "The proportion of {{store_4}} employees who earn between $<m>{{salary_3}}</m> and $<m>{{salary_4}}</m> per hour is {{answer_4}}." </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Chris wants to earn in the top 10% of all employees at one of these two retailers. At which retailer would Chris earn more per hour? Justify your answer using a statistical analysis</p></content>
+        <outtro><p>Starbucks = <m>{{answer_5a}}</m> | Target = <m>{{answer_5b}}</m> For this problem, you would check each distribution to find the amount that is the cutoff for the TOP ten percent. Asking for the top X% is a right-tail calculation. Asking for the bottom X% is a left-tail calculation. Put your final answer in a complete sentence. Chris would earn more per hour if Chris worked at (insert whichever store has a higher value) because the cutoff for the top 10% for that store is higher than the other store.</p></outtro>
+    </knowl>
+</knowl>
