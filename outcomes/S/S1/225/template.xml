@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+       A recent research study was conducted to find out how likely it was that people who had a case of COVID-19 would have a long-term health complication, commonly called Long-COVID. Researchers studied <m>{{sample}}</m> patients who had COVID-19 to see whether they had any of 64 common long COVID symptoms 1 year after the patients first tested positive. Of the patients studied, <m>{{result}}</m><m>\%</m> {{outcome}}.</p>
+    </intro>
+    <knowl>
+        <content><p>What is the population that this study is trying to get information about?</p></content>
+        <outtro><p>People who had COVID-19</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sample?</p></content>
+        <outtro><p>The <m>{{sample}}</m> patients who had COVID-19.</p></outtro></knowl>
+    <knowl>
+        <content><p>What is the variable used for this study?</p></content>
+        <outtro><p>What, if any, symptoms of long COVID did a person still have a year after getting COVID-19?</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What type of variable is the variable in question 3? Explain your answer.</p></content>
+        <outtro><p>Categorical</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sample statistic for this study?</p></content>
+        <outtro><p>The sample statistic is <m>{{result}}</m><m>\%</m> of those studied {{outcome}}.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the parameter of interest for this study? (the population parameter they are trying to gather information about)</p></content>
+        <outtro><p>The parameter of interest is what percentage of COVID-19 survivors {{outcome}} a year after getting COVID-19.</p></outtro></knowl>
+</knowl>

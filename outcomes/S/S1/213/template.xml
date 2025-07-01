@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+        A recent poll wanted to know how confident American adults are about whether or not their state elected officials will protect their right to vote. The pollsters spoke to <m>{{sample}}</m> American adults from August 7th - 10th, 2023. Of the poll participants, <m>{{result}}</m><m>\%</m> were {{outcome}}.</p>
+    </intro>
+    <knowl>
+        <content><p>What is the population that this study is trying to get information about?</p></content>
+        <outtro><p>American adults</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sample?</p></content>
+        <outtro><p>The <m>{{sample}}</m> American adults polled.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the variable used for this study?</p></content>
+        <outtro><p>The variable is does an American adult feel that state elected officials will protect their right to vote.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What type of variable is the variable in question 3?</p></content>
+        <outtro><p>Categorical</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sample statistic for this study?</p></content>
+        <outtro><p>The sample statistic is <m>{{result}}</m><m>\%</m> of those polled, were {{outcome}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the parameter of interest for this study? (the population parameter that the pollsters are trying to use the sample statistic to estimate)</p></content>
+        <outtro><p> The parameter of interest is what percentage of American adults are {{outcome}}.</p></outtro></knowl>
+</knowl>

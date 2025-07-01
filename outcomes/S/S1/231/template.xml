@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+        A poll was conducted to find out what American Adults think about the U.S. Economy. Researchers randomly called <m>{{population}}</m> American adults and  spoke to  <m>{{sample}}</m> American adults from June 1st to June 22nd. Of those polled, <m>{{result}}</m>% {{outcome}}.</p>
+    </intro>
+    <knowl>
+        <content><p>What is the population that this study is trying to get information about?</p></content>
+        <outtro><p>American adults</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sample?</p></content>
+        <outtro><p>The <m>{{sample}}</m> American adults that responded to the poll.</p></outtro></knowl>
+    <knowl>
+        <content><p>What is the variable used for this study?</p></content>
+        <outtro><p>The opinion of an American adult about the U.S. Economy</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What type of variable is the variable in question 3? Explain your answer.</p></content>
+        <outtro><p>Categorical.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sample statistic for this study?</p></content>
+        <outtro><p>The sample statistic is <m>{{result}}</m>% of those who responded {{outcome}}.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the parameter of interest for this study? (the population parameter they are trying to gather information about)</p></content>
+        <outtro><p>The parameter of interest is what percentage American adults would {{outcome}}.</p></outtro></knowl>
+</knowl>
