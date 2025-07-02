@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+        Moms for Liberty is an American political organization that is known for advocating against school curriculum that mention items such as LGBTQ+ rights and discrimination against groups due to race and ethnicity, as well as campaigning to ban from school libraries books that address gender and sexuality. Moms for Liberty wants to get an idea of what Americans think about school library book bans. They partnered with Newsmax, a conservative news company, to announce a web-based survey asking Newsmax viewers to respond to the survey about the book bans. Survey responders went to a link that was announced during Newsmax’s primetime news shows and also provided online on the homepage for Newsmax. The survey was available in English and {{language}}.</p>
+    <p>
+        Survey respondents were asked to decide to what degree they agreed with the following statements. The possible answer were "Strongly Agree", "Agree", "Neither Agree or Disagree", "Disagree", "Strongly Disagree".</p>
+    
+        <list>
+            <item><p>Given that protecting our children from inappropriate influences is of utmost importance, banning books from schools that will tear our children down and make them doubt themselves is an extremely valuable step that should be pursued at all costs.</p></item>
+            <item><p>Since extreme radicals are attempting to coerce our children into believing immoral things, we must be vigilant in observing the curriculum used to teach our students and contacting our schools to have them immediately remove any such offensive material.</p></item>
+        </list>
+    <p>
+        <m>{{result_1}}</m><m>\%</m> survey respondents said that they {{agree_1}} with the statement "Given that protecting our children from inappropriate influences is of utmost importance, banning books from schools that will tear our children down and make them doubt themselves is an extremely valuable step that should be pursued at all costs." <m>{{result_2}}</m><m>\%</m> said that they {{agree_2}} with the statement "Since extreme radicals are attempting to coerce our children into believing immoral things, we must be vigilant in observing the curriculum used to teach our students and contacting our schools to have them immediately remove any such offensive material.".</p>
+        
+    </intro>
+    <knowl>
+        <content><p>Does the above use a sampling frame? If so, what is the sampling frame?</p></content>
+        <outtro><p>No, there is not a sampling frame in this scenario. Another acceptable answer depending on argument - yes, frame is Newsmax viewers.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sampling method used in the above scenario?</p></content>
+        <outtro><p>The sampling method was a voluntary sample, explanation needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Looking at the sampling frame and the sampling method, would the sample be a valid sample or is it likely to be a biased sample? Explain why.</p></content>
+        <outtro><p>There was no sampling frame and the sampling method would not be valid due to bias, justification needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Identify potential sources of bias other than the sampling method and sampling frame from the information given and explain why they lead to bias (Only use the information given, do not speculate about information not provided).</p></content>
+        <outtro><p>Only limited language choices; the wording of the statements. Explanations needed.</p></outtro></knowl>
+    <knowl>
+        <content><p>If Newsmax did the survey again, would you expect that exactly <m>{{result_2}}</m><m>\%</m> of respondents would {{agree_2}} with the statement "Since extreme radicals are attempting to coerce our children into believing immoral things, we must be vigilant in observing the curriculum used to teach our students and contacting our schools to have them immediately remove any such offensive material"? Why or why not?</p></content>
+        <outtro><p>No, the exact same result would not be expected due to sampling variability, explanation needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Based on the results of this survey, can the Moms for Liberty be sure they have a good idea of how Americans feel about school library book bans? Why or why not?</p></content>
+        <outtro><p>No, too much bias, explanation needed. </p></outtro></knowl>
+</knowl>
