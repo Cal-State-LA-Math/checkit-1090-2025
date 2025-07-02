@@ -9,7 +9,7 @@
     </intro>
     <knowl>
         <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
-        <outtro><p><m>H_0: p= 0.{{p0dec}}</m>     <m>H_A: p\{{ineqsymb}} 0.{{p0dec}}</m></p></outtro>
+        <outtro><p><me>H_0: p= 0.{{p0dec}}</me>     <me>H_A: p\{{ineqsymb}} 0.{{p0dec}}</me></p></outtro>
     </knowl>
     <knowl>
         <content><p>What is the p-hat? Show computations and give p-hat exact to three decimal.</p></content>
