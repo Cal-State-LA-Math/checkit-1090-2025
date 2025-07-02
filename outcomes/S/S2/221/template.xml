@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+        The Republican party wants to get an idea of what Americans think about the upcoming Supreme Court decision that might limit the ability of the Environmental Protection Agency to regulate greenhouse gas emissions. In order to get the information, the Republican party partnered with Fox News to send a survey to 1000 randomly selected business owners in Texas and Arkansas. Survey respondents completed the survey online using a code provided in the invitation. The survey was available in English, Spanish and {{language}}.</p>
+    <p>
+        Survey respondents were asked to decide to what degree they agreed with the following statements. The possible answer were "Strongly Agree", "Agree", "Neither Agree or Disagree", "Disagree", "Strongly Disagree".</p>
+    
+        <list>
+            <item><p>It is time for the Supreme Court to stand up for the business of free Americans against the overwhelming regulatory environment created by out of control federal agencies.</p></item>
+            <item><p>Business owners should be left alone to run their business without extreme government interference.</p></item>
+        </list>
+    <p>
+        <m>{{sample}}</m> residents responded to the survey. <m>{{result_1}}</m><m>\%</m> of respondents said that they {{agree_1}} that it is time for the Supreme Court to stand up for the business of free Americans against the overwhelming regulatory environment created by out of control federal agencies and <m>{{result_2}}</m><m>\%</m> said that they {{agree_2}} that business owners should be left alone to run their business without extreme government interference.</p>
+        
+    </intro>
+    <knowl>
+        <content><p>Does the above use a sampling frame? If so, what is the sampling frame?</p></content>
+        <outtro><p>Yes, business owners in Texas and Arkansas</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sampling method used in the above scenario?</p></content>
+        <outtro><p>The sampling method was a simple random sample or SRS</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Looking at the sampling frame and the sampling method, would the sample be a valid sample or is it likely to be a biased sample? Explain why.</p></content>
+        <outtro><p>The sample frame would likely produce a biased sample, reasoning needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Identify potential sources of bias other than the sampling method and sampling frame from the information given and explain why they lead to bias (Only use the information given, do not speculate about information not provided).</p></content>
+        <outtro><p>The wording of the statements. Note, language is NOT a bias here. Explanation needed, others may be argued.</p></outtro></knowl>
+    <knowl>
+        <content><p>If the Republican Party did the survey again, would you expect that exactly <m>{{result_2}}</m><m>\%</m> of respondents would {{agree_2}} that business owners should be left alone to run their business without extreme government interference? Why or why not?</p></content>
+        <outtro><p>No, the exact same result would not be expected due to sampling variability, explanation needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Based on the results of this survey, can the the Republican Party be sure they have a good idea of how Americans feel about the upcoming Supreme Court decision? Why or why not?</p></content>
+        <outtro><p>No, too much bias, explanation needed</p></outtro></knowl>
+</knowl>
