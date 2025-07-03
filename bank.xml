@@ -268,7 +268,14 @@ I can use basic probability rules to analyze a given situation, set of data, or 
 I can describe and analyze normal distributions of data.
             </description>
         </outcome>
-        
+        <outcome>
+            <title>Confidence Intervals</title>
+            <slug>S9-211P</slug>
+            <path>outcomes/S/S9/211P</path>
+            <description>
+I can compute confidence intervals and interpret the interval in the context of the problem.
+            </description>
+        </outcome>
         <outcome>
             <title>Confidence Intervals</title>
             <slug>S9-212P</slug>
