@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+      <p>
+          A critical component to our understanding of statistics is being able to read and understand graphs. It is also critical that we be able to look at graphs and identify any flaws they might have. Be sure to answer ALL the questions.
+      </p>
+       <!--> <p>
+            <image source="assets/S4-A/214P.png" description="Bar graph showing percentage of smokers by household income levels."/>
+        </p> -->
+        <p>
+            Percentage of smokers by household income
+        </p>
+      <p>
+          Use the graph above to answer the questions.
+      </p>
+    </intro>
+    <knowl>
+          <content><p>What type of graph is this?</p></content>
+          <outtro><p>bar graph</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Could you use a {{graph_2}} graph to display this data? Why or why not?</p></content>
+        <outtro><p>No, {{answer_2}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What percent of people whose household income is {{money_3}} smoke "every day" or "some days"? What information in the graph tells you this answer?</p></content>
+        <outtro><p><m>{{answer_3}}\%</m>, the number inside the bar.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What does the number in the bar in the {{money_4}} line mean in the context of the information presented by the graph?</p></content>
+        <outtro><p>Out of the households that make {{money_4}}, <m>{{answer_4}}\%</m> of them has someone that smokes some or every day in them.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the trend in the percent of people who smoke "every day" or "some days" as household income {{dir_5}}? Justify your answer with evidence from the graph.</p></content>
+        <outtro><p>As the household income level {{dir_5}}, the percentage of smoker in the income level {{answer_5}}</p></outtro></knowl>
+</knowl>
+

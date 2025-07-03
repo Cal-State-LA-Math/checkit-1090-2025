@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+      <p>
+          A critical component to our understanding of statistics is being able to read and understand graphs. It is also critical that we be able to look at graphs and identify any flaws they might have. Be sure to answer ALL the questions.
+      </p>
+      <p><em>Scenario:</em></p>
+      <p>Neuropathy is a form of nerve damage that is estimated to affect more than 20 million Americans. It often accompanies other health problems including diabetes, cancer, shingles, or other autoimmune diseases. The graph below was published in 2026 describing the most common causes of Neuropath. The chart is based on a case study of {{n}} patients with Neuropathy.</p>
+        <p>
+            <image source="assets/S4-A/241.png" description="Pie chart showing causes of Neuropathy"/>
+        </p>
+        <p>
+           Use the graph above to answer the questions.
+        </p>
+      </intro>
+      <knowl>
+          <content><p>What type of graph is this?</p></content>
+          <outtro>
+              <p><m>{\large Answer}</m></p>
+              <p>A pie chart</p>
+          </outtro>
+    </knowl>
+    <knowl>
+        <content><p>Could you use a {{graph_2}} graph to display this data? Why or why not?</p></content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>{{answer_2}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What does the {{color}} piece of the graph represent in the context of the real world?</p></content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>The {{color}} piece shows that approximately {{percent}}<m>\%</m> of cases of Neuropathy in American is caused by {{cause}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>How many patients in the case study had Neuropathy caused by {{reason}}? What information in the graph helps you to answer this question?</p></content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>The total number of patients in the case study that had Neuropathy caused by {{reason}} was {{answer_4}}. You get this by multipying the number of patients in the case study by the percentage in the pie slice of that cause.</p></outtro></knowl>
+</knowl>
+

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+      <p>
+          A critical component to our understanding of statistics is being able to read and understand graphs. It is also critical that we be able to look at graphs and identify any flaws they might have. Be sure to answer ALL the questions.
+      </p>
+      <p><em>Scenario:</em></p>
+      <p>The U.S. job market was stronger than expected in June 2022, with payrolls growing by 372,000 additional jobs. The chart below summarizes the increase (or decrease) in total jobs in a variety of sectors.</p>
+       <!--> <p>
+            <image source="assets/S4-A/221.png" description="Bar graph showing increase or decrease in total jobs in a variety of sectors."/>
+        </p> -->
+        <p>
+            The increase (or decrease) in total jobs in a variety of sectors.</p>
+        <p>
+           Use the graph above to answer the questions.
+        </p>
+      </intro>
+      <knowl>
+          <content><p>What type of graph is this?</p></content>
+          <outtro><p>bar graph</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Could you use a {{graph_2}} graph to display this data? Why or why not?</p></content>
+        <outtro><p>{{answer_2}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What does the number at the end of the bar in the {{industry_3}} line mean in the context of the information presented by the graph?</p></content>
+        <outtro><p>The {{industry_3}} sector had an increase of <m>{{answer_3}}</m> jobs in June 2022.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Based on the information given above the graph, what percentage of the jobs added were in the {{industry_4}} sector? Be sure to show all work including anything plugged into a calculator. Round your percentage to 2 decimal places.</p></content>
+        <outtro><p>{{answer_4n}} / 372,000 = <m>{{answer_4}}\%</m></p></outtro></knowl>
+</knowl>
+

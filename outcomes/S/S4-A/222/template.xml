@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+    <p>
+        A critical component to our understanding of statistics is being able to read and understand graphs. It is also critical that we be able to look at graphs and identify any flaws they might have. Be sure to answer ALL the questions.
+      </p>
+    <p><em>Scenario:</em></p>
+    <p>
+        In 2021, Asian American workers face the longest periods of joblessness and other labor challenges, despite having the lowest unemployment rate out of any racial or ethnic group in the U.S. The chart below summarizes the median duration of joblessness for different racial groups, as well as the subgroups of race split by gender.</p>
+   <!--> <p>
+            <image source="assets/S4-A/222.png" description="Bar graph showing median duration of joblessness."/>
+        </p> -->
+    <p>Use the graph above to answer the questions.</p>
+    </intro>
+    <knowl>
+        <content><p>What type of graph is this?</p></content>
+        <outtro><p>bar graph or multi-bar graph</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the meaning of the {{week_2}} at the end of the {{color_2}} bar in the {{race_2}} group in the context of the information presented by the graph?</p></content>
+        <outtro><p>It is the median joblessness in weeks for {{race_2}} {{answer_2}} in 2021.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Could you use a {{graph_3}} graph to display this data? Why or why not?</p></content>
+        <outtro><p>{{answer_3}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Based on the information given above the graph, what subgroup had the {{placement_4}} median duration of joblessness in 2021? Explain your reasoning and how the graph tells you this. (For example - the subgroup “Asian Men” had the highest median duration of joblessness which can be seen because on the graph.... (fill in your reasoning here).).</p></content>
+        <outtro><p>{{answer_4}}</p></outtro>
+    </knowl>
+</knowl>
+
