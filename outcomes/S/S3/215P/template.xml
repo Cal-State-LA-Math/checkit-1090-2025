@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+        <p><em>Scenario:</em></p>
+        <p>
+        A trial of the medication Remdesivir was conducted in {{age}}. Patients were randomly assigned to receive either Remdesivir or a placebo for up to 10 days. Time to recover was the outcome that was measured. The results from the {{n}} patients ({{n_e}} randomly assigned to get Remdesivir and {{n_p}} to get the placebo) indicated that those who received Remdesivir had a median recovery time of 11 days as compared with {{diff}} days in those who received the placebo. {{results}}</p>
+    </intro>
+    <knowl>
+        <content><p>Describe the control group.</p></content>
+        <outtro><p>The {{n_p}} {{age}} that received the placebo</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the explanatory variable?</p></content>
+        <outtro><p>The intravenous medication Remdesivir</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is/are the response variable(s)?</p></content>
+        <outtro><p>The patient's recovery time</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What were the results of the study</p></content>
+        <outtro><p>The group that received Remdesivir had a median recovery time that was {{answer_4}} days shorter than the placebo group's recovery time</p></outtro>
+     </knowl>
+    <knowl>
+    <content><p>Did the researchers use any blinding? if so, what was blinded?</p></content>
+    <outtro><p>Yes, the subjects/patients were blinded since they would not have known if they were getting a placebo or not.</p></outtro>
+    </knowl>
+    <knowl>
+    <content><p>Are the results generalizable to all adults?</p></content>
+    <outtro><p>No. Explanation needed, student explanations will vary</p></outtro></knowl>
+</knowl>

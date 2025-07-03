@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+        <p><em>Scenario:</em></p>
+        <p>
+        A new study evaluated the effects of methylprednisolone, a cheap, widely used drug, as a treatment for IgA Nephropathy, an autoimmune disease that often results in the loss of kidney function up to and including kidney failure. Researchers recruited {{n}} patients who had been diagnosed with IgA Nephropathy from centers across Australia, Canada, China, India and Malaysia between May 2012 and November 2019. Patients were randomly enrolled into one of three groups, a group that received a dose of methylprednisolone daily, a group that received a half dose of methylprednisolone daily, or a placebo group. Clinicians who {{blinding}} who was in which of the three groups tracked the kidney function of the patients. {{results}}. </p>
+    </intro>
+    <knowl>
+        <content><p>Describe the treatment group(s).</p></content>
+        <outtro><p>There were two treatment groups, the group that got full dose of methylprednisolone and the group that got the half dose of methylprednisolone.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the explanatory variable?</p></content>
+        <outtro><p>The methylprednisolone</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What were the results of the experiment?</p></content>
+        <outtro><p>{{results}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Did the researchers use any blinding? If so, what was blinded? Explain your answer.</p></content>
+        <outtro><p>{{answer_4}}. Explanation needed.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Are the results generalizable to all adults with IgA Nephropathy? Explain your answer.</p></content>
+        <outtro><p>Answer depends on specific version, explanation needed. Student explanations will vary.</p></outtro>
+    </knowl>
+</knowl>

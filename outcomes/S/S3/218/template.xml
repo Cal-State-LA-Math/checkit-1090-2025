@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+        <p><em>Scenario:</em></p>
+        <p>
+        A new study looked at the effect of chewing sugar-free gum daily on preterm births in Malawi, a country in Africa. Researchers enrolled {{n}} {{age}} living in Malawi before they were pregnant or in early pregnancy. The women were randomly assigned to one of two groups. Both groups received information on pregnancy, preventing preterm birth and improving oral health. One of the groups also received sugar-free gum and instructions on chewing it. Both groups were tracked to determine what the rate of preterm birth was. Researchers {{blinding}} tracked whether or not the women had preterm births and whether they developed oral disease. The group of gum chewers had a lower rate of preterm births and also had lower rates of oral disease as compared to the group who did not chew gum. {{result}}. </p>
+    </intro>
+    <knowl>
+        <content><p>Describe the control group.</p></content>
+        <outtro><p>The subjects that were not given the sugar-free gum</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the explanatory variable?</p></content>
+        <outtro><p>Chewing sugar-free gum</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What were the response variables?</p></content>
+        <outtro><p>Preterm births and oral disease</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Did the researches use any blinding? If so, what was blinded? Explain your answer.</p></content>
+        <outtro><p>{{answer_4}}. Explanation needed.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Are the results generalizable to all pregnant adults? Explain your answer.</p></content>
+        <outtro><p>No. Explanation needed. Student explanations will vary.</p></outtro>
+    </knowl>
+</knowl>

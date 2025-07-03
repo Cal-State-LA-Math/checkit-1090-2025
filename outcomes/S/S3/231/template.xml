@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+        <p><em>Scenario:</em></p>
+        <p>A study was conducted to evaluated the effect of a nitric oxide generating lozenge (throat drop) in outpatients with newly diagnosed COVID-19 to ease the severity of COVID-19. The study was done in 2020 on 524 patients in the United States ages 50-85 who were African American or Latino with a recent COVID -19 diagnosis. Patients were randomly assigned to one of two groups: a group that took two nitric oxide generating lozenges a day for 30 days and a group that took two placebo lozenges a day for 30 days. Clinicians who {{blinding}} who was in which of the two groups called the patients at least twice a week to gather a variety of data, including whether the patient had been hospitalized. Patients were also asked to contact the study center or ask a family member to contact the study center for any change in their conditions. The group getting the nitric oxide lozenges {{results}} show a significant reduction in the risk of being hospitalized due to COVID-19 as compared with the placebo group.</p>
+    </intro>
+    <knowl>
+        <content><p>Describe the control group.</p></content>
+        <outtro><p>The subjects that were given the placebo</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the explanatory variable?</p></content>
+        <outtro><p>The nitric oxide generating lozenges</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What was the response variable?</p></content>
+        <outtro><p>If the patient was hospitalized due to COVID-19</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Did the researchers use any blinding? If so, what was blinded? Explain your answers.</p></content>
+        <outtro><p>{{answer_4}}. Explanation needed.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Are the results generalizable to all adults with a recent COVID-19 diagnosis? Explain your answer.</p></content>
+        <outtro><p>No. Explanation needed, student explanations will vary.</p></outtro>
+    </knowl>
+</knowl>

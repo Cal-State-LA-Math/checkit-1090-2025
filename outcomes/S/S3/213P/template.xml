@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+        <p><em>Scenario:</em></p>
+        <p>
+        A recent study examined whether meditation can be used to counter the impact of math anxiety. {{n}} {{age}} were randomly assigned to one of two groups. Both groups were given information to read about why some people have math anxiety. Then, students in the first group completed a 5-minute meditation. Students in the second group did not do the meditation. Both groups then took a math test. The tests were graded by a math TA (not related to the researchers) {{blinding}}. The results were that students in the meditation group scored {{diff}}<m>\%</m> higher that the students in the non-mediation group. {{results}}.</p>
+    </intro>
+     <knowl>
+        <content><p>Describe the control group.</p></content>
+        <outtro><p>The half of the {{n}} {{age}} that did NOT meditate before the test. A control group is the one that does NOT get the active treatment, so that you can compare the ones getting the active treatment to the control group to see if there is a statistically significant change in the response variable that can be attributed to the explanatory variable.</p></outtro>
+    </knowl>
+    <knowl>
+    <content><p>What is the explanatory variable?</p></content>
+    <outtro><p>Meditation - the explanatory variable is the item that is varied to see its impact on the response variable. It is important to describe the explanatory variable in such a way that you are describing all the treatments and the control/placebo group together. Make sure NOT to give the treatments themselves as the explanatory variable.</p></outtro>
+    </knowl>
+        <knowl>
+    <content><p>What is the response variable?</p></content>
+    <outtro><p>The score on the math test. Remember that the response variable is measured on an individual level. Also, the response variable is usually not the "increase" or "decrease" in the measurement. Unless the researcher is specifically measuring an increase or decrease. </p></outtro>
+    </knowl>
+    <knowl>
+    <content><p>What were the results of the study?</p></content>
+    <outtro><p>The group that meditated before the test did {{diff}}<m>\%</m> better. The results are usually at the group level.</p></outtro>
+    </knowl>
+    <knowl>
+    <content><p>Did the researchers use any blinding? if so, what was blinded?</p></content>
+    <outtro><p>{{answer_4}} Remember that blinding means a group does not know who is getting which treatment. Usually we are looking at two possible groups for blinding - the subjects and the researchers (or the people measuring the results) </p></outtro>
+    </knowl>
+    <knowl>
+    <content><p>Are the results generalizable to all adults?</p></content>
+    <outtro><p>No. Explanation needed, student explanations will vary. To have generalizability you need good study design, which includes random assignment (also known as randomization), representative samples, blinding (preferably double if possible), and you also have to have statistically significant results. A mastery level answer to this question will specify which of these elements of good study design or statistical significance is violated. </p></outtro></knowl>
+</knowl>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+        <p><em>Scenario:</em></p>
+        <p>
+        A new study was conducted to determine if exercise could treat anxiety. Researchers studied {{n}} {{age}} with anxiety syndrome. Patients were randomly assigned to either a moderate exercise group, a strenuous exercise group, or to a group who received advice on physical activity. Anxiety symptoms in all three groups were measured at the beginning and the end of the study by observers who {{blinding}}. Researchers found that both moderate and strenuous exercise groups had a greater reduction in anxiety symptoms compared to the group just getting advice on physical activity. {{results}}. </p>
+    </intro>
+    <knowl>
+        <content><p>Describe the control group.</p></content>
+        <outtro><p>The subjects that were only given advice on physical activity</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the explanatory variable?</p></content>
+        <outtro><p>The exercise</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What were the response variables?</p></content>
+        <outtro><p>The anxiety symptoms or the change in anxiety symptoms.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Did the researchers use any blinding? If so, what was and was not blinded? Explain your answer.</p></content>
+        <outtro><p>{{answer_4}}. Explanation needed. </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Are the results generalizable to all adults with anxiety syndrome? Explain your answer.</p></content>
+        <outtro><p>No. Explanation needed. student explanations will vary.</p></outtro></knowl>
+</knowl>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+        <p><em>Scenario:</em></p>
+        <p>
+        A study was conducted to determine whether permanent magnets are effective in treating chronic low back pain. In this study, {{n}} adults with chronic back pain were divided into two groups and given a back device to wear for 6 hours per day on multiple days. The devices given to the patients in the first group had permanent magnets in them. The devices given to the patients in the second group were identical in weight and appearance but did not have the permanent magnets in them. {{blinding}}. Pain level scores were measured at the beginning and at the ending of the study. The group treated with the permanent magnets had a {{diff}}<m>\%</m> greater mean reduction in pain level. {{results}}. </p>
+    </intro>
+     <knowl>
+        <content><p>Describe the control group.</p></content>
+        <outtro><p>The half of the {{n}}, {{age}} that got a device without the permanent magnets in them.</p></outtro>
+    </knowl>
+    <knowl>
+    <content><p>What is the explanatory variable?</p></content>
+    <outtro><p>The magnets</p></outtro>
+    </knowl>
+    <knowl>
+    <content><p>What were the results of the study?</p></content>
+    <outtro><p>The group that had the magnets had a mean reduction in back pain that was {{diff}}<m>\%</m> greater then the group that did not have the magnets</p></outtro>
+    </knowl>
+    <knowl>
+    <content><p>Did the researchers use any blinding? If so, what was blinded? Explain your answer.</p></content>
+    <outtro><p>{{answer_4}}. Explanation needed.</p></outtro>
+    </knowl>
+    <knowl>
+    <content><p>Are the results generalizable to all adults with chronic back pain? Explain your answer.</p></content>
+    <outtro><p>No. Explanation needed, student explanations will vary.</p></outtro></knowl>
+</knowl>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+        <p><em>Scenario:</em></p>
+        <p>A new study examined the effect of taking micronutrients for children with ADHD. Researchers enrolled {{n}} children ages 6 to 12 years who had been diagnosed with ADHD. The children were randomly enrolled into one of two groups, a group that received a micronutrient supplement (taken as 9 to 12 capsules per day with food) and a placebo group. Clinicians, who {{blinding}} who was receiving the supplement and who was receiving the placebo, rated the children on a range of behavioral scales both through direct observation and through interviews with parents. {{results}}.</p>
+    </intro>
+    <knowl>
+        <content><p>Describe the control group.</p></content>
+        <outtro><p>The subjects that were given the placebo</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the explanatory variable?</p></content>
+        <outtro><p>The micronutrient supplement</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What was the response variable?</p></content>
+        <outtro><p>The child's behavior</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Did the researchers use any blinding? What was or was not blinded? Explain your answer.</p></content>
+        <outtro><p>{{answer_4}}. Explanation needed. </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Are the results generalizable to all children with ADHD and emotional dysregulation? Explain your answer.</p></content>
+        <outtro><p>No. Explanation needed, student explanations will vary.</p></outtro>
+    </knowl>
+</knowl>

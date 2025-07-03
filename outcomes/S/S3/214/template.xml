@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+        <p><em>Scenario:</em></p>
+        <p>
+        A new study looked at the impact of the antidepressant drug Effexor in treating the symptoms of depression. The study involved 405 test sites in 30 countries and was conducted in June through August 2019. <m>{{n}}</m> {{age}} worldwide with depression were in the study. The patients were randomly assigned to a treatment or a placebo group. Upon completion of the study, Effexor {{result}} the symptoms of depression, including the frequency of headaches, fatigue levels and joint pain. </p>
+    </intro>
+    <knowl>
+        <content><p>Describe the control group.</p></content>
+        <outtro><p>The subjects that were given the placebo</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the explanatory variable?</p></content>
+        <outtro><p>The Effexor</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What were the response variables?</p></content>
+        <outtro><p>The symptoms of depression, including the frequency of headaches, fatigue levels and joint pain.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Did the researchers use any blinding? What was or was not blinded? Explain your answer.</p></content>
+        <outtro><p>Yes, the subjects were blinded. Explanation needed.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Are the results generalizable to all adults with depression? Explain your answer.</p></content>
+        <outtro><p>No, student explanations will vary.</p></outtro></knowl>
+</knowl>
