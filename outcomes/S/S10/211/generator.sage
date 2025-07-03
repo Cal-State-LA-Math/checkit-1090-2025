@@ -12,7 +12,7 @@ class Generator(BaseGenerator):
         r=uniform(.65,.75)
         s=0
         for i in range(n):
-            d=random()
+            d=uniform(0,1)
             if d<r:
                 s=s+1
         if htt==0:
