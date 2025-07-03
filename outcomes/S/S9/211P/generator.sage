@@ -13,13 +13,13 @@ class Generator(BaseGenerator):
         r=uniform(0.65,0.75)
         s=0
         for i in range(n):
-            d=uniform(0,1)
+            d=random()
             if d<r:
                 s=s+1
         p=uniform(.4,.6)
         x=0
         for i in range(s):
-            b=uniform(0,1)
+            b=random()
             if b<p:
                 x=x+1
 
