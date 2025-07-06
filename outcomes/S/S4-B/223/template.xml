@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <p>The histogram below summarizes the results of a recent study in New York City that was commissioned to look at the composition of 99,460 taxi trips of 25 miles or less within the city. Please use this histogram to answer the questions below. Use the histogram to answer the questions below. Make sure to show all of your work and put all answers into context of the data.</p>
+        <p><image source="../assets/S4-B/223.png" description="Histogram showing the distribution of taxi cap rides in New York City"/></p>
+        <p>New York City taxi trips in miles</p>
+    </intro>
+    <knowl>
+        <content><p>Describe the shape of the histogram of taxi trips of 25 miles or less. Explain your answer.</p></content>
+        <outtro><p>The distribution is skewed right or bimodal .</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What does the bar with the {{number_2}} above it represent?</p></content>
+        <outtro><p>There were {{number_2}} taxi cab trips that were between {{answer_2}} miles long.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What percentage of taxi cab rides were between <m>{{assault_3a}}</m> and <m>{{assault_3b}}</m> miles long? Be sure to show all work including anything plugged into a calculator. Round your percentage to 2 decimal places.</p></content>
+        <outtro><p>(<m>{{answer_3a}}</m> + <m>{{answer_3b}}</m> + <m>{{answer_3c}}</m>) / 99460 = <m>{{answer_3}}</m><m>\%</m></p></outtro>
+    </knowl>
+</knowl>

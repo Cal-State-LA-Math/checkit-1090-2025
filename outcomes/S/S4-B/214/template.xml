@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <p>Below is a histogram showing the distribution of the values of 780 homes in San Luis Obispo County in 2009 (in dollars). Use the histogram to answer the questions below. Make sure to show all of your work and put all answers into context of the data. </p>
+        <p><image source="assets/S4-B/214.png" description="Histogram showing the distribution of home values in San Luis Obispo County in 2009"/></p>
+        <p>Home values</p>
+    </intro>
+    <knowl>
+        <content><p>Describe the shape of the distribution of home values in San Luis Obispo County in 2009. Explain your answer.</p></content>
+        <outtro><p>The distribution is skewed right.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What does the bar with the {{number_2}} above it represent?</p></content>
+        <outtro><p>Out of the 780 home in the data set, {{number_2}} of them were worth between {{answer_2}} in 2009.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What percentage of homes were worth between <m>{{money_3a}}</m> and <m>{{money_3b}}</m> in 2009? Show all your work including anything plugged into a calculator. Provide your final answer in a full sentence with the appropriate context.</p></content>
+        <outtro><p>(<m>{{answer_3a}}</m> + <m>{{answer_3b}}</m> + <m>{{answer_3c}}</m>) / 780 = <m>{{answer_3}}</m>%</p></outtro>
+    </knowl>
+</knowl>
