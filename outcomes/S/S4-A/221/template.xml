@@ -6,9 +6,9 @@
       </p>
       <p><em>Scenario:</em></p>
       <p>The U.S. job market was stronger than expected in June 2022, with payrolls growing by 372,000 additional jobs. The chart below summarizes the increase (or decrease) in total jobs in a variety of sectors.</p>
-       <!--> <p>
-            <image source="assets/S4-A/221.png" description="Bar graph showing increase or decrease in total jobs in a variety of sectors."/>
-        </p> -->
+        <p>
+            <image source="../assets/S4-A/221.png" description="Bar graph showing increase or decrease in total jobs in a variety of sectors."/>
+        </p>
         <p>
             The increase (or decrease) in total jobs in a variety of sectors.</p>
         <p>
