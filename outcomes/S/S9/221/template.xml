@@ -4,7 +4,7 @@
         <em>The Scenario</em>
           <p>Amazon is trying to decide whether to put a new warehouse in Los Angeles County. As part of their decision making, they need to have certain criteria met in a geographical neighborhood. For any neighborhood that Amazon considers, they first need to know what percentage of households located within 50 miles of the proposed location are Amazon customers and would want the option of same day delivery from Amazon.</p>
           <p>Amazon does a survey of households within a 50 mile radius of a certain neighborhood in Los Angeles County, of those households, <m>{{s}}</m> respond. <m>{{x}}</m> of the households say that they are Amazon customers and want the option of same day delivery.</p>
-        <p> Compute a <m>{{CL}}</m><m>\%</m> confidence interval for the proportion of {{prose}}. You may use an app to do the computations. You must show all your computations and/or a screenshot of any app used. Please use your work answer the following.</p>
+        <p> Compute a <m>{{CL}}\%</m> confidence interval for the proportion of {{prose}}. You may use an app to do the computations. You must show all your computations and/or a screenshot of any app used. Please use your work answer the following.</p>
     </intro>
     <knowl>
         <content><p>What is p-hat? Please give your answer exact to three decimal places.</p></content>
@@ -20,10 +20,10 @@
     </knowl>
     <knowl>
         <content><p>Put the resulting interval into context for Amazon to answer the following question: What percentage of households in Los Angeles within 50 miles of the proposed warehouse are Amazon customers and want the option of same day delivery?</p></content>
-        <outtro><p>With {{CL}}% confidence level, the proportion of household that are Amazon customers and would want the option of same day delivery is between <m>{{LB_p}}</m><m>\%</m> and <m>{{UB_p}}</m><m>\%</m>.</p></outtro>
+        <outtro><p>With <m>{{CL}}\%</m> confidence level, the proportion of household that are Amazon customers and would want the option of same day delivery is between <m>{{LB_p}}\%</m> and <m>{{UB_p}}\%</m>.</p></outtro>
     </knowl>
     <knowl>
-        <content><p>{{claim1}} {{direction}} <m>{{c}}</m><m>\%</m> {{claim2}} Does the confidence interval support this claim? Why or why not? Justify your answer with information from the confidence interval.</p></content>
+        <content><p>{{claim1}} {{direction}} <m>{{c}}\%</m> {{claim2}} Does the confidence interval support this claim? Why or why not? Justify your answer with information from the confidence interval.</p></content>
         <outtro><p>The confidence interval {{claimtrue}} the claim</p></outtro>
     </knowl>
 </knowl>

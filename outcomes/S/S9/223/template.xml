@@ -4,7 +4,7 @@
         <em>The Scenario</em>
           <p>With the recent decision by the US Supreme Court to overturn Roe v. Wade, many states are considering abortion laws, as is the US Congress. The Pew Research Center dedicated much of its July research work into understanding how Americans feel about the decision to overturn Roe v. Wade.</p>
         <p>In July 2022, the Pew Research Center sent a survey to all the U.S. adult panelists on its research panel. <m>{{s}}</m> panelists responded to the survey. <m>{{x}}</m> of the panelists said they believe that abortion should be legal in all or most cases.</p>
-        <p> Compute a <m>{{CL}}</m><m>\%</m> confidence interval for the proportion of {{prose}}. You may use an app to do the computations. You must show all your computations and/or a screenshot of any app used. Please use your work answer the following.</p>
+        <p> Compute a <m>{{CL}}\%</m> confidence interval for the proportion of {{prose}}. You may use an app to do the computations. You must show all your computations and/or a screenshot of any app used. Please use your work answer the following.</p>
     </intro>
     <knowl>
         <content><p>What is p-hat? Please give your answer exact to three decimal places.</p></content>
@@ -20,10 +20,10 @@
     </knowl>
     <knowl>
         <content><p>Put the resulting interval into context to answer the following question: What percentage of U.S. adults believe that abortion should be legal in all or most cases?</p></content>
-        <outtro><p>With {{CL}}% confidence level, the proportion of U.S. adults that believe abortions should be legal in all or most cases? is between <m>{{LB_p}}</m><m>\%</m> and <m>{{UB_p}}</m><m>\%</m>.</p></outtro>
+        <outtro><p>With <m>{{CL}}\%</m> confidence level, the proportion of U.S. adults that believe abortions should be legal in all or most cases? is between <m>{{LB_p}}\%</m> and <m>{{UB_p}}\%</m>.</p></outtro>
     </knowl>
     <knowl>
-        <content><p>{{claim1}} {{direction}} <m>{{c}}</m><m>\%</m> {{claim2}} Does the confidence interval support this claim? Why or why not? Justify your answer with information from the confidence interval.</p></content>
+        <content><p>{{claim1}} {{direction}} <m>{{c}}\%</m> {{claim2}} Does the confidence interval support this claim? Why or why not? Justify your answer with information from the confidence interval.</p></content>
         <outtro><p>The confidence interval {{claimtrue}} the claim</p></outtro>
     </knowl>
 </knowl>

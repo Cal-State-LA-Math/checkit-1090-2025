@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>The Scenario</em></p>
+        <p>California State University Channel Islands is considering adding a new major in Data Science. In order to support a new major, they need more than <m>1\%</m> of their current students to indicate a willingness to be a data science major.</p>
+        <p>CSU Channel Islands asks their Institutional Research (IR) group to conduct a study to find out if more than <m>1\%</m> of their current enrollment would consider being a data science major. IR does a survey of <m>{{n}}</m> students to ask them if they are willing to consider becoming a Data science major. <m>{{s}}</m> respond to the survey, of which <m>{{x}}</m> say they would consider becoming a Data science major.</p>
+        <p>Conduct a hypothesis test at a <m>99\%</m> confidence level (<m>\alpha = .01</m>) to see if the IR survey provides evidence that supports CSU Channel Islands offering a Data science major. You may use an app to do the test, if you wish. Include all work and screenshots of any app used. Use the results of your hypothesis test to answer the following questions.</p>
+    </intro>
+    <knowl>
+        <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
+        <outtro><p><m>H_0: p= 0.0{{p0dec}}</m>     <m>H_A: p\{{ineqsymb}} 0.0{{p0dec}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is <m>\hat{p}</m>? Show computations and give <m>\hat{p}</m> exact to three decimal places.</p></content>
+        <outtro><p><m>\hat{p} = {{phat}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the p-value of your test?</p></content>
+        <outtro><p>p-value = {{pvalue}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the conclusion of your hypothesis test? Include statistical justification for your conclusion.</p></content>
+        <outtro><p>{{conclusion}} the <m>H_0</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Does the hypothesis test support adding a new major in Data Science? Why or why not?</p></content>
+        <outtro><p>{{context}}</p></outtro></knowl>
+</knowl>

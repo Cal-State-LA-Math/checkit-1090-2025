@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>The Scenario</em></p>
+        <p>A new Pew Research Center survey found that large shares of Americans support the United States taking steps to address global climate change and back an energy landscape that prioritizes renewable sources like wind and solar. The Biden-Harris administration announced in May 2023 nearly $11 Billion in grants and loan opportunities that will help rural energy and utility providers bring affordable, reliable clean energy to their communities across the country. The Democratic party is considering making investment in renewable energy a central part of their goals for the 2024 election. The Party committee will highlight renewable energy if more than <m>65\%</m> of the American population supports it.</p>
+        <p>The Pew Research Center surveyed U.S. adults between May 30th and June 4th, 2023. <m>{{s}}</m> adults responded out of the <m>{{n}}</m> surveyed. <m>{{x}}</m> say that they support prioritizing the development of alternative energy sources such as wind, solar and hydrogen power.
+        </p>
+        <p>Conduct a hypothesis test using a <m>95\%</m> confidence level (α=0.05) to see if the survey provides evidence that supports Democrats highlighting renewable energy as a goal in the 2024 election. You may use an app to do the test, if you wish. Include all work and screenshots of any app used. Use the results of your hypothesis test to answer the following questions:</p>
+    </intro>
+    <knowl>
+        <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
+        <outtro><p><m>H_0: p= 0.65</m>     <m>H_A: p\{{ineqsymb}} 0.65</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is <m>\hat{p}</m>? Show computations and give <m>\hat{p}</m> exact to three decimal places.</p></content>
+        <outtro><p><m>\hat{p} = {{phat}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the p-value of your test?</p></content>
+        <outtro><p>p-value = {{pvalue}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the conclusion of your hypothesis test? Include statistical justification for your conclusion.</p></content>
+        <outtro><p>{{conclusion}} the <m>H_0</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Does the hypothesis test support the Democratic party highlighting renewable energy in the 2024 election?  Why or why not?</p></content>
+        <outtro><p>{{context}}</p></outtro></knowl>
+</knowl>

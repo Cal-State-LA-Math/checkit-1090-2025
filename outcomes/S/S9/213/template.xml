@@ -6,7 +6,7 @@
           <p>
               They survey <m>{{n}}</m> {{pop_var}}, <m>{{s}}</m> of which responded to the survey. Of the respondents, <m>{{x}}</m> {{success}}
           </p>
-        <p> Compute a <m>{{CL}}</m><m>\%</m> confidence interval for the proportion of {{prose}}. You may use an app to do the computations. You must show all your computations and/or a screenshot of any app used. Please use your work answer the following.</p>
+        <p> Compute a <m>{{CL}}\%</m> confidence interval for the proportion of {{prose}}. You may use an app to do the computations. You must show all your computations and/or a screenshot of any app used. Please use your work answer the following.</p>
     </intro>
     <knowl>
         <content><p>What is p-hat? Please give your answer exact to three decimal places.</p></content>
@@ -22,10 +22,10 @@
     </knowl>
     <knowl>
         <content><p>Put your interval into context of the scenario.</p></content>
-        <outtro><p>With {{CL}}<m>\%</m> confidence level, the proportion of {{prose}} is between <m>{{LB_p}}</m><m>\%</m> and <m>{{UB_p}}</m><m>\%</m>.</p></outtro>
+        <outtro><p>With <m>{{CL}}\%</m> confidence level, the proportion of {{prose}} is between <m>{{LB_p}}\%</m> and <m>{{UB_p}}\%</m>.</p></outtro>
     </knowl>
     <knowl>
-        <content><p>{{claim1}} {{direction}} <m>{{c}}</m><m>\%</m> {{claim2}}.</p></content>
+        <content><p>{{claim1}} {{direction}} <m>{{c}}\%</m> {{claim2}}.</p></content>
         <outtro><p>The confidence interval {{claimtrue}} the claim</p></outtro>
     </knowl>
 </knowl>

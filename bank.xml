@@ -500,5 +500,61 @@ I can compute confidence intervals and interpret the interval in the context of 
 I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
             </description>
         </outcome>
+        <outcome>
+            <title>Hypothesis Testing</title>
+            <slug>S10-212P</slug>
+            <path>outcomes/S/S10/212P</path>
+            <description>
+I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Hypothesis Testing</title>
+            <slug>S10-213</slug>
+            <path>outcomes/S/S10/213</path>
+            <description>
+I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Hypothesis Testing</title>
+            <slug>S10-214</slug>
+            <path>outcomes/S/S10/214</path>
+            <description>
+I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Hypothesis Testing</title>
+            <slug>S10-215P</slug>
+            <path>outcomes/S/S10/215P</path>
+            <description>
+I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Hypothesis Testing</title>
+            <slug>S10-221</slug>
+            <path>outcomes/S/S10/221</path>
+            <description>
+I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Hypothesis Testing</title>
+            <slug>S10-222</slug>
+            <path>outcomes/S/S10/222</path>
+            <description>
+I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Hypothesis Testing</title>
+            <slug>S10-231</slug>
+            <path>outcomes/S/S10/231</path>
+            <description>
+I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
