@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>Directions:</p>
+    <p>Show all your calculations, including anything you plug into a calculator. If you use an app, please include a screenshot and explain how the screenshot answers the question. Answers should be given in complete sentences and in the context of the situation.</p>
+    <p><em>Scenario:</em></p>
+    <p>
+        One method of quality control within manufacturing is to take random samples of manufactured goods and evaluate them to see if they meet the required quality criteria. One such manufactured product is stainless steel.
+        </p>
+     <p>
+        A stainless steel company produces two types of  stainless steel wire. The company's Heavy wire has a mean diameter of 5.5 mm and a standard distribution of 0.046 mm while their Medium wire has a mean diameter of 5.2 mm and a standard deviation of 0.083 mm. Please use this information to answer the questions below.
+        </p>
+     </intro>
+    <knowl>
+        <content><p>What is the z-score for a sample of {{ind_1}} whose mean diameter is <m>{{dep_1}}</m> mm? </p></content>
+        <outtro><p><m>{{answer_1}}</m> </p></outtro></knowl>
+    <knowl>
+        <content><p>If you randomly choose a sample of {{ind_2}} and measure its  diameter, what is the probability that the  diameter of the wire is <m>{{dep_2}}</m> mm or less? </p></content>
+        <outtro><p><m>{{answer_2}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>If you randomly choose a sample of {{ind_3}}, what is the {{min_max}} mean diameter the wire can have and still have a {{dir_1}} diameter than <m>{{percent_1}}</m><m>\%</m> of the other {{ind_3}}?</p></content>
+        <outtro><p><m>{{answer_3}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What percent of {{ind_4}}s would have a diameter between <m>{{dep_3}}</m> mm and <m>{{dep_4}}</m> mm?</p></content>
+        <outtro><p><m>{{answer_4}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Which of the wire types has a higher diameter that marks the <m>{{percent_2}}</m>th percentile? Explain how you came to your answer.</p></content>
+        <outtro><p>The <m>{{percent_2}}</m>th percentile for the Heavy wire = <m>{{answer_5a}}</m> mm | The <m>{{percent_2}}</m>th percentile for the Medium wire = <m>{{answer_5b}}</m> mm</p></outtro>
+    </knowl>
+</knowl>
