@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <em>The Scenario:</em>
+        <p>Below is an analysis of the various features about almost every roller coaster in the world - current or past.  The scatterplots and regression lines are shown below for several features of the roller coaster, including the duration, how long the ride is, of the roller coaster (in seconds), the highest drop of the roller coaster (in feet) and the maximum speed of the roller coaster (in miles per hour).</p>
+        <p><image source="../assets/S6/221_A.png" description="Scatter plot and regression line showing roller coaster duration vs speed"/></p>
+        <p>Below is the information about the regression model for the scatter plot above showing the duration of the ride (in seconds) versus speed (in miles per hour).</p>
+        <list>
+            <item><p>Equation and <m>R^2</m> value for the roller coaster's speed versus it's duration.</p></item>
+            <item><p>Speed = <m>35.3793 + 0.1709 * (Duration)</m></p></item>
+            <item><p>The <m>R^2</m> value for this regression is <m>0.2584</m></p></item>
+        </list>
+        <p><image source="../assets/S6/221_B.png" description="Scatter plot and regression line showing roller coaster drop vs speed"/></p>
+         <p>Below is the information about the regression model for the scatter plot above showing the height of the drop (in feet) versus speed (in miles per hour).</p>
+        <list>
+            <item><p>Equation and <m>R^2</m> value for the roller coaster's speed versus it's drop.</p></item>
+            <item><p>Speed = <m>34.9793 + 0.1993 * (Drop)</m></p></item>
+            <item><p>The <m>R^2</m> value for this regression is <m>0.8914</m></p></item>
+        </list>
+        <p>Use the two scatter plots and the given information about the regression models to answer the questions below.</p>
+        </intro>
+        <knowl>
+            <content><p>Which model, if any, would you use to predict the maximum speed of a roller coaster? Explain why your choice would be the best model to get an accurate prediction.</p></content>
+            <outtro><p>The speed versus the height of the drop is the better model to make predictions with because it has a higher <m>R^2</m> value</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>What do you predict the maximum speed of a roller coaster to be that has a drop of <m>{{number_2}}</m>? Explain why you used the model you did and show all your computations. Put your final answer into a complete sentence to answer the question.</p></content>
+            <outtro><p><m>{{answer_2}}</m> MPH</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>Would you use {{quest_3}} to predict the maximum speed of a roller coaster with a {{var_3}} of <m>{{value_3}}</m> {{unit_3}}? Why or why not?</p></content>
+            <outtro><p>No, {{answer_3}}</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>There is a dot at <m>({{point_x}}, {{point_y}})</m> on the speed vs the {{ind_var4}} graph. Explain what this dot represents in context of the study.</p></content>
+            <outtro><p>The dot represents a specific roller coaster in the study that had a maximum speed of <m>{{point_y}}</m> mph and a {{ind_var4}} of <m>{{point_x}}</m> {{unit_4}}.</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>Compute the correlation coefficient, R, for the speed versus drop model. Explain the meaning of R in the context of the problem.</p></content>
+            <outtro><p><m>r = 0.9441</m>, on average the greater the drop the faster the roller coaster is</p></outtro></knowl>
+</knowl>
