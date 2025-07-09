@@ -245,8 +245,6 @@ I can interpret statistical graphs.
             </description>
         </outcome>
         <outcome>
-<<<<<<< HEAD
-=======
             <title>Statistical Graphs</title>
             <slug>S4-B-212</slug>
             <path>outcomes/S/S4-B/212</path>
@@ -302,11 +300,18 @@ I can interpret statistical graphs.
 I can interpret statistical graphs.
             </description>
         </outcome>
-       <!--> <outcome>
->>>>>>> 00bd560efbb9c0e4f8c2e71d1ea93e5531d5d278
+        <outcome>
             <title>Summaries of Quantitative</title>
             <slug>S5-211P</slug>
             <path>outcomes/S/S5/211P</path>
+            <description>
+I can interpret summaries of quantitative data.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Summaries of Quantitative</title>
+            <slug>S5-212P</slug>
+            <path>outcomes/S/S5/212P</path>
             <description>
 I can interpret summaries of quantitative data.
             </description>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <p>Besides graphs, another way we summarize data and compare sets of data is though numerical summaries. Below you will find two tables of numerical summaries of different datasets. Use these tables to answer the questions below. Answer all questions completely and include contextual information in your answers. Show or explain all of your work and include screen shots of any applets you use. </p>
+        <p>The cost of a tank of gas at two gas stations in one month were collected into datasets. The numerical summaries of both datasets are in the tables below.</p>
+        <p>Station #1</p>
+        <p><me>\begin{array}{|c|c|c|c|c|c|c|c|}
+            \hline
+            \text{ N } &amp;\text{ Min } &amp;\text{ Q1 } &amp;\text{ Median } &amp;\text{ Q3 } &amp;\text{ Max } &amp;\text{ Mean } &amp;\text{ St Dev } \\
+            \hline
+            \ {{n_1}} &amp; {{min_1}} &amp; {{q1_1}} &amp; {{med_1}} &amp; {{q3_1}} &amp; {{max_1}} &amp; {{mean_1}} &amp; {{stdev_1}} \\
+            \hline
+            \end{array}</me>
+        </p>
+        <p>Station #2</p>
+        <p><me>\begin{array}{|c|c|c|c|c|c|c|c|}
+            \hline
+            \text{ N } &amp;\text{ Min } &amp;\text{ Q1 } &amp;\text{ Median } &amp;\text{ Q3 } &amp;\text{ Max } &amp;\text{ Mean } &amp;\text{ St Dev } \\
+            \hline
+            \ {{n_2}} &amp; {{min_2}} &amp; {{q1_2}} &amp; {{med_2}} &amp; {{q3_2}} &amp; {{max_2}} &amp; {{mean_2}} &amp; {{stdev_2}} \\
+            \hline
+            \end{array}</me>
+        </p>
+    </intro>
+    <knowl>
+        <content><p>How many tanks of gas were recorded from station #{{OC_1}}?</p></content>
+        <outtro><p><m>{{answer_1}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Describe how much the top <m>{{percent_2}}\%</m> most expensive fill-ups were at station #{{OC_2}}? Give your answer in a complete sentence with context.</p></content>
+        <outtro><p><m>\${{answer_2}}</m></p></outtro></knowl>
+    <knowl>
+        <content><p>The dataset for station #1 has a quartile {{quar_3}} of <m>\${{money_3}}</m>. Explain what this means in terms of the cost of the {{n_1}} tanks of gas in the data set.</p></content>
+        <outtro><p>Of the {{n_1}} tanks of gas in the dataset, <m>{{answer_3}}\%</m> of the tanks of gas were <m>\${{money_3}}</m> or less.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What would happen to the mean of the dataset for station #2 if an additional tank of gas, that was less than the minimum, was added to the dataset? Explain or justify your answer.</p></content>
+        <outtro><p>The mean would go down.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What would happen to the standard deviation of the dataset for station #1 if an additional tip, that was less than the minimum, was added to the dataset? Explain or justify your answer.</p></content>
+        <outtro><p>The standard deviation would go up.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Create boxplots for each of the numerical summaries given above. You may use the applet  from above or you may draw the boxplots by hand. Insert screenshots of pictures of both boxplots in your answer. Be sure to fully label your boxplots.</p></content>
+    </knowl>
+    <knowl>
+        <content><p>Describe the shape of the distribution of cost of a tank of gas at station #2.</p></content>
+        <outtro><p>The distribution of station #2 is roughly symmetrical.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Which of these datasets appears to be more skewed? Use evidence from your boxplots above to justify your answer.</p></content>
+        <outtro><p>Station #1 is more skewed</p></outtro>
+    </knowl>
+</knowl>
