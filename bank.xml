@@ -236,14 +236,14 @@ I can interpret statistical graphs.
 I can interpret statistical graphs.
             </description>
         </outcome>
-       <!--> <outcome>
+        <outcome>
             <title>Summaries of Quantitative</title>
             <slug>S5-211P</slug>
             <path>outcomes/S/S5/211P</path>
             <description>
 I can interpret summaries of quantitative data.
             </description>
-        </outcome> -->
+        </outcome>
         <outcome>
             <title>Correlation and Regression</title>
             <slug>S6-211P</slug>
