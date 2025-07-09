@@ -25,8 +25,8 @@ class Generator(BaseGenerator):
         answer_1=n_1
         if OC_1==2:
             answer_1=n_2
-        tip_1=[["quartile 3", "less", "25%", q3_1], ["quartile 1", "less", "75%", q1_1]]
-        tip_2=[["quartile 3", "less", "25%", q3_2], ["quartile 1", "less", "75%", q1_2]]
+        tip_1=[["quartile 3", "less", "25", q3_1], ["quartile 1", "less", "75", q1_1]]
+        tip_2=[["quartile 3", "less", "25", q3_2], ["quartile 1", "less", "75", q1_2]]
         min_max=tip_1[OC_2a][0]
         dir_2=tip_1[OC_2a][1]
         percent_2=tip_1[OC_2a][2]
@@ -36,7 +36,7 @@ class Generator(BaseGenerator):
             dir_2=tip_2[OC_2a][1]
             percent_2=tip_2[OC_2a][2]
             answer_2=tip_2[OC_2a][3]
-        question_3=[["one", q1_1, "25% of the tips"], ["three", q3_1, "75% of the tips"]]
+        question_3=[["one", q1_1, "25"], ["three", q3_1, "75"]]
         quar_3=question_3[OC_3][0]
         money_3=question_3[OC_3][1]
         answer_3=question_3[OC_3][2]
