@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>The Scenario</em></p>
+        <p>Amazon is trying to decide whether to put a new warehouse in a specific neighborhood of Los Angeles County. As part of their decision making, they need to have certain criteria met in a geographical neighborhood. For any neighborhood that Amazon considers, they will build a warehouse if at least <m>55\%</m> of the households within 50 miles of that neighborhood want same day delivery.</p>
+        <p>Amazon does a survey of households in Los Angeles County within 50 miles of the specific neighborhood that is being considered. <m>{{s}}</m> households responded out of the <m>{{n}}</m> surveyed. <m>{{x}}</m> say that they order from Amazon and want the option of same day delivery.
+        </p>
+        <p>Conduct a hypothesis test using a <m>95\%</m> confidence level (α=0.05) to see if the survey provides evidence that supports Amazon building a warehouse in that neighborhood. You may use an app to do the test, if you wish. Include all work and screenshots of any app used. Use the results of your hypothesis test to answer the following questions.</p>
+    </intro>
+    <knowl>
+        <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
+        <outtro><p><m>H_0: p= 0.55</m>     <m>H_A: p\{{ineqsymb}} 0.55</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is <m>\hat{p}</m>? Show computations and give <m>\hat{p}</m> exact to three decimal places.</p></content>
+        <outtro><p><m>\hat{p} = {{phat}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the p-value of your test?</p></content>
+        <outtro><p>p-value = {{pvalue}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the conclusion of your hypothesis test? Include statistical justification for your conclusion.</p></content>
+        <outtro><p>{{conclusion}} the <m>H_0</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Does the hypothesis test support Amazon building a warehouse in that neighborhood? Why or why not?</p></content>
+        <outtro><p>{{context}}</p></outtro></knowl>
+</knowl>

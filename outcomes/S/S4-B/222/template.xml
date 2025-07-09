@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <p>The histogram below summarizes the domestic gross revenues of 5,222 movies made between 1915 and 2018. Please use this histogram to answer the questions below. Use the histogram to answer the questions below. Make sure to show all of your work and put all answers into context of the data.</p>
+        <p><image source="../assets/S4-B/222.png" description="Histogram showing the distribution of movie domestic gross revenues from 1915 to 2018"/></p>
+        <p>Movie's domestic gross revenues from 1915 to 2018</p>
+    </intro>
+    <knowl>
+        <content><p>Describe the shape of the distribution of domestic gross revenues from 1915 to 2018. Explain your answer.</p></content>
+        <outtro><p>The distribution is skewed right.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What does the bar with the {{number_2}} above it represent?</p></content>
+        <outtro><p>There were {{number_2}} movies in the data set that had a domestic gross revenue between {{answer_2}} million dollars.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What percentage of movies had a domestic gross revenue that was between $<m>{{assault_3a}}</m> and $<m>{{assault_3b}}</m> million dollars? Show all your work including anything plugged into a calculator. Provide your final answer in a full sentence with the appropriate context.</p></content>
+        <outtro><p>(<m>{{answer_3a}}</m> + <m>{{answer_3b}}</m> + <m>{{answer_3c}}</m>) / 5222 = <m>{{answer_3}}</m><m>\%</m></p></outtro>
+    </knowl>
+</knowl>

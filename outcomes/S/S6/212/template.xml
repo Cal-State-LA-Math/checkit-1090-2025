@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <em>The Scenario:</em>
+        <p>Below are two scatterplots, one showing the relationship between the price of a home in San Luis Obispo County in 2009 and the size of the home. The other is showing the relationship between the price of a home in San Luis Obispo County in 2009 and the number of bedrooms.</p>
+        <p><image source="../assets/S6/212_A.png" description="Scatter plot and regression line showing price vs it's size in square footage"/></p>
+        <p>Below is the information about the regression model for the scatter plot above.</p>
+        <list>
+            <item><p>Equation and <m>R^2</m> value for the price of a home in San Luis Obispo County in 2009 vs the size of the home.</p></item>
+            <item><p>Price = <m>-113509.75 + 283.09 * (sqft)</m></p></item>
+            <item><p>The <m>R^2</m> value for this regression is <m>0.665</m></p></item>
+        </list>
+        <p><image source="../assets/S6/212_B.png" description="Scatter plot and regression line showing price vs the number of bedrooms"/></p>
+         <p>Below is the information about the regression model for the scatter plot above.</p>
+        <list>
+            <item><p>Equation and <m>R^2</m> value for the price of a home in San Luis Obispo County in 2009 vs the number of bedrooms.</p></item>
+            <item><p>Price = <m>58885.19 + 103256.20 *</m> (number of bedrooms)</p></item>
+            <item><p>The <m>R^2</m> value for this regression is <m>0.153</m></p></item>
+        </list>
+        <p>Use the two scatter plots and the given information about the regression models to answer the questions below.</p>
+        </intro>
+        <knowl>
+            <content><p>Which model, if any, would you use to predict the price of a home? Explain why your choice would be the best model to get an accurate prediction.</p></content>
+            <outtro><p>Price vs size is the better model to make predictions with because it has a higher <m>R^2</m> value</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>What do you predict the price of a home in San Luiz Obispo whose square footage is  <m>{{foot}}</m> sq. ft to be? Explain why you used the model you did and show all work. Put your final answer into a complete sentence to answer the question.</p></content>
+            <outtro><p><m>\${{answer_2}}</m></p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>Would you use the Price vs Bedroom model to predict the price of a home with <m>{{number_3}}</m> bedroom home? Why or why not?</p></content>
+            <outtro><p>No, low correlation, explanation needed</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>There is a dot at <m>({{point_x}}, {{point_y}})</m> on the price vs {{ind_var4}} graph. Explain what this dot represents in terms of a house in San Luis Obispo.</p></content>
+            <outtro><p>The dot represents a specific home in the dataset that had a price of <m>\${{point_y}}</m> and <m>{{point_x}}</m> {{ind_var4}}.</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>Compute the correlation coefficient, R, for the price vs square footage model. Explain the meaning of R in the context of the problem.</p></content>
+            <outtro><p><m>0.82</m> and as the square footage goes up, on average, so does the selling price of the home.</p></outtro></knowl>
+</knowl>

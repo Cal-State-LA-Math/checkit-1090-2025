@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <em>The Scenario:</em>
+        <p>Let's talk about movies. What is your favorite movie and how much money did it make? Here is data about how much 5,222 different movies made and how much they cost in millions of dollars .</p>
+        <p>Below are two scatterplots, one showing the relationship between worldwide gross revenues and budget. The other is showing the relationship between worldwide gross revenues and domestic gross revenues.</p>
+        <p><image source="../assets/S6/215_A.png" description="Scatter plot and regression line showing Worldwide Gross in millions vs it's budget in millions"/></p>
+        <p>Below is the information about the regression model for the scatter plot above.</p>
+        <list>
+            <item><p>Equation and R^2 value for worldwide gross revenues vs budget.</p></item>
+            <item><p>Worldwide Gross Revenue = -7.117 + 3.119 * (Budget)</p></item>
+            <item><p>The R^2 value for this regression is 0.558</p></item>
+        </list>
+        <p><image source="../assets/S6/215_B.png" description="Scatter plot and regression line showing Worldwide Gross in millions vs it's Domestic Gross in millions"/></p>
+         <p>Below is the information about the regression model for the scatter plot above.</p>
+        <list>
+            <item><p>Equation and R^2 value for worldwide gross revenues vs domestic gross revenues.</p></item>
+            <item><p>Worldwide Gross Revenue = -9.62 + 2.3922 * (Domestic Gross Revenues)</p></item>
+            <item><p>The R^2 value for this regression is .877</p></item>
+        </list>
+        <p>Use the two scatter plots and the given information about the regression models to answer the questions below.</p>
+        </intro>
+        <knowl>
+            <content><p>Which model, if any, would you use to predict the worldwide gross revenue of a movie? Explain why your choice would be the best model to get an accurate prediction.</p></content>
+            <outtro><p>Either model can be used but the Worldwide gross revenue vs domestic gross is the better model to make predictions with because it has a higher R^2 value</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>What do you predict the worldwide gross revenue of a movie with a domestic gross revenue of $<m>{{money_2}}</m> million? Explain why you used the model you did and show all work. Put your final answer into a complete sentence to answer the question.</p></content>
+            <outtro><p>$<m>{{answer_2}}</m> million </p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>Would you use one of the regression models to predict the worldwide gross revenue of a movie with domestic gross revenue of ${{money_3}} million? Why or why not?</p></content>
+            <outtro><p>No, outside of the data range or extrapolation</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>There is a dot at ({{point_x}}, {{point_y}}) on the Worldwide gross revenue vs it's {{ind_var4}} graph. Explain what this dot represents in context of the dataset.</p></content>
+            <outtro><p>The dot represents a specific movie in the dataset that made $<m>{{point_y}}</m> million in worldwide gross revenue and had {{ind_var4}} of $<m>{{point_x}}</m> million.</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>Compute the correlation coefficient, R, for the worldwide gross revenues vs budget model. Explain the meaning of R in the context of the problem</p></content>
+            <outtro><p>0.75, as the movie's budget goes up on average so does it's worldwide gross revenue</p></outtro></knowl>
+</knowl>

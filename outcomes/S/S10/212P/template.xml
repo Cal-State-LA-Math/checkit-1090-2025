@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>The Scenario</em></p>
+        <p>Norwegian Cruise Lines, like all cruise lines, has taken a tremendous financial hit from the coronavirus due to canceled cruises. As they look at trying to begin cruises again, the CEO of Norwegian wants to know what percentage of the cruise going population is going to be willing to go on a cruise in 2024. Knowing the percentage of people who have taken cruises in the past that are willing to cruise in 2024 will help with planning how many cruises to offer.</p>
+        <p>The Norwegian head of marketing commissions a study to survey 5,000 people who have taken cruises with Norwegian in the past to ask them if they are willing to take a cruise in 2024. <m>{{s}}</m> people respond to the survey. Of those, <m>{{x}}</m> say that they are willing to take a cruise in 2024.</p>
+        <p>The head of operations wants to plan for 52% of previous customers taking a cruise in 2024. The head of marketing claims that is not enough, that more than <m>52\%</m> of previous customers are willing to take a cruise in 2024.</p>
+        <p>Conduct a hypothesis test at a <m>95\%</m> confidence level (α=0.05) to test the claim made by the head of marketing. You may use an app to do the test. Include all work and screenshots of any app use. Use the results of your hypothesis test to answer the following questions.</p>
+    </intro>
+    <knowl>
+        <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
+        <outtro><p><m>H_0: p= 0.52</m>     <m>H_A: p\{{ineqsymb}} 0.52</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is <m>\hat{p}</m>? Show computations and give <m>\hat{p}</m> exact to three decimal places.</p></content>
+        <outtro><p><m>\hat{p} = {{phat}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the p-value of your test?</p></content>
+        <outtro><p>p-value = {{pvalue}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the conclusion of your hypothesis test? Include statistical justification for your conclusion.</p></content>
+        <outtro><p>{{conclusion}} the <m>H_0</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Does the hypothesis test support the claim of the head of marketing? Why or why not?</p></content>
+        <outtro><p>{{context}}</p></outtro></knowl>
+</knowl>

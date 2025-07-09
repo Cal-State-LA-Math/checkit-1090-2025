@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+    <p>Directions:</p>
+    <p>Show all your calculations, including anything you plug into a calculator. If you use an app, please include a screenshot and explain how the screenshot answers the question. Answers should be given in complete sentences and in the context of the situation.</p>
+    <p><em>Scenario:</em></p>
+    <p>
+       Many body measurements of a population produce normally distributed data. Height is one of those measurements. The heights of adult men in the United States are approximately normally distributed with a mean of 70 inches and a standard deviation of 3 inches. The heights of adult women in the United States are approximately normally distributed with a mean of 64.5 inches and a standard deviation of 2.5 inches. Please use this information to answer the questions below.</p>
+     </intro>
+    <knowl>
+        <content><p>What is the z-score for a height of <m>{{high_1}}</m> for a {{sex_1}} in the United States?</p></content>
+        <outtro><p><m>{{answer_1}}</m> </p></outtro></knowl>
+    <knowl>
+        <content><p>If you randomly choose a {{sex_2}} resident of the United States, what is the probability that their height is <m>{{high_2}}</m> inches or less?</p></content>
+        <outtro><p><m>{{answer_2}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>If you randomly choose a {{sex_3}} resident of the United States, what is the {{min_max}} height they can be and still be {{dir_1}} than <m>{{percent_1}}</m>% of all {{sex_4}}?</p></content>
+        <outtro><p><m>{{answer_3}}</m> inches.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What proportion of adult {{sex_4}} in the United States are between <m>{{high_3}}</m> and <m>{{high_4}}</m> inches tall?</p></content>
+        <outtro><p><m>{{answer_4}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Assume Chris is <m>{{high_5}}</m> inches tall. Which group is bigger - the proportion of adult men who are shorter than Chris or the proportion of adult women who are taller than Chris? Justify your answer using a statistical analysis</p></content>
+        <outtro><p>Proportion of men that are shorter = <m>{{answer_5a}}</m> | Proportion of women that are taller = <m>{{answer_5b}}</m></p></outtro>
+    </knowl>
+</knowl>

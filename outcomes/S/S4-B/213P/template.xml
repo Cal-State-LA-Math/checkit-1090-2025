@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <intro>
+        <p>Below is a histogram showing the distribution of worldwide retail sales (in million of dollars) for 99 of the 100 top retailers in 2015. This excludes the #1 top retailer - Wal-Mart. Make sure to show all of your work and put all answers into context of the data. </p>
+        <p><image source="../assets/S4-B/213P.png" description="Histogram showing the worldwide retail sales for 2015"/></p>
+        <p>Worldwide retail sales for 2015</p>
+    </intro>
+    <knowl>
+        <content><p>What does the x-axis represent in contexts of the data?</p></content>
+        <outtro><p>Worldwide retail sales in millions of dollars. When looking at the x-axis, make sure to look at the entire problem to see where the units are described.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Why do you think Wal-Mart was excluded from the histogram?</p></content>
+        <outtro><p>Wal-Mart's total sales was an outlier. (other reasons can be given and argued) With that big of an outlier, it is likely that the graph would be much more difficult to read.</p></outtro></knowl>
+    <knowl>
+        <content><p>Describe the shape of the distribution of worldwide retail sales.</p></content>
+        <outtro><p>The distribution is skewed right. Even without Walmart, we can see that the data trails off further to the right. </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What does the bar with the {{number_2}} above it represent?</p></content>
+        <outtro><p>Out of the 99 retailers in the data set, {{number_2}} of them had worldwide sales between {{answer_2}}  dollars in 2015. Each bar in a histogram represents a range of data. In this case, each bar is a range of $<m>100,000</m>. For example, the line at $<m>400,000</m> shows that the bar on the left of the line is the retailers whose sales were between $<m>300,000</m> and $<m>400,000</m> while the bar on the right of the line is the retailers whose sales were between $<m>400,000</m> and $<m>500,000.</m> When reading a histogram, you need to check how many bars are between the labeled tick marks to figure out the range of an individual bar. </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What percentage of retailers had worldwide sales between $<m>{{money_3a}}</m> billion and $<m>{{money_3b}}</m> billion in 2015? Show all your work.</p></content>
+        <outtro><p>(<m>{{answer_3a}}</m> + <m>{{answer_3b}}</m> + <m>{{answer_3c}}</m>) / 99 = <m>{{answer_3}}</m>% In this problem, the limits on the question mean that you need to look only at the bars BETWEEN the two dollar values given. Do NOT include bars that have one edge at one the dollar values but the other edge is outside of the range of the two dollar values given.</p></outtro>
+    </knowl>
+</knowl>

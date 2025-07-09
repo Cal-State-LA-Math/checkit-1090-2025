@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <p><em>The Scenario</em></p>
+          <p>{{set_up}}</p>
+          <p> They survey <m>{{n}}</m> {{pop_var}}, <m>{{s}}</m> of which responded to the survey. Of the respondents, <m> {{x}}</m> {{success}}</p>
+          <p>The {{person}} claims that {{claim1}} {{direction}} <m>{{p0dec}}\%</m>.</p>
+        <p>Conduct a hypothesis test at a <m>95\%</m> confidence level (<m>\alpha = .05</m>) to test the claim made by {{person}}. You may use an app to do the test, if you wish. Include all work and screenshots of any app used. Use the results of your hypothesis test to answer the following questions.</p>
+    </intro>
+    <knowl>
+        <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
+        <outtro><p><m>H_0: p= 0.{{p0dec}}</m>     <m>H_A: p\{{ineqsymb}} 0.{{p0dec}}</m>. Since the claim is "{{claim1}} {{direction}} <m>{{p0dec}}\%</m>" your null hypothesis would be <m>H_0: p= 0.{{p0dec}}</m>. For any hypothesis test, in this class we always use <m>H_0: p=</m>"the value given in the claim". Then, the alternative hypothesis is the same direction as the claim. In this case, the claim is based on "{{direction}}" to the alternative hypothesis is <m>H_A: p\{{ineqsymb}} 0.{{p0dec}}</m>.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is <m>\hat{p}</m>? Show computations and give <m>\hat{p}</m> exact to three decimal.</p></content>
+        <outtro><p><m>\hat{p} = {{phat}}</m> Remember that <m>\hat{p}</m> is the sample proportion. So the numerator is the number of "successes" - in this case the <m> {{x}}</m> that {{success}}. The denominator is the sample size which is the number of respondents in survey. For this survey, <m>{{s}}</m> responded to the survey. </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the p-value of your test?</p></content>
+        <outtro><p>p-value = {{pvalue}} Remember - the "p-value" is the probability of getting a result at least extreme as the one you got IF the null hypothesis is TRUE. So a small probability means that the chance that your result would happen if the null hypothesis is TRUE is small, and therefore your result is unlikely. This provides evidence AGAINST the null hypothesis. A large probability means that you absolutely could have gotten this result by chance, if the null hypothesis is TRUE. A large probability (anything greater than <m>\alpha</m>) gives NO INFORMATION for your test. Therefore you cannot reject the null. You NEVER "accept" the null. That's not a statistically valid thing to say.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the conclusion of your hypothesis test? Include statistical justification for your conclusion.</p></content>
+        <outtro><p>{{conclusion}} the <m>H_0</m> As discussed in class, the ONLY possible conclusions for a hypothesis test are either to "Reject the null, and therefore support the alternative hypothesis" or "Do not reject the null." When you do NOT reject the null, you basically have no information as a result of your test. When you DO reject the null, you are able to say that you have evidence to support the alternative hypothesis.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Does the hypothesis test support the claim of {{person}}? Why or why not?</p></content>
+        <outtro><p>{{context}}.  Remember that if you are able to reject the null, then you can support the alternative hypothesis, which means you have evidence to support the claim. The reasoning is that if your p-value was small, the chance of getting your sample result is small if the null hypothesis were true. Therefore, you have evidence to support the claim. A p-value that is too large does NOT support the claim. In this particular scenario, if you reject the null you have evidence to support the claim of the {{person}} that {{claim1}} {{direction}} <m>{{p0dec}}\%</m>. If you do NOT reject the null, you do NOT have evidence to support the claim of the {{person}} that {{claim1}} {{direction}} <m>{{p0dec}}\%</m>.</p></outtro>
+    </knowl>
+</knowl>

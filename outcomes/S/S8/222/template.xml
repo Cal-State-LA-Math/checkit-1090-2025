@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>Directions:</p>
+    <p>Show all your calculations, including anything you plug into a calculator. If you use an app, please include a screenshot and explain how the screenshot answers the question. Answers should be given in complete sentences and in the context of the situation.</p>
+    <p><em>Scenario:</em></p>
+    <p>
+        As we have learned, although there are some datasets that are naturally normally distributed, sampling distributions with sufficiently large sample sizes also tend towards being normally distributed. Therefore, we can use the properties of the normal distribution to evaluate sample statistics.
+
+       </p>
+    <p>
+        One area where samples are regularly used is in medicine. Drug companies will test samples of patients to find out the average proportion of the sample who will experience a reduction in symptoms to determine the efficacy of the medication.
+        </p>
+     <p>
+        Suppose that two drug companies make different versions of Ibuprofen (the active ingredient in Advil, Motrin, etc.). Both companies have done extensive testing on their versions by running medical trials on sample groups of adults. These samples are considered sufficiently large enough that the sampling distribution is normally distributed. </p>
+         <p>• The mean proportion of the population who will experience a reduction in symptoms from Company A's drug is 0.50 with a standard deviation of 0.0745. </p>
+         <p>• The mean proportion of the population who will experience a reduction in symptoms from Company B's drug is 0.45 with a standard deviation of 0.0742. </p>
+         
+        <p> Please use this information to answer the questions below.
+        </p>
+     </intro>
+    <knowl>
+        <content><p>Suppose you have a sample of people who took the drug made by Company {{ind_1}} and you find that the proportion of the sample that had a reduction in symptoms was <m>{{dep_1}}</m>. What is the z-score for this sample proportion? </p></content>
+        <outtro><p><m>{{answer_1}}</m> </p></outtro></knowl>
+    <knowl>
+        <content><p>Suppose you have a sample of people who took the drug made by Company {{ind_2}}, what is the probability that the proportion of people in the sample you chose had a reduction in symptoms is <m>{{dep_2}}</m> or less?</p></content>
+        <outtro><p><m>{{answer_2}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Suppose you have a sample of people who took the drug made by Company {{ind_3}}. What is the {{min_max}} that the sample proportion can be and still be {{dir_1}} than <m>{{percent_1}}</m> <m>\%</m> of all other sample proportions for the drug from Company {{ind_3}}?</p></content>
+        <outtro><p><m>{{answer_3}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What percent of samples of people that took the drug from Company {{ind_4}} will have a sample proportion between {{dep_3}} and {{dep_4}}?</p></content>
+        <outtro><p><m>{{answer_4}}</m> <m>\%</m> </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Compute the value for a sample proportion of the population who will experience a reduction of symptoms that represents the {{percent_2}}th percentile for each company. Which company has a lower percentile? Explain how you came to your answer.</p></content>
+        <outtro><p>The <m>{{percent_2}}</m>th percentile for Company A = <m>{{answer_5a}}</m>  | The <m>{{percent_2}}</m>th percentile for Company B = <m>{{answer_5b}}</m></p></outtro>
+    </knowl>
+</knowl>

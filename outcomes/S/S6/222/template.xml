@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <em>The Scenario:</em>
+        <p>Below is an analysis of the growth in cell phones per 100 people by country, as compiled by the Gapminder organization from publicly available data for 195 countries.</p>
+        <p><image source="../assets/S6/222_B.png" description="Scatter plot and regression line showing number of cell phone per 100 in 2000 vs 2019"/></p>
+        <p>Below is the regression model information for the scatterplot above of the number of cell phones per 100 people from countries around the world in 2000 vs in 2019.</p>
+        <list>
+            <item><p>Equation and R^2 value for the number of cells phone per 100 in 2019 versus 2000.</p></item>
+            <item><p>(Cell Phones per 100 people in 2019) = 94.3 + 0.67 * (Cell Phones per 100 people in 2000)</p></item>
+            <item><p>The R^2 value for this regression is 0.1640</p></item>
+        </list>
+        <p></p>
+        <p><image source="../assets/S6/222_A.png" description="Scatter plot and regression line showing roller coaster drop vs speed"/></p>
+         <p>Below is the regression model information for the scatterplot above of the number of cell phones per 100 people from countries around the world in 2010 vs in 2019.</p>
+        <list>
+            <item><p>Equation and R^2 value for the number of cells phone per 100 in 2019 versus 2010.</p></item>
+            <item><p>(Cell Phones per 100 people in 2019)  = 39.7+ 0.73 * (Cell Phones per 100 people in 2010)</p></item>
+            <item><p>The R^2 value for this regression is 0.5298</p></item>
+        </list>
+        <p>Use the two scatter plots and the given information about the regression models to answer the questions below.</p>
+        </intro>
+        <knowl>
+            <content><p>Which model, if any, would you use to predict the number of cell phones per 100 people in 2019? Explain why your choice would be the best model to get an accurate prediction.</p></content>
+            <outtro><p>The 2019 vs 2010 is the better model to make predictions with because it has a higher R^2 value</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>What do you predict the number of cell phones per 100 people to be in 2019 for a country that had {{number_2}} cell phones per 100 people in 2010? Explain why you used the model you did and show all your computations. Put your final answer into a complete sentence to answer the question.</p></content>
+            <outtro><p><m>{{answer_2}}</m> cell phones per 100 people in that country</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>Would you use one of the regression models to predict the number of cell phones per 100 people in 2019 for a country that had {{value_3}} {{unit_3}} in {{var_3}}? Why or why not?</p></content>
+            <outtro><p>No, {{answer_3}}</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>There is a dot at ({{point_x}}, {{point_y}}) on the 2019 vs the {{ind_var4}} graph. Explain what this dot represents in context of the study.</p></content>
+            <outtro><p>The dot represents a specific country in the study that had {{point_y}} cell phones per 100 people in 2019 and {{point_x}} cell phones per 100 people in {{ind_var4}}.</p></outtro>
+        </knowl>
+        <knowl>
+            <content><p>Compute the correlation coefficient, R, for the 2010 verse 2019 model. Explain the meaning of R in the context of the problem.</p></content>
+            <outtro><p>r = 0.7279, on average the greater the number of cell phones per 100 people a country had in 2010 the great the number of cell phones per 100 people that same country would have in 2019.</p></outtro></knowl>
+</knowl>

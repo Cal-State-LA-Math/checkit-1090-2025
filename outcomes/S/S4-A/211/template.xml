@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+      <p>
+          A critical component to our understanding of statistics is being able to read and understand graphs. It is also critical that we be able to look at graphs and identify any flaws they might have. Be sure to answer ALL the questions.
+      </p>
+        <p>
+            <image source="../assets/S4-A/211.png" description="Bar graph showing Ivy League applications and admissions for the Class of 2020, broken down by Ivy League school."/>
+        </p>
+        <p>
+            Ivy League Admissions, Class of 2020
+        </p>
+      <p>
+          Use the graph above to answer the questions.
+      </p>
+    </intro>
+    <knowl>
+          <content><p>What type of graph is this?</p></content>
+          <outtro><p>bar graph</p></outtro>
+    </knowl>
+    <knowl>
+          <content><p>What percent of all applicants to {{var_name1}} are accepted? What information in the graph tells you this answer?</p></content>
+        <outtro><p><m>{{percentage_value1}}\%</m></p></outtro>
+    </knowl>
+    <knowl>
+          <content><p>What do the {{color}} bars on the graph mean in the context of the real world?</p></content>
+      <outtro><p>{{color_meaning}}</p></outtro>
+    </knowl>
+    <knowl>
+          <content><p>According to the graph, how many applicants {{action}} {{var_name2}} for the class of 2020? What information in the graph tells you this answer?</p></content>
+      <outtro><p><m>{{var_big2}}</m></p></outtro>
+      </knowl>
+</knowl>
