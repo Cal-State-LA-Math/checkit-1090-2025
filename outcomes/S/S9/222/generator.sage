@@ -28,8 +28,8 @@ class Generator(BaseGenerator):
         LB=float("{:.4f}".format(LB1))
         UB1=numerical_approx(phat+z*SE)
         UB=float("{:.4f}".format(UB1))
-        LB_p="{:.2%}".format(LB)
-        UB_p="{:.2%}".format(UB)
+        LB_p="{:.4}".format(LB)
+        UB_p="{:.4}".format(UB)
     
         claimtrue="does not support"
         if c/100<LB and direction=="at least":
@@ -51,8 +51,8 @@ class Generator(BaseGenerator):
             "SE":SE,
             "LB":LB,
             "UB":UB,
-            "LB_p":LB_p,
-            "UB_p":UB_p,
+            "LB_p":LB_p*100,
+            "UB_p":UB_p*100,
             "claimtrue":claimtrue,
             
         }
