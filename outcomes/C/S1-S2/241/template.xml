@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+        The New York City government wants to get an idea of what NYC voters think about crime in the city. In order to get the information, the NYC city council sent a survey to 4500 random homeowners living in NYC. </p>
+    <p>
+        Survey respondents were asked to decide to what degree they agreed with the following statements. The possible answer were "Strongly Agree", "Agree", "Neither Agree or Disagree", "Disagree", "Strongly Disagree".</p>
+    
+        <list>
+            <item><p>The extreme level of violent crime is the most urgent and critical issue facing NYC as city dwellers do not feel safe to leave their homes.</p></item>
+            <item><p>The crimes against homeowners by roving bands of arrogant teens are way out of control and should be suppressed with all the force available to the valiant NYPD.</p></item>
+        </list>
+    <p>
+        <m>{{sample}}</m> homeowners responded to the survey. <m>{{result_1}}\%</m> of respondents said that they {{agree_1}} that the extreme level of violent crime is the most urgent and critical issue facing NYC as city dwellers do not feel safe to leave their homes and <m>{{result_2}}\%</m> said that they {{agree_2}} that the crimes against homeowners by roving bands of arrogant teens are way out of control and should be suppressed with all the force available to the valiant NYPD.</p>
+        
+    </intro>
+    <knowl>
+        <content><p>What is the population that this survey is trying to get information about?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>The population is NYC voters</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sample?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>The sample is the {{sample}} residents that responded to the survey</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Does the above use a sampling frame? If so, what is the sampling frame?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>Yes, homeowners, details needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sampling method used in the above scenario?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>The sampling method was a simple random sample or SRS</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Looking at the sampling frame and the sampling method, would the sample be a valid sample or is it likely to be a biased sample? Explain why.</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>The sample frame would likely produce a biased sample, explanation needed.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Identify potential sources of bias other then the sampling method and sampling frame from the information given and explain why they lead to bias (Only use the information given, do not speculate about information not provided).</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>The wording of the statements; the low response rate. Explanation needed.</p></outtro></knowl>
+    <knowl>
+        <content><p>What is one of the sample statistics for this survey?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p><m>{{result_1}}\%</m> of respondents {{agree_1}} that the extreme level of violent crimes is the most urgent and critical issue facing NYC. Explanation needed.</p>
+            <p>or</p>
+            <p><m>{{result_2}}\%</m> of respondents {{agree_2}} that crimes against homeowners by roving band of arrogant teen are way out of control.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the population parameter that aligns with your sample statistic from number 7?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>What percentage of NYC voters {{agree_1}} that the extreme level of violent crimes is the most urgent and critical issue facing NYC.</p>
+            <p>or</p>
+            <p>What percentage of NYC voter {{agree_2}} that the crimes against homeowners by roving band of arrogant teens are way out of control.</p></outtro></knowl>
+    <knowl>
+        <content><p>Based on this survey, should the New York City government use the sample statistic to estimate the population parameter? Why or why not?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>No, too much bias, explanation needed.</p></outtro></knowl>
+</knowl>
