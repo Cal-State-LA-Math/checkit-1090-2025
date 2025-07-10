@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+        In their winning bid to host the 2028 Summer Olympics, Los Angeles leaders pledged that the city’s version of the Games would be the greenest ever — a goal they plan to achieve in large part by making access to the event “car-free.”  To do so, the LA Metro needs to extend rail lines, add many, many buses and clear countless traffic lanes to allow hundreds of thousands of people to navigate a metropolis that sprawls across 4,000 square miles.
+ </p>
+    <p>In preparation, the Los Angeles Department of Transportation sent a survey to randomly selected print newspaper subscribers who live in Los Angeles County. Survey respondents completed the survey online.</p>
+    <p>
+        Survey respondents were asked to decide to what degree they agreed with the following statements. The possible answers were "Strongly Agree", "Agree", "Neither Agree or Disagree", "Disagree", "Strongly Disagree".
+</p>
+    
+        <list>
+            <item><p>The Olympics will be the most incredible, joyful experience to bring the Los Angeles community together so the Department of Transportation should ban all individual cars from the downtown area beginning a full month before the Olympics begins. Businesses should be forced to allow their employees to work remotely to accommodate this ban.</p></item>
+            <item><p>The entire world will be looking at Los Angeles. If the city doesn’t clean up the disgusting, trash-filled streets by greatly reducing cars and forcing people to stay away from downtown unless they are attending the games, the world will think the city is a failure and a horrible place to be.</p></item>
+        </list>
+    <p>
+        <m>{{sample}}</m> responded to the survey. <m>{{result_1}}\%</m> of respondents said that they {{agree_1}} that the Olympics will be the most incredible, joyful experience to bring the Los Angeles community together so the Department of Transportation should ban all individual cars from the downtown area beginning a full month before the Olympics begins. Businesses should be forced to allow their employees to work remotely to accommodate this ban. and <m>{{result_2}}\%</m> said that they {{agree_2}} that The entire world will be looking at Los Angeles. If the city doesn’t clean up the disgusting, trash-filled streets by greatly reducing cars and forcing people to stay away from downtown unless they are attending the games, the world will think the city is a failure and a horrible place to be.</p>
+        
+    </intro>
+    <knowl>
+        <content><p>What is the population that this survey is trying to get information about?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>The population is Los Angeles County residents</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sample?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>The sample is the {{sample}} residents that responded to the survey</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Does the above use a sampling frame? If so, what is the sampling frame?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>Yes, the sample frame would be the printed newspaper subscribers, details needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sampling method used in the above scenario?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>The sampling method was a simple random sample or SRS</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Looking at the sampling frame and the sampling method, would the sample be a valid sample or is it likely to be a biased sample? Explain why.</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>The sampling method is valid but the sample frame would likely produce a biased sample, explanation needed.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Identify potential sources of bias other then the sampling method and sampling frame from the information given and explain why they lead to bias (Only use the information given, do not speculate about information not provided).</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>The wording of the statements. Explanation needed.</p></outtro></knowl>
+    <knowl>
+        <content><p>What is one of the sample statistics for this survey?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p><m>{{result_1}}\%</m> of respondents {{agree_1}} that The Olympics will be the most incredible, joyful experience to bring the Los Angeles community together so the Department of Transportation should ban all individual cars from the downtown area beginning a full month before the Olympics begins. Businesses should be forced to allow their employees to work remotely to accommodate this ban.
+</p>
+            <p>or</p>
+            <p><m>{{result_2}}\%</m> of respondents {{agree_2}} that the entire world will be looking at Los Angeles. If the city doesn’t clean up the disgusting, trash-filled streets by greatly reducing cars and forcing people to stay away from downtown unless they are attending the games, the world will think the city is a failure and a horrible place to be.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the population parameter that aligns with your sample statistic from number 7?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>What percentage of Los Angeles County residents {{agree_1}} that the Olympics will be the most incredible, joyful experience to bring the Los Angeles community together so the Department of Transportation should ban all individual cars from the downtown area beginning a full month before the Olympics begins. Businesses should be forced to allow their employees to work remotely to accommodate this ban.</p>
+            <p>or</p>
+            <p>What percentage of Los Angeles County residents {{agree_2}} that the entire world will be looking at Los Angeles. If the city doesn’t clean up the disgusting, trash-filled streets by greatly reducing cars and forcing people to stay away from downtown unless they are attending the games, the world will think the city is a failure and a horrible place to be.</p></outtro></knowl>
+    <knowl>
+        <content><p>Based on this survey, should the Los Angeles leaders use the sample statistic to estimate the population parameter? Why or why not?</p></content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p>No, too much bias, explanation needed.</p></outtro></knowl>
+</knowl>

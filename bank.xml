@@ -677,6 +677,14 @@ I can analyze information about statistical studies.
             </description>
         </outcome>
         <outcome>
+            <title>Statistical Studies</title>
+            <slug>S1-S2-242</slug>
+            <path>outcomes/C/S1-S2/242</path>
+            <description>
+I can analyze information about statistical studies.
+            </description>
+        </outcome>
+        <outcome>
             <title>Confidence Intervals and Hypothesis Testing</title>
             <slug>S9-S10-211</slug>
             <path>outcomes/C/S9-S10/211</path>
