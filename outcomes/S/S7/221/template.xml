@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+         In reaction to the pandemic, public schools have been required to adapt to a variety of learning settings. The three main types of settings are In Person, Online, and Hybrid. Below is a summary of the number of schools in each of four states that offered classes in each of the three settings for the week of January 9, 2022. Use this table to answer the questions, assuming that one of the schools has been randomly selected.</p>
+    <p>
+        Make sure to show your computations and to give reasons ( in words) about how you came up with your answers. Round your answer to four decimal places. Failure to show all computations or incorrect rounding may result in a score of "not mastered".</p>
+    <p>
+        <me>
+        \begin{array}{|c|c|c|c|c|c|}
+          \hline
+          \text{ {{var}} } &amp;\text{ {{choice1}} } &amp;\text{ {{choice2}} } &amp;\text{ {{choice3}} } &amp;\text{ {{choice4}} } &amp; \text{ {{choice5}} }\\
+          \hline
+          \text{ {{dep_var1}} } &amp; {{dep_var1_1}} &amp; {{dep_var1_2}} &amp; {{dep_var1_3}} &amp; {{dep_var1_4}} &amp; {{dep_var1_5}}\\
+          \hline
+          \text{ {{dep_var2}} } &amp; {{dep_var2_1}} &amp; {{dep_var2_2}} &amp; {{dep_var2_3}} &amp; {{dep_var2_4}} &amp;  {{dep_var2_5}} \\
+          \hline
+          \text{ {{dep_var3}} } &amp; {{dep_var3_1}} &amp; {{dep_var3_2}} &amp; {{dep_var3_3}} &amp; {{dep_var3_4}} &amp; {{dep_var3_5}}\\
+          \hline
+          \text{ {{total_title}} } &amp; {{total_1}} &amp; {{total_2}} &amp; {{total_3}} &amp; {{total_4}} &amp;\text { C } \\
+            \hline
+            \end{array}
+        </me>
+        </p>
+    </intro>
+    <knowl>
+        <content><p>Calculate the totals for the cells labeled A, B, and C in the table.</p></content>
+        <outtro><p>A = {{answer_a}} | B = {{answer_b}} | C = {{answer_c}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the probability that a randomly selected school was holding {{class1}} classes?</p></content>
+        <outtro><p>{{answer2_n}} / {{answer_c}} = {{answer2}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the probability that a randomly school is in {{state1}}?</p></content>
+        <outtro><p>{{answer3_1n}}/ {{answer_c}} = {{answer3}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the probability that a randomly selected school is not in {{state2}}</p></content>
+        <outtro><p>1 - ( {{answer4_n}} / {{answer_c}} ) = {{answer4}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Which of the two below is more likely? Show all calculations that you use and provide an explanation as to why your final answer is the correct one.</p>
+            <p>* That a randomly selected school in {{state3}} is offering {{class2}} classes.</p>
+            <p>* That a randomly selected school offering {{class3}} classes is in {{state4}}.</p></content>
+        <outtro><p>{{answer5_1n}} / {{answer5_1d}} = {{answer5_1}}  ||  {{answer5_2n}} / {{answer5_2d}} = {{answer5_2}}</p></outtro>
+    </knowl>
+</knowl>

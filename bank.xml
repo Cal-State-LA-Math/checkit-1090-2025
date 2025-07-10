@@ -420,14 +420,70 @@ I can use correlation and regression to describe relationships between two varia
 I can use correlation and regression to describe relationships between two variables in a set of data.
             </description>
         </outcome>
-       <!--> <outcome>
+        <outcome>
             <title>Probability</title>
             <slug>S7-211P</slug>
             <path>outcomes/S/S7/211P</path>
             <description>
 I can use basic probability rules to analyze a given situation, set of data, or provided probabilities.
             </description>
-        </outcome> -->
+        </outcome>
+        <outcome>
+            <title>Probability</title>
+            <slug>S7-212P</slug>
+            <path>outcomes/S/S7/212P</path>
+            <description>
+I can use basic probability rules to analyze a given situation, set of data, or provided probabilities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Probability</title>
+            <slug>S7-213</slug>
+            <path>outcomes/S/S7/213</path>
+            <description>
+I can use basic probability rules to analyze a given situation, set of data, or provided probabilities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Probability</title>
+            <slug>S7-214</slug>
+            <path>outcomes/S/S7/214</path>
+            <description>
+I can use basic probability rules to analyze a given situation, set of data, or provided probabilities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Probability</title>
+            <slug>S7-221</slug>
+            <path>outcomes/S/S7/221</path>
+            <description>
+I can use basic probability rules to analyze a given situation, set of data, or provided probabilities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Probability</title>
+            <slug>S7-222</slug>
+            <path>outcomes/S/S7/222</path>
+            <description>
+I can use basic probability rules to analyze a given situation, set of data, or provided probabilities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Probability</title>
+            <slug>S7-223</slug>
+            <path>outcomes/S/S7/223</path>
+            <description>
+I can use basic probability rules to analyze a given situation, set of data, or provided probabilities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Probability</title>
+            <slug>S7-231</slug>
+            <path>outcomes/S/S7/231</path>
+            <description>
+I can use basic probability rules to analyze a given situation, set of data, or provided probabilities.
+            </description>
+        </outcome>
         <outcome>
             <title>The Normal Distribution</title>
             <slug>S8-211P</slug>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+        Let's look at top national fast food restaurant chains. The name of the chain and the type of resaurants it has are listed in the table below.</p>
+    <p>
+        Make sure to show your computations and to give reasons ( in words) about how you came up with your answers.  Round your answer to four decimal places. Failure to show all computations or incorrect rounding may results in a score of "not mastered".</p>
+    <p>
+        <me>
+        \begin{array}{|c|c|c|c|c|c|}
+          \hline
+          \text{ {{var}} } &amp;\text{ {{choice1}} } &amp;\text{ {{choice2}} } &amp;\text{ {{choice3}} } &amp;\text{ {{choice4}} } &amp; \text{ {{choice5}} }\\
+          \hline
+          \text{ {{dep_var1}} } &amp; {{dep_var1_1}} &amp; {{dep_var1_2}} &amp; {{dep_var1_3}} &amp; {{dep_var1_4}} &amp; {{dep_var1_5}}\\
+          \hline
+          \text{ {{dep_var2}} } &amp; {{dep_var2_1}} &amp; {{dep_var2_2}} &amp; {{dep_var2_3}} &amp; {{dep_var2_4}} &amp;  {{dep_var2_5}} \\
+          \hline
+          \text{ {{dep_var3}} } &amp; {{dep_var3_1}} &amp; {{dep_var3_2}} &amp; {{dep_var3_3}} &amp; {{dep_var3_4}} &amp; {{dep_var3_5}}\\
+          \hline
+          \text{ {{total_title}} } &amp; {{total_1}} &amp; {{total_2}} &amp; {{total_3}} &amp; {{total_4}} &amp;\text { C } \\
+            \hline
+            \end{array}
+        </me>
+        </p>
+    </intro>
+    <knowl>
+        <content><p>Calculate the totals for the cells labeled A, B, and C in the table.</p></content>
+        <outtro><p>A = {{answer_a}} | B = {{answer_b}} | C = {{answer_c}}</p></outtro>
+    </knowl>
+    <knowl><content><p>What is the probability that a randomly selected location was a {{type1}}?</p></content>
+           <outtro><p>{{answer2_n}} / {{answer_c}} = {{answer2}}</p></outtro>
+    </knowl>
+    <knowl><content><p>What is the probability that a randomly selected location was a {{place1}} or a {{place2}}?</p></content>
+           <outtro><p>( {{answer3_1n}} + {{answer3_2n}} ) / {{answer_c}} = {{answer3}}</p></outtro>
+    </knowl>
+    <knowl><content><p>Of the {{place3}} locations, what is the probability that a randomly selected location was {{type2}} location?</p></content>
+           <outtro><p>{{answer4_n}} / {{answer4_d}} = {{answer4}}</p></outtro>
+    </knowl>
+    <knowl><content><p>What is the probability that a randomly selected {{type3}} location was NOT a {{place4}}?</p></content>
+           <outtro><p>1 - ( {{answer5_n}} / {{answer5_d}} ) = {{answer5}}</p></outtro>
+    </knowl>
+</knowl>

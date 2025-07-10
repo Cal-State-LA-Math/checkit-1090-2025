@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+         Choosing a major in college is one of the critical decisions that college students need to make. The four most popular college majors are Business, Nursing, Psychology, and Biology. Below is a summary of the number of students declaring each of those four majors in each of three states that offered those majors in 2022.
+</p>
+    <p>
+        Make sure to show your computations and give your answers in full sentences with context from the scenario. Round your answer to four decimal places. Failure to show all computations or incorrect rounding may result in a score of "not mastered".</p>
+    <p>
+        <me>
+        \begin{array}{|c|c|c|c|c|c|}
+          \hline
+          \text{ {{var}} } &amp;\text{ {{choice1}} } &amp;\text{ {{choice2}} } &amp;\text{ {{choice3}} } &amp;\text{ {{choice4}} } &amp; \text{ {{choice5}} }\\
+          \hline
+          \text{ {{dep_var1}} } &amp; {{dep_var1_1}} &amp; {{dep_var1_2}} &amp; {{dep_var1_3}} &amp; {{dep_var1_4}} &amp; {{dep_var1_5}}\\
+          \hline
+          \text{ {{dep_var2}} } &amp; {{dep_var2_1}} &amp; {{dep_var2_2}} &amp; {{dep_var2_3}} &amp; {{dep_var2_4}} &amp;  {{dep_var2_5}} \\
+          \hline
+          \text{ {{dep_var3}} } &amp; {{dep_var3_1}} &amp; {{dep_var3_2}} &amp; {{dep_var3_3}} &amp; {{dep_var3_4}} &amp; {{dep_var3_5}}\\
+          \hline
+          \text{ {{total_title}} } &amp; {{total_1}} &amp; {{total_2}} &amp; {{total_3}} &amp; {{total_4}} &amp;\text { C } \\
+            \hline
+            \end{array}
+        </me>
+        </p>
+    </intro>
+    <knowl>
+        <content><p>Calculate the totals for the cells labeled A, B, and C in the table.</p></content>
+        <outtro><p>A = {{answer_a}} | B = {{answer_b}} | C = {{answer_c}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the probability that a randomly selected student is going to a college in the state of {{state1}}?</p></content>
+        <outtro><p>{{answer2_n}} / {{answer_c}} = {{answer2}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the probability that a randomly selected student is a {{major1}} or {{major5}} major?</p></content>
+        <outtro><p>( {{answer3_1n}} + {{answer3_2n}} )/ {{answer_c}} = {{answer3}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the probability that a randomly selected student is a {{major2}} major given that they attend a college in {{state2}}?</p></content>
+        <outtro><p>{{answer4_1n}} / {{answer4_d}}  = {{answer4}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Which of the two below is more likely? Show all calculations that your use and provide an explanantion as to why your final answer is the correct one.</p>
+            <p>* That a randomly selected student goes to a college in {{state3}} given that they are a {{major3}} major.</p> 
+            <p>* That a randomly selected student is a {{major4}} major.</p></content>
+        <outtro><p>P( {{state3}} | {{major3}} ) = {{answer5_1n}} / {{answer5_1d}} = {{answer5_1}}  ||  P( {{major4}} ) = {{answer5_2n}} / {{answer_c}} = {{answer5_2}}</p></outtro>
+    </knowl>
+</knowl>
