@@ -317,6 +317,14 @@ I can interpret summaries of quantitative data.
             </description>
         </outcome>
         <outcome>
+            <title>Summaries of Quantitative</title>
+            <slug>S5-213</slug>
+            <path>outcomes/S/S5/213</path>
+            <description>
+I can interpret summaries of quantitative data.
+            </description>
+        </outcome>
+        <outcome>
             <title>Correlation and Regression</title>
             <slug>S6-211P</slug>
             <path>outcomes/S/S6/211P</path>
