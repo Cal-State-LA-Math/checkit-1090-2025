@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <p>Besides graphs, another way we summarize data and compare sets of data is though numerical summaries. Below you will find two tables of numerical summaries of different datasets. Use these tables to answer the questions below. Answer all questions completely and include contextual information in your answers. Show or explain all of your work and include screen shots of any applets you use. </p>
+        <p>Our World in Data is a non-profit that has as its mission to make the knowledge on the big problems accessible and understandable. One of the areas that they collect and share data is the child mortality rate of counties around the world. Child mortality rate is the average amount of children that die before the age of 5 per 1,000 live births. So if a country had a child mortality rate of 2, that would mean that on average there were two children that die before their fifth birthday for every 1,000 live births in that country. The information below are the child mortality rates for countries around the world in the year 2020 for which data is available, split by male vs female children.</p>
+        <p>Male Child Mortality Rates by Country</p>
+        <p><me>\begin{array}{|c|c|c|c|c|c|c|c|}
+            \hline
+            \text{ N } &amp;\text{ Min } &amp;\text{ Q1 } &amp;\text{ Median } &amp;\text{ Q3 } &amp;\text{ Max } &amp;\text{ Mean } &amp;\text{ St Dev } \\
+            \hline
+            \ {{n_1}} &amp; {{min_1}} &amp; {{q1_1}} &amp; {{med_1}} &amp; {{q3_1}} &amp; {{max_1}} &amp; {{mean_1}} &amp; {{stdev_1}} \\
+            \hline
+            \end{array}</me>
+        </p>
+        <p>Female Child Mortality Rates by Country</p>
+        <p><me>\begin{array}{|c|c|c|c|c|c|c|c|}
+            \hline
+            \text{ N } &amp;\text{ Min } &amp;\text{ Q1 } &amp;\text{ Median } &amp;\text{ Q3 } &amp;\text{ Max } &amp;\text{ Mean } &amp;\text{ St Dev } \\
+            \hline
+            \ {{n_2}} &amp; {{min_2}} &amp; {{q1_2}} &amp; {{med_2}} &amp; {{q3_2}} &amp; {{max_2}} &amp; {{mean_2}} &amp; {{stdev_2}} \\
+            \hline
+            \end{array}</me>
+        </p>
+    </intro>
+    <knowl>
+        <content><p>What was the {{sex_1}} child mortality rate for the counties that had the highest <m>{{percent_1}}\%</m> {{sex_1}} child mortality rate? Explain your answer.</p></content>
+        <outtro><p>{{answer_1}} or more, explanation needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>The dataset for {{sex_2}} child mortality rates has a quartile {{quar_2}} of {{change_2}}. Explain what this means in terms of the countries in the dataset and their {{sex_2}} child mortality rates.</p></content>
+        <outtro><p>In 2020, <m>{{percent_2}}\%</m> of the countries in the dataset had a {{sex_2}} child mortality of {{change_2}} or less.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What would happen to the {{stand_mean}} of the dataset for female child mortality rates if an additional point was added at or {{dir_3}}? Explain your answer.</p></content>
+        <outtro><p>{{answer_3}}, explanation needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Create boxplots for each of the numerical summaries given above. You may use the applet above or you may draw the boxplots by hand. Insert screenshots of pictures of both boxplots in your answer. Be sure to fully label your boxplots and choose the settings for your x-axis so that the x-axis is clearly readable.</p></content>
+    </knowl>
+    <knowl>
+        <content><p>Describe the shape of the distribution of the {{sex_5}} child mortality rates. Use evidence from your boxplots from #4 to justify your answer.</p></content>
+        <outtro><p>{{answer_5}}, justification needed</p></outtro>
+    </knowl>
+    <!--<knowl>
+        <content><p>Which of these datasets appears to be more skewed? Use evidence from your boxplots above to justify your answer.</p></content>
+        <outtro><p>The male child mortality rate dataset is more skewed</p></outtro>
+    </knowl> -->
+</knowl>
