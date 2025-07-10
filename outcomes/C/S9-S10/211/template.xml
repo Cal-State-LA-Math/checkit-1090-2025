@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+     <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+        The county of Los Angeles wants to get an idea of how residents feel about the quality of the transportation options in the county. In order to get the information, they  use records of vehicles registered in the county to randomly select 1,000 residents of the county to send them a questionnaire written in English, asking for them to reply to a variety of questions about the transportation option available in the county.</p>
+    <p>
+        Survey respondents were asked to decide to what degree they agreed with the following statements. The possible answers were "Strongly Agree", "Agree", "Neither Agree or Disagree", "Disagree", "Strongly Disagree".</p>
+    
+        <list>
+            <item><p>The county has done a wonderful job providing excellent transportation options to county residents.</p></item>
+            <item><p>There is sufficient parking in the county.</p></item>
+        </list>
+    <p>
+        <m>{{sample}}</m> residents responded to the survey. <m>{{result_1}}</m><m>\%</m> of respondents said that they {{agree_1}} that there are sufficient transportation options available and <m>{{result_2}}</m><m>\%</m> said that they {{agree_2}} that there is sufficient parking.</p>
+        
+    </intro>
+    <knowl>
+        <content><p>Does the above use a sampling frame? If so, what is the sampling frame?</p></content>
+        <outtro><p>A sampling frame is the source list from which a sample is drawn. In this case, yes, there is a sampling frame being used. The sampling frame is owners of vehicles registered in the county. A complete answer to this question should clearly answer the question asked (Does the above use a sampling frame) AND be specific about what that frame is.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sampling method used in the above scenario? Explain.</p></content>
+        <outtro><p>The sampling method was a simple random sample or SRS since all owners of vehicles registered in the county have an equal chance of being selected. The problem states that the County Department of Transportation uses the vehicle registration records to "randomly select 1000 residents of the county". To answer this question, you need to know the six different sampling methods we have talked about in class (simple random, stratified, voluntary response, convenience, and cluster) and how to distinguish between them. The complete answer includes not only the method but what evidence from the problem demonstrates that this is the sampling method. </p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Looking at the sampling frame and the sampling method, would the sample be a valid sample or is it likely to be a biased sample? Explain why.</p></content>
+        <outtro><p>The sample method is valid but the sampling frame is like to produce a biased sample. Since the sampling frame doesn't match the population, and since the sampling frame relates to transportation which is also what is being investigated in the survey, this is likely to introduce bias. The sampling frame leaves out people who don't have a car, and are therefore the most reliant on transportation options provided by the county. People reliant on public transportation could quite easily feel very different about the quality of the transportation options provided to county residents. This undercoverage of people reliant on public transportation therefore results in a sample that is not representative of the population, hence a biased sample.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Identify potential sources of bias other then the sampling method and sampling frame from the information given and explain why they lead to bias (Only use the information given, do not speculate about information not provided).</p></content>
+        <outtro><p>The sample was given only in English. If you have a large proportion of residents in the county that don't speak English they are likely to be left out of the sample and therefore not covered in the responses to the survey. HOWEVER, if the proportion of residents in the county who don't speak English is small then this is unlikely to be a source of bias. So rather than automatically saying that a restriction is language is a likely source of bias, you need to analyze the size of the group that would be excluded. Other than the language, the wording of the first statement is very problematic. Using words like "wonderful" and "excellent" can bias responses because people like to agree with others, and those words are ones that people would often like to agree with. Alternatively, even if someone feels that the transportation options are ok, one person's "wonderful" might not match another person's "wonderful". Other potential sources of bias for this type of non-sampling bias could include measurement or processing errors, although there is no evidence of these in this particular problem. As you answer problems like these, you need to look at what you KNOW (for example the wording of the statements), not what you DON'T know (like anything about the measurement or processing of this survey). </p></outtro></knowl>
+    <knowl>
+        <content><p>If the county did the survey again, would you expect that exactly <m>{{result_2}}</m><m>\%</m> of respondents would {{agree_2}} that there is sufficient parking in the county? Why or why not?</p></content>
+        <outtro><p>No, the exact same result would not be expected due to the variability that arises from taking different samples from a population. A complete answer to this question should reference the statistical background that demonstrates an understanding of the variability that arises due to sampling. Remember that sample statistics often vary from sample to sample and are usually not exactly equal to the population parameter. A sample statistic can accidentally exactly equal the population parameter, but often it is slightly different. In the case where you have a biased sample, the variation can be extreme. A complete answer to this question not only mentions sampling variability but draws from the specific scenario. In this case, you might say "Since a new sample would like contain different vehicle owners and might also have a different number of people responding, the proportion who would respond this way would likely be different"</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Based on the results of this survey, can the county of Los Angeles be sure that they understand how residents feel about the quality of public transportation options that are available to them in the county?</p></content>
+        <outtro><p>No, this survey contains too much bias. A complete answer here would reference back to the types of bias in the problem and would include specifics about how the bias prevents the county from being confident in their understanding. For example, since they only sampled from among car owners, car owners might feel differently about how much parking there is compared to people who rely primarily on public transportation.</p></outtro></knowl>
+</knowl>

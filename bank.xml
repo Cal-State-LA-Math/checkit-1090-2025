@@ -668,5 +668,13 @@ I can perform hypothesis tests for proportions or means and interpret the final 
 I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
             </description>
         </outcome>
+        <outcome>
+            <title>Confidence Intervals and Hypothesis Testing</title>
+            <slug>S9-S10-211</slug>
+            <path>outcomes/C/S9-S10/211</path>
+            <description>
+I can compute confidence intervals and hypothesis tests, interpret their results in the context of the problem, and compare the results of the two tests.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
