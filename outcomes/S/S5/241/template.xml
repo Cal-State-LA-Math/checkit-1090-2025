@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+      <intro>
+        <p>Besides graphs, another way we summarize data and compare sets of data is though numerical summaries. Below you will find two tables of numerical summaries of different datasets. Use these tables to answer the questions below. Answer all questions completely and include contextual information in your answers. Show or explain all of your work and include screen shots of any applets you use. </p>
+        <p>A reporter for a newspaper is doing an article about the costs of attending college. She collects the total annual cost for an in-state student (including tuition, fees, housing, and meals) from 4-year institutions in California and Washington. The two data sets are summarized below:</p>
+        <p>Average annual cost of college in California</p>
+        <p><me>\begin{array}{|c|c|c|c|c|c|c|c|}
+            \hline
+            \text{ N } &amp;\text{ Min } &amp;\text{ Q1 } &amp;\text{ Median } &amp;\text{ Q3 } &amp;\text{ Max } &amp;\text{ Mean } &amp;\text{ St Dev } \\
+            \hline
+            \ {{n_1}} &amp; {{min_1}} &amp; {{q1_1}} &amp; {{med_1}} &amp; {{q3_1}} &amp; {{max_1}} &amp; {{mean_1}} &amp; {{stdev_1}} \\
+            \hline
+            \end{array}</me>
+        </p>
+        <p>Average annual cost of college in Washington</p>
+        <p><me>\begin{array}{|c|c|c|c|c|c|c|c|}
+            \hline
+            \text{ N } &amp;\text{ Min } &amp;\text{ Q1 } &amp;\text{ Median } &amp;\text{ Q3 } &amp;\text{ Max } &amp;\text{ Mean } &amp;\text{ St Dev } \\
+            \hline
+            \ {{n_2}} &amp; {{min_2}} &amp; {{q1_2}} &amp; {{med_2}} &amp; {{q3_2}} &amp; {{max_2}} &amp; {{mean_2}} &amp; {{stdev_2}} \\
+            \hline
+            \end{array}</me>
+        </p>
+    </intro>
+    <knowl>
+        <content><p>How much is the cost of college at {{sex_1}} 25 percent {{min_max}} expensive 4-year colleges  Explain your answer.</p></content>
+        <outtro><p><m>\${{answer_1}}</m> or {{dir_1}}, explanation needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>The dataset for {{sex_2}}'s average annual 4-year college cost has a quartile {{quar_2}} of {{change_2}}. Explain what this means in terms of the cost of 4-year colleges in the dataset for {{sex_2}}.</p></content>
+        <outtro><p><m>{{percent_2}}\%</m> of the 4-year colleges in the dataset for {{sex_2}} had an average annual cost of {{change_2}} dollars or less.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What would happen to the {{stand_mean}} of the dataset for the average annual cost to attend a college in California if an additional point was added at or {{dir_3}}? Explain your answer.</p></content>
+        <outtro><p>{{answer_3}}, explanation needed</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Create boxplots for each of the numerical summaries given above. You may use the applet above or you may draw the boxplots by hand. Insert screenshots of pictures of both boxplots in your answer. Be sure to fully label your boxplots and choose the settings for your x-axis so that the x-axis is clearly readable.</p></content>
+    </knowl>
+    <knowl>
+        <content><p>Describe the shape of the distribution of the average annual cost to attend a college in {{sex_5}}. Use evidence from your boxplots from #4 to justify your answer.</p></content>
+        <outtro><p>{{answer_5}}, justification needed</p></outtro>
+    </knowl>
+    <!--<knowl>
+        <content><p>Which of these datasets appears to be more skewed? Use evidence from your boxplots above to justify your answer.</p></content>
+        <outtro><p>The male child mortality rate dataset is more skewed</p></outtro>
+    </knowl> -->
+</knowl>
