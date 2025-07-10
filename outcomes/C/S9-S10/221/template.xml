@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>The Scenario</em></p>
+          <p>Financial analysts work very hard to identify critical pieces of data that indicate whether or not a stock is priced properly. One of those pieces of data for a retail company such as Amazon or Walmart is the “Return Rate”, the percent of their purchases that are returned by buyers. Knowing the accurate return rate can impact the stock price of a company, and therefore the profit by an investor.</p>
+        <p>A large retailer of joke gifts, “Robert’s Dad Joke Gifts”, wants to know what the return rate is for third-party sellers on Amazon, as they are considering selling their products on Amazon. Amazon claims that the return rate for third party sellers on Amazon is <m>16\%</m>. To test this claim, Amazon says that they recently pulled a random sample of <m>6000</m> purchases of third-party products made on their site in the last 90 days. Of the sample, <m>{{x}}</m> of the products purchased had been returned.</p>
+    </intro>
+    <knowl>
+        <intro><p><em>Part A</em></p>
+        <p> Compute the confidence interval for the sample at a <m>{{CL}}\%</m> confidence level and provide all your computations. You may use an app to do the computations. Provide a screenshot of any app you use and all computation you do. Use your confidence interval to answer the follow:</p>
+        </intro>
+      <knowl>
+          <content><p>What is <m>\hat{p}</m>? Please give your answer exact to four decimal places.</p></content>
+          <outtro><p><m>\hat{p} = {{phat}}</m></p></outtro>
+      </knowl>
+      <knowl>
+        <content><p>What is the standard error for this interval? Please give your answer exact to four decimal places.</p></content>
+        <outtro><p><m>SE={{SE1}}</m></p></outtro>
+      </knowl>
+      <knowl>
+        <content><p>What is the confidence interval? Please give your answer in proper interval format exact to four decimal places.</p></content>
+        <outtro><p><m>[{{LB}}, {{UB}}]</m></p></outtro>
+      </knowl>
+    <knowl>
+        <content><p>Put your interval into the context of the scenario.</p></content>
+        <outtro><p>We can say with <m>{{CL}}\%</m> confidence, that the return rate for third party sellers on Amazon is between <m>{{LB_p}}\%</m> and <m>{{UB_p}}\%</m>.</p></outtro>
+    </knowl>
+    </knowl>
+<knowl>
+    <intro>
+         <p><em>Part B</em></p>
+           <p> The CFO of Robert’s Dad Joke Gifts claims that Amazon’s return rate for third party sellers is NOT <m>16\%</m>. Do a hypothesis test using the same sample and confidence level from Part A. You may use an app to do the test. If you do so, you must insert a screenshot of your work and also specifically identify the following:</p>
+    </intro>
+      <knowl>
+            <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
+            <outtro><p><m>H_0: p= 0.16</m>     <m>H_A: p\{{ineqsymb}} 0.16</m></p></outtro></knowl>
+      <knowl>
+            <content><p>What is the p-value of your test?</p></content>
+            <outtro><p>p-value = {{pvalue}}</p></outtro>
+      </knowl>
+      <knowl>
+            <content><p>What is the conclusion of your hypothesis test? Include statistical justification for your conclusion.</p></content>
+            <outtro><p>{{conclusion}} the <m>H_0</m></p></outtro>
+      </knowl>
+      <knowl>
+            <content><p>Does the hypothesis test support the claim of the CFO of Robert's Dad Joke Gifts? Why or why not?</p></content>
+            <outtro><p>{{context}}</p></outtro>
+      </knowl>
+</knowl>
+<knowl>
+    <intro><p><em>Part C</em></p></intro>
+    <knowl> 
+        <content><p>Compare the results from the confidence interval and the hypothesis test</p>
+            <p>Are your results from your confidence interval and your hypothesis test consistent? In other words, do both types of inference tests support the same conclusion? Explain why or why not.</p></content>
+        <outtro><p>Yes, they are consistent</p></outtro>
+    </knowl>
+</knowl>
+</knowl>
