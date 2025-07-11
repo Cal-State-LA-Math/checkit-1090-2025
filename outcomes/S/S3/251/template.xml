@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>Scenario:</em></p>
+        <p>In Summer 2025, a research lab studied whether noise-canceling headphones helped improve focus for remote interns in the tech industry. The study included {{n}} paid interns, aged 20 to 30, working remotely for the same national software company. The interns were randomly placed into one of two groups. Both groups took part in onboarding training on time management. In addition to the training, one group received high-quality noise-canceling headphones and was instructed to wear them during all working hours for four weeks. Productivity was measured using automated work logs and weekly surveys. The analysts {{blinding}} which interns had the headphones. The group that were given and used the headphone reported fewer distractions and showed more completed tasks on average. The differences in the two groups {{results}} statistically significant. </p>
+    </intro>
+    <knowl>
+        <content><p>Describe the treatment group.</p></content>
+        <outtro><p>The of interns that recieced both the onboarding training and the noice-canceling headphones.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the explanatory variable?</p></content>
+        <outtro><p>The noice-canceling headphones</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What was the response variable?</p></content>
+        <outtro><p>The interns productivity measured by the automatic work logs</p>
+                <p>or</p>
+                <p>The amount of distractions measured by the weekly surveys</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Did the researchers use any blinding? If so, what was blinded? Explain your answers.</p></content>
+        <outtro><p>{{answer_4}}. Explanation needed.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Are the results generalizable to all adults working remotely in the tech industry? Explain your answer.</p></content>
+        <outtro><p>No. Explanation needed, student explanations will vary.</p></outtro>
+    </knowl>
+</knowl>
