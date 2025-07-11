@@ -3,28 +3,24 @@
     <intro>
     <p><em>Scenario:</em></p>
     <p>
-        In January 2025, the Pew Research Center surveyed college students across the United States to understand how they are using Artificial Intelligence (AI) tools in their studies. The survey targeted undergraduate students aged 18 to 24. Out of the 2650 invited students, <m>{{sample}}</m> responded. Among the respondents, <m>{{result}}\%</m> reported that they {{outcome}}.</p>
+        In January 2025, the Pew Research Center surveyed college students across the United States to understand how they are using Artificial Intelligence (AI) tools in their studies. The survey targeted undergraduate students aged 18 to 24. Out of the 2650 invited students, <m>{{sample}}</m> responded. Questions asked included the question "{{question}}" Among the respondents, <m>{{result}}\%</m> {{outcome}}.</p>
     </intro>
     <knowl>
         <content><p>What is the population that this study is trying to get information about?</p></content>
-        <outtro><p>American college undergraduate students</p></outtro>
+        <outtro><p>American college students</p></outtro>
     </knowl>
     <knowl>
         <content><p>What is the sample?</p></content>
         <outtro><p>The <m>{{sample}}</m> college students that responded to the survey.</p></outtro></knowl>
     <knowl>
-        <content><p>What is the variable used for this study?</p></content>
-        <outtro><p>How do college students use AI tools in their studies.</p></outtro>
-    </knowl>
-    <knowl>
-        <content><p>What type of variable is the variable in question 3? Explain your answer.</p></content>
+        <content><p>What type of variable was measured by the survey question listed in the scenario above? Explain your answer.</p></content>
         <outtro><p>Categorical.</p></outtro>
     </knowl>
     <knowl>
         <content><p>What is the sample statistic for this study?</p></content>
-        <outtro><p>The sample statistic is <m>{{result}}</m>% of those who responded reported that they {{outcome}}.</p></outtro>
+        <outtro><p>The sample statistic is <m>{{result}}</m>% of those who responded {{outcome}}.</p></outtro>
     </knowl>
     <knowl>
         <content><p>What is the parameter of interest for this study? (the population parameter they are trying to gather information about)</p></content>
-        <outtro><p>The parameter of interest is what percentage American college students that {{outcome}}.</p></outtro></knowl>
+        <outtro><p>The parameter of interest is what percentage American college students {{outcome}}.</p></outtro></knowl>
 </knowl>
