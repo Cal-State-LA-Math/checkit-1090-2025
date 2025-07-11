@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p><em>Scenario:</em></p>
+    <p>
+        In May, a non-profit climate advocay group released results from its Youth Climate Action Poll, which focused on the views of young voters aged 18 to 30 in the United States. The survey asked about attitudes towards renewable energy, carbon emissions policies, and climate-related legislation. One of the questions on the survey was "{{question}}" Out of the 3100 people invited to take the survey, <m>{{sample}}</m> completed it. According to the results, <m>{{result}}\%</m> of respondents {{outcome}}.</p>
+    </intro>
+    <knowl>
+        <content><p>What is the population that this study is trying to get information about?</p></content>
+        <outtro><p>Young American voter</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sample?</p></content>
+        <outtro><p>The <m>{{sample}}</m> young voter that responded to the poll.</p></outtro></knowl>
+    <knowl>
+        <content><p>What type of variable was measured by the survey question listed in the scenario above? Explain your answer.</p></content>
+        <outtro><p>Categorical.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the sample statistic for this study?</p></content>
+        <outtro><p>The sample statistic is <m>{{result}}\%</m> of those who responded {{outcome}}.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the parameter of interest for this study? (the population parameter they are trying to gather information about)</p></content>
+        <outtro><p>The parameter of interest is what percentage of young American voters {{outcome}}.</p></outtro></knowl>
+</knowl>

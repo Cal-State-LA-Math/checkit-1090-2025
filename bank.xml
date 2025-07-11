@@ -86,6 +86,14 @@ I can analyze information about statistical studies.
         </outcome>
         <outcome>
             <title>Statistical Studies</title>
+            <slug>S1-252</slug>
+            <path>outcomes/S/S1/252</path>
+            <description>
+I can analyze information about statistical studies.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Statistical Studies</title>
             <slug>S1-253</slug>
             <path>outcomes/S/S1/253</path>
             <description>

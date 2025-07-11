@@ -18,7 +18,7 @@
     </knowl>
     <knowl>
         <content><p>What is the sample statistic for this study?</p></content>
-        <outtro><p>The sample statistic is <m>{{result}}</m>% of those who responded {{outcome}}.</p></outtro>
+        <outtro><p>The sample statistic is <m>{{result}}\%</m> of those who responded {{outcome}}.</p></outtro>
     </knowl>
     <knowl>
         <content><p>What is the parameter of interest for this study? (the population parameter they are trying to gather information about)</p></content>
