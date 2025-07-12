@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>Scenario:</em></p>
+        <p>A wellness company conducted a study in Spring 2025 to see if a daily probiotic drink could improve mood and reduce stress in remote tech workers. They recruited 300 adults working full-time from home in the tech sector, all between the ages of {{age}}. Participants were randomly assigned to two groups. Everyone received a bottle of flavored drink labeled as containing active probiotics. In reality, one group received the probiotic formula, while the other received an identical-looking and tasting placebo with no probiotics. The participants did not know who received which version. The data analysts {{blinding}} which group got the probiotic drink and which one got the placebo. After 6 weeks, the participants who recieved the real probiotic formula showed improvement in mood and lower stress levels on weekly surveys compared to the group the recieved the placebo drink. The differences between the two groups {{results}} significant.</p>
+    </intro>
+    <knowl>
+        <content><p>Describe the control group.</p></content>
+        <outtro><p>The group of subjects that got the placebo.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the explanatory variable?</p></content>
+        <outtro><p>The daily probiotic drink</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What was the response variable?</p></content>
+        <outtro><p>The subject's mood and stress levels.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Did the researchers use any blinding? If so, what was blinded? Explain your answers.</p></content>
+        <outtro><p>{{answer_4}}. Explanation needed.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Are the results generalizable to all adults working remotely in the tech industry? Explain your answer.</p></content>
+        <outtro><p>No. Explanation needed, student explanations will vary.</p></outtro>
+    </knowl>
+</knowl>
