@@ -1,16 +1,16 @@
 class Generator(BaseGenerator):
     def data(self):
         sample=randint(2000, 2550)
-        result_1=randint(58, 71)
+        result_1=randint(35, 48)
         agree_1=choice(['"Agree" or "Strongly Agree"','"Disagree" or "Strongly Disagree"'])
         if agree_1=='"Disagree" or "Strongly Disagree"':
-            result_1=randint(11, 19)
-        result_2=randint(45, 61)
+            result_1=randint(45, 58)
+        result_2=randint(75, 85)
         agree_2=choice(['"Agree" or "Strongly Agree"','"Disagree" or "Strongly Disagree"'])
         if agree_2=='"Disagree" or "Strongly Disagree"':
-            result_2=randint(21, 27)
-        language=choice(["Spanish", "Chinese", "Russian"])
-        state_1=choice(["Wisconsin", "Michigan", "Pennslyvania"])
+            result_2=randint(15, 20)
+        language=choice(["Spanish", "French", "German"])
+        state_1=choice(["Wisconsin", "Michigan", "Pennsylvania"])
         state_2=choice(["Oklahoma", "Idaho", "Nebraska"])
 
         return {
