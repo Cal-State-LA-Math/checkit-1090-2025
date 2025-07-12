@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>Scenario:</em></p>
+        <p>A study in early 2025 explored whether a new caffeine nasal spray could improve focus and reaction time in competitive video gamers. Researchers recruited 220 adult gamers, aged 18 to 30, from online esports communities. Participants were randomly assigned to two groups. All participants were told they would receive a performance-enhancing focus spray. One group received a caffeine-based nasal spray, while the other group received a placebo spray with no active ingredients. Neither group knew which version they had received. All participants completed the same reaction time tests and focus assessments before and after two weeks of use. Those running the reaction time tests and focus assessments {{blinding}} which gamers got the caffeine-based nasal spray. The caffeine spray group showed improvements in reaction time and focus scores compared to the placebo group. The differences between the two groups {{results}} significant.</p>
+    </intro>
+    <knowl>
+        <content><p>Describe the control group.</p></content>
+        <outtro><p>The group of gamers that got the placebo.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the explanatory variable?</p></content>
+        <outtro><p>The caffeine-based nasel spray</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What was the response variable?</p></content>
+        <outtro><p>The gamers reaction time and focus scores.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Did the researchers use any blinding? If so, what was blinded? Explain your answers.</p></content>
+        <outtro><p>{{answer_4}}. Explanation needed.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Are the results generalizable to all gamers? Explain your answer.</p></content>
+        <outtro><p>Answers can vary and will depend on the student's argument.</p></outtro>
+    </knowl>
+</knowl>
