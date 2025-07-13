@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>The Scenario</em></p>
+        <p> In June 2025, after ongoing legal and political debate, the U.S. Department of Education launched a revised income-based student loan forgiveness program. A recent Gallup poll found that support for federal student loan forgiveness is high among U.S. adults, but policymakers remain divided. A progressive coalition considering highlighting student debt relief in their 2026 platform wants to ensure it’s broadly supported. They’ll include it if more than <m>60\%</m> of Americans support it.</p>
+        <p>The Gallup poll surveyed <m>{{s}}</m> U.S. adults. Out of those, <m>{{x}}</m> say that they support the student loan forgiveness
+        </p>
+        <p>Conduct a hypothesis test using a <m>95\%</m> confidence level (α=0.05) to see if the survey provides evidence that the support for the loan forgiveness plan exceeds <m>60\%</m>. You may use an app to do the test, if you wish. Include all work and screenshots of any app used. Use the results of your hypothesis test to answer the following questions:</p>
+    </intro>
+    <knowl>
+        <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
+        <outtro><p><m>H_0: p= 0.60</m>     <m>H_A: p\{{ineqsymb}} 0.60</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is <m>\hat{p}</m>? Show computations and give <m>\hat{p}</m> exact to three decimal places.</p></content>
+        <outtro><p><m>\hat{p} = {{phat}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the p-value of your test?</p></content>
+        <outtro><p>p-value = {{pvalue}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the conclusion of your hypothesis test? Include statistical justification for your conclusion.</p></content>
+        <outtro><p>{{conclusion}} the <m>H_0</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Does the hypothesis test support that more than <m>60\%</m> of U.S. adults support the federal student loan forgiveness plan? Why or why not?</p></content>
+        <outtro><p>{{context}}</p></outtro></knowl>
+</knowl>
