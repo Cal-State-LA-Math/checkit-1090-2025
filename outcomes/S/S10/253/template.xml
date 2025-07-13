@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>The Scenario</em></p>
+        <p> As generative AI tools like ChatGPT grow more common, educators are split on how to integrate them. A national survey conducted by the National Education Association (NEA) gathered data on public opinion about teaching responsible AI usage in high schools. The NEA will include AI literacy in its 2025–2026 education policy agenda if more than <m>50\%</m> of adults support it.</p>
+        <p>The survey reached <m>{{s}}</m> adults nationwide. Out of those, <m>{{x}}</m> said they supported incorporating AI education into high school curricula.
+        </p>
+        <p>Conduct a hypothesis test using a <m>90\%</m> confidence level (α=0.10) to see if the survey provides evidence that the support to include AI literacy into high school curricula <m>50\%</m>. You may use an app to do the test, if you wish. Include all work and screenshots of any app used. Use the results of your hypothesis test to answer the following questions:</p>
+    </intro>
+    <knowl>
+        <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
+        <outtro><p><m>H_0: p= 0.50</m>     <m>H_A: p\{{ineqsymb}} 0.50</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is <m>\hat{p}</m>? Show computations and give <m>\hat{p}</m> exact to three decimal places.</p></content>
+        <outtro><p><m>\hat{p} = {{phat}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the p-value of your test?</p></content>
+        <outtro><p>p-value = {{pvalue}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the conclusion of your hypothesis test? Include statistical justification for your conclusion.</p></content>
+        <outtro><p>{{conclusion}} the <m>H_0</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Does the hypothesis test support that more than <m>50\%</m> of adults support adding AI literacy to high school's curricula? Why or why not?</p></content>
+        <outtro><p>{{context}}</p></outtro></knowl>
+</knowl>

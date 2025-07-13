@@ -821,6 +821,22 @@ I can perform hypothesis tests for proportions or means and interpret the final 
             </description>
         </outcome>
         <outcome>
+            <title>Hypothesis Testing</title>
+            <slug>S10-252</slug>
+            <path>outcomes/S/S10/252</path>
+            <description>
+I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Hypothesis Testing</title>
+            <slug>S10-253</slug>
+            <path>outcomes/S/S10/253</path>
+            <description>
+I can perform hypothesis tests for proportions or means and interpret the final result in the context of the problem.
+            </description>
+        </outcome>
+        <outcome>
             <title>Statistical Studies</title>
             <slug>S1-S2-241</slug>
             <path>outcomes/C/S1-S2/241</path>

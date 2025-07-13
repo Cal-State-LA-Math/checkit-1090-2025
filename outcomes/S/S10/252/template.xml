@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>The Scenario</em></p>
+        <p> Following several state-level restrictions passed after the 2022 Dobbs decision, many Americans have mobilized around protecting abortion access. A civil liberties group is considering whether to launch a ballot initiative to enshrine abortion rights in a state’s constitution, but only if more than <m>55\%</m> of voters support it.</p>
+        <p>A statewide survey conducted by the state’s public policy institute reached <m>{{s}}</m> adults. Out of those, <m>{{x}}</m> indicated they support protecting abortion access through a state constitutional amendment.
+        </p>
+        <p>Conduct a hypothesis test using a <m>95\%</m> confidence level (α=0.05) to see if the survey provides evidence that the support protecting abortion access through a state constitutional amendment exceeds <m>55\%</m>. You may use an app to do the test, if you wish. Include all work and screenshots of any app used. Use the results of your hypothesis test to answer the following questions:</p>
+    </intro>
+    <knowl>
+        <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
+        <outtro><p><m>H_0: p= 0.55</m>     <m>H_A: p\{{ineqsymb}} 0.55</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is <m>\hat{p}</m>? Show computations and give <m>\hat{p}</m> exact to three decimal places.</p></content>
+        <outtro><p><m>\hat{p} = {{phat}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the p-value of your test?</p></content>
+        <outtro><p>p-value = {{pvalue}}</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the conclusion of your hypothesis test? Include statistical justification for your conclusion.</p></content>
+        <outtro><p>{{conclusion}} the <m>H_0</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Does the hypothesis test support that more than <m>55\%</m> of adults support proctecting abortion access through a state constitutional amendment? Why or why not?</p></content>
+        <outtro><p>{{context}}</p></outtro></knowl>
+</knowl>
