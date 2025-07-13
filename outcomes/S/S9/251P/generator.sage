@@ -45,10 +45,10 @@ class Generator(BaseGenerator):
             "c":c,
             "phat":phat,
             "SE":SE,
-            "LB":"{:.2f}".format(LB),
-            "UB":"{:.2f}".format(UB),
-            "LB_p":LB_p,
-            "UB_p":UB_p,
+            "LB":LB,
+            "UB":UB,
+            "LB_p":"{:.2f}".format(LB_p),
+            "UB_p":"{:.2f}".format(UB_p),
             "claimtrue":claimtrue,
             
         }

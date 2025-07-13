@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <em>The Scenario</em>
+          <p>With new debates around digital privacy and foreign-owned social media, the U.S. Congress recently considered a bill to ban TikTok. A national survey asked adults whether they support banning TikTok in the U.S. for national security reasons. A total of {{s}} adults responded to the survey. Of those, {{x}} adults said they would support the ban.</p>
+        <p> Compute a <m>{{CL}}\%</m> confidence interval for the proportion of {{prose}}. You may use an app to do the computations. You must show all your computations and/or a screenshot of any app used. Please use your work answer the following.</p>
+    </intro>
+    <knowl>
+        <content><p>What is p-hat? Please give your answer exact to three decimal places.</p></content>
+        <outtro><p><m>\hat{p}={{phat}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the standard error for this interval? Please give your answer exact to four decimal places.</p></content>
+        <outtro><p><m>SE={{SE}}</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>What is the confidence interval? Please give your answer in proper interval format exact to four decimal places.</p></content>
+        <outtro><p><m>[{{LB}}, {{UB}}]</m></p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>Put the resulting interval into context to answer the following question: What percentage of U.S. adults support banning TikTok?</p></content>
+        <outtro><p>With <m>{{CL}}\%</m> confidence level, the percentage of U.S. adults that support banning TikTok is between <m>{{LB_p}}\%</m> and <m>{{UB_p}}\%</m>.</p></outtro>
+    </knowl>
+    <knowl>
+        <content><p>{{claim1}} {{direction}} <m>{{c}}\%</m> {{claim2}} Does the confidence interval support this claim? Why or why not? Justify your answer with information from the confidence interval.</p></content>
+        <outtro><p>The confidence interval {{claimtrue}} the claim</p></outtro>
+    </knowl>
+</knowl>
