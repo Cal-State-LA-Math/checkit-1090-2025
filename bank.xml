@@ -725,6 +725,14 @@ I can compute confidence intervals and interpret the interval in the context of 
             </description>
         </outcome>
         <outcome>
+            <title>Confidence Intervals</title>
+            <slug>S9-251P</slug>
+            <path>outcomes/S/S9/251P</path>
+            <description>
+I can compute confidence intervals and interpret the interval in the context of the problem.
+            </description>
+        </outcome>
+        <outcome>
             <title>Hypothesis Testing</title>
             <slug>S10-211</slug>
             <path>outcomes/S/S10/211</path>
