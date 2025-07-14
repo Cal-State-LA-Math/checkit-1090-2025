@@ -23,7 +23,7 @@
       </knowl>
     <knowl>
         <content><p>Put your interval into the context of the scenario.</p></content>
-        <outtro><p>We can say with <m>{{CL}}\%</m> confidence, that between <m>{{LB_p}}\%</m> and <m>{{UB_p}}%</m> of users are still sharing their passwords outside of their households.</p></outtro>
+        <outtro><p>We can say with <m>{{CL}}\%</m> confidence, that between <m>{{LB_p}}\%</m> and <m>{{UB_p}}\%</m> of users are still sharing their passwords outside of their households.</p></outtro>
     </knowl>
     </knowl>
 <knowl>
