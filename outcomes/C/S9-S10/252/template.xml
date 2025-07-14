@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p><em>The Scenario</em></p>
+        <p>In preparation for the 2026 midterm elections, a watchdog organization is tracking how often social media posts viewed by users contain misleading political information. A major platform claims only <m>{{p0dec}}\%</m> of political posts shared by users contain false or misleading content.</p>
+        <p>The watchdog group takes a random sample of <m>{{s}}</m> political post and finds <m>{{x}}</m> flagged by independent fact-checkers as misleading or false.</p>
+    </intro>
+    <knowl>
+        <intro><p><em>Part A</em></p>
+        <p> Compute the confidence interval for the sample at a <m>{{CL}}\%</m> confidence level and provide all your computations. You may use an app to do the computations. Provide a screenshot of any app you use and all computation you do. Use your confidence interval to answer the follow:</p>
+        </intro>
+      <knowl>
+          <content><p>What is <m>\hat{p}</m>? Please give your answer exact to four decimal places.</p></content>
+          <outtro><p><m>\hat{p} = {{phat}}</m></p></outtro>
+      </knowl>
+      <knowl>
+        <content><p>What is the standard error for this interval? Please give your answer exact to four decimal places.</p></content>
+        <outtro><p><m>SE={{SE1}}</m></p></outtro>
+      </knowl>
+      <knowl>
+        <content><p>What is the confidence interval? Please give your answer in proper interval format exact to four decimal places.</p></content>
+        <outtro><p><m>[{{LB}}, {{UB}}]</m></p></outtro>
+      </knowl>
+    <knowl>
+        <content><p>Put your interval into the context of the scenario.</p></content>
+        <outtro><p>We can say with <m>{{CL}}\%</m> confidence, that between <m>{{LB_p}}\%</m> and <m>{{UB_p}}%</m> of political post shared by users contain false or misleading contect.</p></outtro>
+    </knowl>
+    </knowl>
+<knowl>
+    <intro>
+         <p><em>Part B</em></p>
+           <p> The watchdog group argues that the percentage of political posts shared with false or misleading content is NOT <m>{{p0dec}}\%</m>. Do a hypothesis test using the same sample and confidence level from Part A. You may use an app to do the test. If you do so, you must insert a screenshot of your work and also specifically identify the following:</p>
+    </intro>
+      <knowl>
+            <content><p>What are your null and alternative hypotheses? Be sure to use appropriate notation and justify your choice of the alternative hypothesis from the context of the problem.</p></content>
+            <outtro><p><m>H_0: p= 0.{{p0dec}}</m>     <m>H_A: p\{{ineqsymb}} 0.{{p0dec}}</m></p></outtro></knowl>
+      <knowl>
+            <content><p>What is the p-value of your test?</p></content>
+            <outtro><p>p-value = {{pvalue}}</p></outtro>
+      </knowl>
+      <knowl>
+            <content><p>What is the conclusion of your hypothesis test? Include statistical justification for your conclusion.</p></content>
+            <outtro><p>{{conclusion}} the <m>H_0</m></p></outtro>
+      </knowl>
+      <knowl>
+            <content><p>Does the hypothesis test support the claim of the watchdog group? Why or why not?</p></content>
+            <outtro><p>{{context}}</p></outtro>
+      </knowl>
+</knowl>
+<knowl>
+    <intro><p><em>Part C</em></p></intro>
+    <knowl> 
+        <content><p>Compare the results from the confidence interval and the hypothesis test</p>
+            <p>Are your results from your confidence interval and your hypothesis test consistent? In other words, do both types of inference tests support the same conclusion? Explain why or why not.</p></content>
+        <outtro><p>Yes, they are consistent</p></outtro>
+    </knowl>
+</knowl>
+</knowl>

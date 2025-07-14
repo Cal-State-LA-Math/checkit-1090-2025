@@ -868,5 +868,21 @@ I can compute confidence intervals and hypothesis tests, interpret their results
 I can compute confidence intervals and hypothesis tests, interpret their results in the context of the problem, and compare the results of the two tests.
             </description>
         </outcome>
+        <outcome>
+            <title>Confidence Intervals and Hypothesis Testing</title>
+            <slug>S9-S10-251</slug>
+            <path>outcomes/C/S9-S10/251</path>
+            <description>
+I can compute confidence intervals and hypothesis tests, interpret their results in the context of the problem, and compare the results of the two tests.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Confidence Intervals and Hypothesis Testing</title>
+            <slug>S9-S10-252</slug>
+            <path>outcomes/C/S9-S10/252</path>
+            <description>
+I can compute confidence intervals and hypothesis tests, interpret their results in the context of the problem, and compare the results of the two tests.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
