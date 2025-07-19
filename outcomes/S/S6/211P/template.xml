@@ -8,17 +8,17 @@
         <image source="../assets/S6/211P_A.png" description="Scatter plot and regression line showing MSRP vs HP"/></p>
         <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
-            <item><p>Equation and R^2 value for the manufacturers' suggested retail price (MSRP) vs horsepower (HP).</p></item>
+            <item><p>Equation and <m>R^2</m> value for the manufacturers' suggested retail price (MSRP) vs horsepower (HP).</p></item>
             <item><p>MSRP = -3162.10 + 168.64 * HP</p></item>
-            <item><p>The R^2 value for this regression model is 0.582</p></item>
+            <item><p>The <m>R^2</m> value for this regression model is 0.582</p></item>
         </list>
        <p>
         <image source="../assets/S6/211P_B.png" description="Scatter plot and regression line showing MSRP vs Engine size"/></p>
         <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
-            <item><p>Equation and R^2 value for the manufacturers' suggested retail price (MSRP) vs engine size (in liters)</p></item>
+            <item><p>Equation and <m>R^2</m> value for the manufacturers' suggested retail price (MSRP) vs engine size (in liters)</p></item>
             <item><p>MSRP = 18017.87 + 7976.67 * Engine size</p></item>
-            <item><p>The R^2 value for this regression model is 0.193</p></item>
+            <item><p>The <m>R^2</m> value for this regression model is 0.193</p></item>
         </list>
         <p>Use the two scatter plots and the given information about the regression models to answer the questions below.</p>
     </intro>
@@ -28,7 +28,7 @@
     </knowl>
     <knowl>
         <content><p>What do you predict the MSRP of a vehicle with <m>{{HP}}</m> HP to be? Explain why you used the model you did and show all work. Put your final answer into a complete sentence to answer the question.</p></content>
-        <outtro><p>$<m>{{answer_2}}</m>. One of the most common mistakes made when computing this prediction is to use your calculator incorrectly. Remember that your calculator needs you to give it the correct order of operations. So either use extra parentheses in your calculator, or do the multiplication first. Additionally, don't forget to put your final answer into a sentence - The predicted MSRP of a vehicle whose horsepower is <m>{{HP}}</m> is $<m>{{answer_2}}</m>.</p></outtro>
+        <outtro><p>$<m>{{answer_2}}</m>. One of the most common mistakes made when computing this prediction is to use your calculator incorrectly. Remember that your calculator needs you to give it the correct order of operations. So either use extra parentheses in your calculator, or do the multiplication first. Additionally, don't forget to put your final answer into a sentence - The predicted MSRP of a vehicle whose horsepower is <m>{{HP}}</m> is <m>\${{answer_2}}</m>.</p></outtro>
     </knowl>
     <knowl>
         <content><p>Would you use one of the regression models to predict the MSRP of a vehicle with an engine size of 3.2 liters? Why or why not?</p></content>
@@ -36,7 +36,7 @@
     </knowl>
     <knowl>
         <content><p>There is a dot at ({{point_4x}}, {{point_4y}}) on the MSRP vs horsepower graph. Explain what this dot represents in context of the study.</p></content>
-        <outtro><p>A specific car in the dataset with {{point_4x}} horsepower and a MSRP of $<m>{{point_4y}}</m>. Dots on a scatterplot represent individuals in the dataset. In this case, the dataset is made up of cars. The values on the scatterplot are two quantitative values about ONE car. So on the MSRP vs horsepower graph it is the MSRP and horsepower of a specific car. For the MSRP vs Engine Size graph it is the MSRP and Engine Size of a specific car. Make sure when you describe the point that you include any units and correctly associate the x-coordinate with the meaning of the data on the x-axis and the y-coordinate with the meaning of the data on the y-axis.  </p></outtro>
+        <outtro><p>A specific car in the dataset with {{point_4x}} horsepower and a MSRP of <m>\${{point_4y}}</m>. Dots on a scatterplot represent individuals in the dataset. In this case, the dataset is made up of cars. The values on the scatterplot are two quantitative values about ONE car. So on the MSRP vs horsepower graph it is the MSRP and horsepower of a specific car. For the MSRP vs Engine Size graph it is the MSRP and Engine Size of a specific car. Make sure when you describe the point that you include any units and correctly associate the x-coordinate with the meaning of the data on the x-axis and the y-coordinate with the meaning of the data on the y-axis.  </p></outtro>
     </knowl>
     <knowl>
         <content><p>Compute the correlation coefficient, R, for the MSRP vs horsepower model. Explain the meaning of R in the context of the scenario.</p></content>
