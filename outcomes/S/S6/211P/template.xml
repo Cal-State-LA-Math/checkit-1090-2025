@@ -28,7 +28,7 @@
     </knowl>
     <knowl>
         <content><p>What do you predict the MSRP of a vehicle with <m>{{HP}}</m> HP to be? Explain why you used the model you did and show all work. Put your final answer into a complete sentence to answer the question.</p></content>
-        <outtro><p>$<m>{{answer_2}}</m>. One of the most common mistakes made when computing this prediction is to use your calculator incorrectly. Remember that your calculator needs you to give it the correct order of operations. So either use extra parentheses in your calculator, or do the multiplication first. Additionally, don't forget to put your final answer into a sentence - The predicted MSRP of a vehicle whose horsepower is <m>{{HP}}</m> is <m>\${{answer_2}}</m>.</p></outtro>
+        <outtro><p><m>\${{answer_2}}</m>. One of the most common mistakes made when computing this prediction is to use your calculator incorrectly. Remember that your calculator needs you to give it the correct order of operations. So either use extra parentheses in your calculator, or do the multiplication first. Additionally, don't forget to put your final answer into a sentence - The predicted MSRP of a vehicle whose horsepower is <m>{{HP}}</m> is <m>\${{answer_2}}</m>.</p></outtro>
     </knowl>
     <knowl>
         <content><p>Would you use one of the regression models to predict the MSRP of a vehicle with an engine size of 3.2 liters? Why or why not?</p></content>

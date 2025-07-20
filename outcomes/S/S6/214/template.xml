@@ -7,22 +7,22 @@
         <p><image source="../assets/S6/214_A.png" description="Scatter plot and regression line showing states average 2004 SAT verbal vs the proportion of students in the state taking the SAT"/></p>
         <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
-            <item><p>Equation and R^2 value for average SAT Verbal scores vs proportion of students taking the SAT.</p></item>
+            <item><p>Equation and <m>R^2</m> value for average SAT Verbal scores vs proportion of students taking the SAT.</p></item>
             <item><p>SAT Verbal Score = 575.6 - 101.3 * (proportion taking SAT)</p></item>
-            <item><p>The R^2 value for this regression is .790</p></item>
+            <item><p>The <m>R^2</m> value for this regression is .790</p></item>
         </list>
         <p><image source="../assets/S6/214_B.png" description="Scatter plot and regression line showing states average 2004 SAT verbal vs the state's population"/></p>
          <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
-            <item><p>Equation and R^2 value for average SAT Verbal scores vs state population.</p></item>
+            <item><p>Equation and <m>R^2</m> value for average SAT Verbal scores vs state population.</p></item>
             <item><p>SAT Verbal Score = 543.7 - .000001446 * (population)</p></item>
-            <item><p>The R^2 value for this regression is .077</p></item>
+            <item><p>The <m>R^2</m> value for this regression is .077</p></item>
         </list>
         <p>Use the two scatter plots and the given information about the regression models to answer the questions below.</p>
         </intro>
         <knowl>
             <content><p>Which model, if any, would you use to predict the State's average SAT verbal score? Explain why your choice would be the best model to get an accurate prediction.</p></content>
-            <outtro><p>SAT verbal score vs proportion of testers is the better model to make predictions with because it has a higher R^2 value</p></outtro>
+            <outtro><p>SAT verbal score vs proportion of testers is the better model to make predictions with because it has a higher <m>R^2</m> value</p></outtro>
         </knowl>
         <knowl>
             <content><p>What do you predict the average SAT verbal score to be if the proportion of testers were {{number_2}}? Explain why you used the model you did and show all work. Put your final answer into a complete sentence to answer the question.</p></content>

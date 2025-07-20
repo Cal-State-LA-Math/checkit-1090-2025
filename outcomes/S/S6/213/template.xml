@@ -7,22 +7,22 @@
         <p><image source="../assets/S6/213_A.png" description="Scatter plot and regression line showing body mass vs chest size"/></p>
         <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
-            <item><p>Equation and R^2 value for body mass (kg) vs chest size (cm).</p></item>
+            <item><p>Equation and <m>R^2</m> value for body mass (kg) vs chest size (cm).</p></item>
             <item><p>Mass = -51.96 + 1.263 * (chest size)</p></item>
-            <item><p>The R^2 value for this regression is .602</p></item>
+            <item><p>The <m>R^2</m> value for this regression is .602</p></item>
         </list>
         <p><image source="../assets/S6/213_B.png" description="Scatter plot and regression line showing body mass vs head size"/></p>
          <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
-            <item><p>Equation and R^2 value for body mass (kg) vs head size (cm).</p></item>
+            <item><p>Equation and <m>R^2</m> value for body mass (kg) vs head size (cm).</p></item>
             <item><p>Mass = -51.06 + 2.153 * (head size)</p></item>
-            <item><p>The R^2 value for this regression is .061</p></item>
+            <item><p>The <m>R^2</m> value for this regression is .061</p></item>
         </list>
         <p>Use the two scatter plots and the given information about the regression models to answer the questions below.</p>
         </intro>
         <knowl>
             <content><p>Which model, if any, would you use to predict the mass of someone? Explain why your choice would be the best model to get an accurate prediction</p></content>
-            <outtro><p>body mass vs. chest size is the better model to make predictions with because it has a higher R^2 value</p></outtro>
+            <outtro><p>body mass vs. chest size is the better model to make predictions with because it has a higher <m>R^2</m> value</p></outtro>
         </knowl>
         <knowl>
             <content><p>What do you predict the mass of someone with a chest size of {{chest_2}}? Explain why you used the model you did and show all work. Put your final answer into a complete sentence to answer the question.</p></content>
