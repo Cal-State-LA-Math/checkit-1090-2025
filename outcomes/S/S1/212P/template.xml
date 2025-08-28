@@ -3,28 +3,28 @@
     <intro>
     <p><em>Scenario:</em></p>
     <p>
-        A recent poll was looking to find out what American adults think about electric vehicles. The pollsters attempted to contact {{population}} American adults from June 3rd to the 4th, 2024, of which {{sample}} responded. Of the poll participants, {{result}}% say they think electric vehicles are the future of the auto industry.</p>
+        A professor wanted to learn more about the students at her university with regards to whether they prefer in-person or online classes.  She received surveys from <m>{{sample}}</m> students in response to contacting <m>{{population}}</m> students at the university to ask them to complete the survey.  Among these <m>{{sample}}</m> students, <m>{{result}}</m><m>\%</m> of them reported that they prefer taking online classes.</p>
     </intro>
     <knowl>
         <content><p>What is the population that this study is trying to get information about?</p></content>
-        <outtro><p>The population for a survey is the entire group that the researchers are wanting information about. In this case, the pollsters are interested in finding out about American adults, so American adults is the population.</p></outtro>
+        <outtro><p>Students at the school where the professor works</p></outtro>
     </knowl>
     <knowl>
         <content><p>What is the sample?</p></content>
-        <outtro><p> The sample for a survey is the individuals that responded to the survey, not the original number of individuals contacted. In this case it is the {{sample}} American adults that were polled.</p></outtro></knowl>
+        <outtro><p>The <m>{{sample}}</m> students that responded to the survey.</p></outtro></knowl>
     <knowl>
         <content><p>What is the variable used for this study?</p></content>
-        <outtro><p>The variable is whether or not a U.S. adult thinks that electric vehicles are the future of the auto industry. Remember that variables are measured on individuals, not groups. Descriptions of a variable are always in terms of something measured about an individual in the group. For example, in this case it would not be what "American Adults think" but rather what "an American adult thinks" about whether electric vehicles are the future of the auto industry. Be careful not to confuse the goal of the study with what is actually being measured. </p></outtro>
+        <outtro><p>The preference of a student for in-person or online classes.</p></outtro>
     </knowl>
     <knowl>
         <content><p>What type of variable is the variable in question 3?</p></content>
-        <outtro><p>What someone thinks is a Categorical variable. It would be described by words, or possibly on a numerical scale representing words, for example 1 = disagree. It is not something that can be represented as a number that makes sense to do arithmetic operations on. </p></outtro>
+        <outtro><p>Categorical</p></outtro>
     </knowl>
     <knowl>
         <content><p>What is the sample statistic for this study?</p></content>
-        <outtro><p>The sample statistic is {{result}}% of those polled think that electric vehicles are the future of the auto industry. A sample statistic is a known numerical value about the group of individuals in the sample. </p></outtro>
+        <outtro><p>The sample statistic is that <m>{{result}}</m><m>\%</m> of those polled prefer online classes.</p></outtro>
     </knowl>
     <knowl>
-        <content><p>What is the parameter of interest for this study? (the population parameter that the pollsters are trying to gather information about)</p></content>
-        <outtro><p>The parameter of interest is what percentage of American adults think electric vehicles are the future of the auto industry. A population parameter is a numerical value or summary number that the researchers are trying to estimate using a sample statistic.</p></outtro></knowl>
+        <content><p>What is the parameter of interest for this study? (the population parameter that the professor is trying to gather information about)</p></content>
+        <outtro><p>The parameter of interest is the percentage of students at her university that prefer online classes.</p></outtro></knowl>
 </knowl>
