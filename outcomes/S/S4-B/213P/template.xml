@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
-      <intro>
-        <intro>
+    <intro>
         <p>Below is a histogram showing the distribution of worldwide retail sales (in million of dollars) for 99 of the 100 top retailers in 2015. This excludes the #1 top retailer - Wal-Mart. Make sure to show all of your work and put all answers into context of the data. </p>
-        <p><image source="../assets/S4-B/213P.png" description="Histogram showing the worldwide retail sales for 2015"/></p>
+        <p><image source="assets/S4-B/213P.png" description="Histogram showing the worldwide retail sales for 2015"/></p>
         <p>Worldwide retail sales for 2015</p>
     </intro>
     <knowl>

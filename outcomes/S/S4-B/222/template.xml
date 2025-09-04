@@ -2,7 +2,7 @@
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
       <intro>
         <p>The histogram below summarizes the domestic gross revenues of 5,222 movies made between 1915 and 2018. Please use this histogram to answer the questions below. Use the histogram to answer the questions below. Make sure to show all of your work and put all answers into context of the data.</p>
-        <p><image source="../assets/S4-B/222.png" description="Histogram showing the distribution of movie domestic gross revenues from 1915 to 2018"/></p>
+        <p><image source="assets/S4-B/222.png" description="Histogram showing the distribution of movie domestic gross revenues from 1915 to 2018"/></p>
         <p>Movie's domestic gross revenues from 1915 to 2018</p>
     </intro>
     <knowl>

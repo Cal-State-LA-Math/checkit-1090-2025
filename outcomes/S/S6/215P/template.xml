@@ -4,14 +4,14 @@
         <em>The Scenario:</em>
         <p>Let's talk about movies. What is your favorite movie and how much money did it make? Here is data about how much 5,222 different movies made and how much they cost in millions of dollars .</p>
         <p>Below are two scatterplots, one showing the relationship between worldwide gross revenues and budget. The other is showing the relationship between worldwide gross revenues and domestic gross revenues.</p>
-        <p><image source="../assets/S6/215_A.png" description="Scatter plot and regression line showing Worldwide Gross in millions vs it's budget in millions"/></p>
+        <p><image source="assets/S6/215_A.png" description="Scatter plot and regression line showing Worldwide Gross in millions vs it's budget in millions"/></p>
         <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for worldwide gross revenues vs budget.</p></item>
             <item><p>Worldwide Gross Revenue = -7.117 + 3.119 * (Budget)</p></item>
             <item><p>The <m>R^2</m> value for this regression is 0.558</p></item>
         </list>
-        <p><image source="../assets/S6/215_B.png" description="Scatter plot and regression line showing Worldwide Gross in millions vs it's Domestic Gross in millions"/></p>
+        <p><image source="assets/S6/215_B.png" description="Scatter plot and regression line showing Worldwide Gross in millions vs it's Domestic Gross in millions"/></p>
          <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for worldwide gross revenues vs domestic gross revenues.</p></item>

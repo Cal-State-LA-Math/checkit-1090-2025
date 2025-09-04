@@ -2,7 +2,7 @@
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
       <intro>
         <p>The histogram below summarizes the results of a recent study in New York City that was commissioned to look at the composition of 99,460 taxi trips of 25 miles or less within the city. Please use this histogram to answer the questions below. Use the histogram to answer the questions below. Make sure to show all of your work and put all answers into context of the data.</p>
-        <p><image source="../assets/S4-B/223.png" description="Histogram showing the distribution of taxi cap rides in New York City"/></p>
+        <p><image source="assets/S4-B/223.png" description="Histogram showing the distribution of taxi cap rides in New York City"/></p>
         <p>New York City taxi trips in miles</p>
     </intro>
     <knowl>

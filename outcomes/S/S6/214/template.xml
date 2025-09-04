@@ -4,14 +4,14 @@
         <em>The Scenario:</em>
         <p>Every year several different variables are collected from each state. Three of those variables are SAT scores, proportion of students taking the SAT and population of the state.</p>
         <p>Below are two scatterplots, one showing the relationship between average SAT Verbal scores for the states and proportion of students taking the SAT in that state. The other is showing the relationship between average SAT Verbal scores for the states and state population.</p>
-        <p><image source="../assets/S6/214_A.png" description="Scatter plot and regression line showing states average 2004 SAT verbal vs the proportion of students in the state taking the SAT"/></p>
+        <p><image source="assets/S6/214_A.png" description="Scatter plot and regression line showing states average 2004 SAT verbal vs the proportion of students in the state taking the SAT"/></p>
         <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for average SAT Verbal scores vs proportion of students taking the SAT.</p></item>
             <item><p>SAT Verbal Score = 575.6 - 101.3 * (proportion taking SAT)</p></item>
             <item><p>The <m>R^2</m> value for this regression is .790</p></item>
         </list>
-        <p><image source="../assets/S6/214_B.png" description="Scatter plot and regression line showing states average 2004 SAT verbal vs the state's population"/></p>
+        <p><image source="assets/S6/214_B.png" description="Scatter plot and regression line showing states average 2004 SAT verbal vs the state's population"/></p>
          <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for average SAT Verbal scores vs state population.</p></item>

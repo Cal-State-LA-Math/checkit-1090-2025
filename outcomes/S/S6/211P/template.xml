@@ -5,7 +5,7 @@
         <p>In 2019, a group of researchers collected the data from a sample of 222 car models and looked at the impact of different characteristics of the cars on the MSRP (manufacturers’ suggested retail price). They ran a regression analysis. The scatterplots and regression lines are shown below for MSRP vs HP (horsepower) and MSRP vs Engine size (in liters).
 </p>
         <p>
-        <image source="../assets/S6/211P_A.png" description="Scatter plot and regression line showing MSRP vs HP"/></p>
+        <image source="assets/S6/211P_A.png" description="Scatter plot and regression line showing MSRP vs HP"/></p>
         <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for the manufacturers' suggested retail price (MSRP) vs horsepower (HP).</p></item>
@@ -13,7 +13,7 @@
             <item><p>The <m>R^2</m> value for this regression model is 0.582</p></item>
         </list>
        <p>
-        <image source="../assets/S6/211P_B.png" description="Scatter plot and regression line showing MSRP vs Engine size"/></p>
+        <image source="assets/S6/211P_B.png" description="Scatter plot and regression line showing MSRP vs Engine size"/></p>
         <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for the manufacturers' suggested retail price (MSRP) vs engine size (in liters)</p></item>

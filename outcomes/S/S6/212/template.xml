@@ -3,14 +3,14 @@
       <intro>
         <em>The Scenario:</em>
         <p>Below are two scatterplots, one showing the relationship between the price of a home in San Luis Obispo County in 2009 and the size of the home. The other is showing the relationship between the price of a home in San Luis Obispo County in 2009 and the number of bedrooms.</p>
-        <p><image source="../assets/S6/212_A.png" description="Scatter plot and regression line showing price vs it's size in square footage"/></p>
+        <p><image source="assets/S6/212_A.png" description="Scatter plot and regression line showing price vs it's size in square footage"/></p>
         <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for the price of a home in San Luis Obispo County in 2009 vs the size of the home.</p></item>
             <item><p>Price = <m>-113509.75 + 283.09 * (sqft)</m></p></item>
             <item><p>The <m>R^2</m> value for this regression is <m>0.665</m></p></item>
         </list>
-        <p><image source="../assets/S6/212_B.png" description="Scatter plot and regression line showing price vs the number of bedrooms"/></p>
+        <p><image source="assets/S6/212_B.png" description="Scatter plot and regression line showing price vs the number of bedrooms"/></p>
          <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for the price of a home in San Luis Obispo County in 2009 vs the number of bedrooms.</p></item>

@@ -4,14 +4,14 @@
         <em>The Scenario:</em>
         <p>A researcher is interested in examining the relationships between various characteristics of the human body. She measured 22 subjects to see what measurements were most strongly correlated. In this study, mass is measured in kilograms (kg) and all other measurements are in centimeters (cm).</p>
         <p>Below are two scatterplots. The first shows the correlation between mass and chest size. The second shows the correlation between mass and head size.</p>
-        <p><image source="../assets/S6/213_A.png" description="Scatter plot and regression line showing body mass vs chest size"/></p>
+        <p><image source="assets/S6/213_A.png" description="Scatter plot and regression line showing body mass vs chest size"/></p>
         <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for body mass (kg) vs chest size (cm).</p></item>
             <item><p>Mass = -51.96 + 1.263 * (chest size)</p></item>
             <item><p>The <m>R^2</m> value for this regression is .602</p></item>
         </list>
-        <p><image source="../assets/S6/213_B.png" description="Scatter plot and regression line showing body mass vs head size"/></p>
+        <p><image source="assets/S6/213_B.png" description="Scatter plot and regression line showing body mass vs head size"/></p>
          <p>Below is the information about the regression model for the scatter plot above.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for body mass (kg) vs head size (cm).</p></item>

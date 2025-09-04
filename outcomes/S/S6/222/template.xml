@@ -3,7 +3,7 @@
       <intro>
         <em>The Scenario:</em>
         <p>Below is an analysis of the growth in cell phones per 100 people by country, as compiled by the Gapminder organization from publicly available data for 195 countries.</p>
-        <p><image source="../assets/S6/222_B.png" description="Scatter plot and regression line showing number of cell phone per 100 in 2000 vs 2019"/></p>
+        <p><image source="assets/S6/222_B.png" description="Scatter plot and regression line showing number of cell phone per 100 in 2000 vs 2019"/></p>
         <p>Below is the regression model information for the scatterplot above of the number of cell phones per 100 people from countries around the world in 2000 vs in 2019.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for the number of cells phone per 100 in 2019 versus 2000.</p></item>
@@ -11,7 +11,7 @@
             <item><p>The <m>R^2</m> value for this regression is 0.1640</p></item>
         </list>
         <p></p>
-        <p><image source="../assets/S6/222_A.png" description="Scatter plot and regression line showing roller coaster drop vs speed"/></p>
+        <p><image source="assets/S6/222_A.png" description="Scatter plot and regression line showing roller coaster drop vs speed"/></p>
          <p>Below is the regression model information for the scatterplot above of the number of cell phones per 100 people from countries around the world in 2010 vs in 2019.</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for the number of cells phone per 100 in 2019 versus 2010.</p></item>

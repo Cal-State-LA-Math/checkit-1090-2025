@@ -7,7 +7,7 @@
       <p><em>Scenario:</em></p>
       <p>Neuropathy is a form of nerve damage that is estimated to affect more than 20 million Americans. It often accompanies other health problems including diabetes, cancer, shingles, or other autoimmune diseases. The graph below was published in 2026 describing the most common causes of Neuropath. The chart is based on a case study of {{n}} patients with Neuropathy.</p>
         <p>
-            <image source="../assets/S4-A/241.png" description="Pie chart showing causes of Neuropathy"/>
+            <image source="assets/S4-A/241.png" description="Pie chart showing causes of Neuropathy"/>
         </p>
         <p>
            Use the graph above to answer the questions.

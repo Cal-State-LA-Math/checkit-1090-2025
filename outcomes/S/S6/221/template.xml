@@ -3,14 +3,14 @@
       <intro>
         <em>The Scenario:</em>
         <p>Below is an analysis of the various features about almost every roller coaster in the world - current or past.  The scatterplots and regression lines are shown below for several features of the roller coaster, including the duration, how long the ride is, of the roller coaster (in seconds), the highest drop of the roller coaster (in feet) and the maximum speed of the roller coaster (in miles per hour).</p>
-        <p><image source="../assets/S6/221_A.png" description="Scatter plot and regression line showing roller coaster duration vs speed"/></p>
+        <p><image source="assets/S6/221_A.png" description="Scatter plot and regression line showing roller coaster duration vs speed"/></p>
         <p>Below is the information about the regression model for the scatter plot above showing the duration of the ride (in seconds) versus speed (in miles per hour).</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for the roller coaster's speed versus it's duration.</p></item>
             <item><p>Speed = <m>35.3793 + 0.1709 * (Duration)</m></p></item>
             <item><p>The <m>R^2</m> value for this regression is <m>0.2584</m></p></item>
         </list>
-        <p><image source="../assets/S6/221_B.png" description="Scatter plot and regression line showing roller coaster drop vs speed"/></p>
+        <p><image source="assets/S6/221_B.png" description="Scatter plot and regression line showing roller coaster drop vs speed"/></p>
          <p>Below is the information about the regression model for the scatter plot above showing the height of the drop (in feet) versus speed (in miles per hour).</p>
         <list>
             <item><p>Equation and <m>R^2</m> value for the roller coaster's speed versus it's drop.</p></item>
