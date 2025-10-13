@@ -3,7 +3,7 @@
     <intro>
     <p><em>Scenario:</em></p>
     <p>
-        In March 2025, a national education nonprofit surveyed college faculty about the role of AI in the classroom. The survey was conducted in English and {{lanuage}}. To conduct the survey, the nonprofit created a website.  The nonprofit promoted the availability of the survey on social media, emailed faculty directly to invite them to respond, and also asked faculty to forward the survey to their colleagues. Interested faculty could go to the website, enter an email address ending in .edu and upload a picture of their faculty ID card to validate them as college faculty members and then answer the survey. </p>
+        In March 2025, a national education nonprofit surveyed college faculty about the role of AI in the classroom. The survey was conducted in English and {{language}}. To conduct the survey, the nonprofit created a website.  The nonprofit promoted the availability of the survey on social media and emailed faculty directly to invite them to respond. Interested faculty could go to the website, enter an email address ending in .edu and upload a picture of their faculty ID card to validate them as college faculty members and then answer the survey. </p>
     <p>
         850 faculty responded to the survey. Respondents were asked to what degree they agreed with the following, using a 5-point scale: “Strongly Agree,” “Agree,” “Neutral,” “Disagree,” or “Strongly Disagree.””</p>
     
@@ -31,7 +31,7 @@
         <content><p>Identify potential sources of bias other than the sampling method and sampling frame from the information given and explain why they lead to bias (Only use the information given, do not speculate about information not provided).</p></content>
         <outtro><p>Only limited language choices; the wording of the statements. Explanations needed.</p></outtro></knowl>
     <knowl>
-        <content><p>If they did the survey again, would you expect that exactly <m>{{result_2}}\%</m> of respondents would {{agree_2}} with the statement "Overreaching states should not have the unchecked authority to impose extreme bans on widely used and medically approved abortion drugs under the guise of protecting life."? Why or why not?</p></content>
+        <content><p>If they did the survey again, would you expect that exactly <m>{{result_2}}\%</m> of respondents would {{agree_2}} with the statement "Complacent and profit-driven universities are turning a blind eye to the out-of-control misuse of AI by students, doing almost nothing to address the crisis."? Why or why not?</p></content>
         <outtro><p>No, the exact same result would not be expected due to sampling variability, explanation needed</p></outtro>
     </knowl>
     <knowl>
