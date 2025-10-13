@@ -7,7 +7,7 @@
     </intro>
     <knowl>
         <intro><p><em>Part A</em></p>
-        <p> Compute the confidence interval for the sample at a <m>{{CL}}\%</m> confidence level and provide all your computations. You may use an app to do the computations. Provide a screenshot of any app you use and all computation you do. Use your confidence interval to answer the follow:</p>
+        <p> Compute the confidence interval for the sample at a <m>{{CL}}\%</m> confidence level (<m>\alpha = {{alpha}}</m>) and provide all your computations. You may use an app to do the computations. Provide a screenshot of any app you use and all computation you do. Use your confidence interval to answer the follow:</p>
         </intro>
       <knowl>
           <content><p>What is <m>\hat{p}</m>? Please give your answer exact to four decimal places.</p></content>
