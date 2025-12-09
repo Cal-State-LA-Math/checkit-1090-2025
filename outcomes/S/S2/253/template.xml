@@ -3,7 +3,7 @@
     <intro>
     <p><em>Scenario:</em></p>
     <p>
-        In July 2025, a coalition of local governments surveyed 1,300 urban residents in {{state_1}}, {{state_2}} and {{state_3}} about home readiness for extreme heat.The survey was conducted in English and {{language}}.</p>
+        In July 2025, a coalition of local governments surveyed 1,300 urban residents in {{state_1}}, {{state_2}} and {{state_3}} about government support for home readiness for extreme heat.The survey was conducted in English and {{language}}.</p>
     <p>
         Survey respondents were asked to what degree they agreed with the following statements, using a 5-point scale: “Strongly Agree,” “Agree,” “Neutral,” “Disagree,” or “Strongly Disagree.”</p>
     
@@ -31,10 +31,10 @@
         <content><p>Identify potential sources of bias other than the sampling method and sampling frame from the information given and explain why they lead to bias (Only use the information given, do not speculate about information not provided).</p></content>
         <outtro><p>Only limited language choices; the wording of the statements; timing of the survey. Explanations needed.</p></outtro></knowl>
     <knowl>
-        <content><p>If they did the survey again, would you expect that exactly <m>{{result_1}}\%</m> of respondents would {{agree_2}} with the statement "Overreaching states should not have the unchecked authority to impose extreme bans on widely used and medically approved abortion drugs under the guise of protecting life."? Why or why not?</p></content>
+        <content><p>If they did the survey again, would you expect that exactly <m>{{result_1}}\%</m> of respondents would {{agree_1}} with the statement "Because the negligent and incompetent government has repeatedly failed to take meaningful action on the worsening climate crisis, I’ve been forced to spend my own hard-earned money to prepare my home for the increasingly deadly and unrelenting heat."? Why or why not?</p></content>
         <outtro><p>No, the exact same result would not be expected due to sampling variability, explanation needed</p></outtro>
     </knowl>
     <knowl>
-        <content><p>Based on the results of this survey, can the national education nonprofit be sure they have a good idea of how college faculty members feel about the role of AI in the classroom? Why or why not?</p></content>
+        <content><p>Based on the results of this survey, can the national education nonprofit be sure they have a good idea of how residents feel about government support for  home readiness for extreme heat? Why or why not?</p></content>
         <outtro><p>No, too much bias, explanation needed. </p></outtro></knowl>
 </knowl>
